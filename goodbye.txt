@@ -1,1 +1,2 @@
 print ("goodgye")
+print ("goodgye my friends")
