@@ -79,26 +79,6 @@ namespace MyTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VnaNG' at 974;507.", repo.VnaNG.SelfInfo, new RecordItemIndex(0));
-            repo.VnaNG.Self.Click("974;507");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VnaNG' at 875;170.", repo.VnaNG.SelfInfo, new RecordItemIndex(1));
-            repo.VnaNG.Self.Click("875;170");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VnaNG' at 960;204.", repo.VnaNG.SelfInfo, new RecordItemIndex(2));
-            repo.VnaNG.Self.Click("960;204");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VnaNG' at 970;18.", repo.VnaNG.SelfInfo, new RecordItemIndex(3));
-            repo.VnaNG.Self.Click("970;18");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VnaNG.ContainerIndicatorSwitchControl1' at 22;5.", repo.VnaNG.ContainerIndicatorSwitchControl1Info, new RecordItemIndex(4));
-            repo.VnaNG.ContainerIndicatorSwitchControl1.Click("22;5");
-            Delay.Milliseconds(0);
-            
         }
 
 #region Image Feature Data
