@@ -1,0 +1,13 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="MyTest.rxtst" />
+    <Element value="MyTestRepository.cs" />
+    <Element value="MyTestRepository.rximg" />
+    <Element value="Program.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

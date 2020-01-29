@@ -1,0 +1,3686 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyTest</name>
+    </assembly>
+    <members>
+        <member name="T:MyTest.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.CloseAUT.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepository">
+            <summary>
+            The class representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.VnaNG">
+            <summary>
+            The VnaNG folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.Explorer1">
+            <summary>
+            The Explorer1 folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.VnaNGAppFolder">
+            <summary>
+            The VnaNGAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new VnaNG  folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass">
+            <summary>
+            The SelfInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SelfInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetMyTest_2_92cc85a1_rxlog1">
+            <summary>
+            Gets the MyTest_2_92cc85a1_rxlog1 item image.
+            </summary>
+            <returns>The MyTest_2_92cc85a1_rxlog1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetMyTest_2_92cc85a1_rxlog1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the MyTest_2_92cc85a1_rxlog1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetMyTest_2_f09d85a1_rxlog1">
+            <summary>
+            Gets the MyTest_2_f09d85a1_rxlog1 item image.
+            </summary>
+            <returns>The MyTest_2_f09d85a1_rxlog1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetMyTest_2_f09d85a1_rxlog1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the MyTest_2_f09d85a1_rxlog1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot10">
+            <summary>
+            Gets the Screenshot10 item image.
+            </summary>
+            <returns>The Screenshot10 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot10(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot10 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot11">
+            <summary>
+            Gets the Screenshot11 item image.
+            </summary>
+            <returns>The Screenshot11 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot11(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot11 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot12">
+            <summary>
+            Gets the Screenshot12 item image.
+            </summary>
+            <returns>The Screenshot12 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot12(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot12 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot13">
+            <summary>
+            Gets the Screenshot13 item image.
+            </summary>
+            <returns>The Screenshot13 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot13(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot13 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot14">
+            <summary>
+            Gets the Screenshot14 item image.
+            </summary>
+            <returns>The Screenshot14 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot14(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot14 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot15">
+            <summary>
+            Gets the Screenshot15 item image.
+            </summary>
+            <returns>The Screenshot15 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot15(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot15 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot16">
+            <summary>
+            Gets the Screenshot16 item image.
+            </summary>
+            <returns>The Screenshot16 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot16(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot16 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot17">
+            <summary>
+            Gets the Screenshot17 item image.
+            </summary>
+            <returns>The Screenshot17 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot17(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot17 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot18">
+            <summary>
+            Gets the Screenshot18 item image.
+            </summary>
+            <returns>The Screenshot18 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot18(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot18 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot19">
+            <summary>
+            Gets the Screenshot19 item image.
+            </summary>
+            <returns>The Screenshot19 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot19(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot19 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot20">
+            <summary>
+            Gets the Screenshot20 item image.
+            </summary>
+            <returns>The Screenshot20 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot20(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot20 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot21">
+            <summary>
+            Gets the Screenshot21 item image.
+            </summary>
+            <returns>The Screenshot21 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot21(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot21 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot22">
+            <summary>
+            Gets the Screenshot22 item image.
+            </summary>
+            <returns>The Screenshot22 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot22(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot22 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot23">
+            <summary>
+            Gets the Screenshot23 item image.
+            </summary>
+            <returns>The Screenshot23 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot23(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot23 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot24">
+            <summary>
+            Gets the Screenshot24 item image.
+            </summary>
+            <returns>The Screenshot24 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot24(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot24 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot25">
+            <summary>
+            Gets the Screenshot25 item image.
+            </summary>
+            <returns>The Screenshot25 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot25(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot25 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot26">
+            <summary>
+            Gets the Screenshot26 item image.
+            </summary>
+            <returns>The Screenshot26 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot26(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot26 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot3">
+            <summary>
+            Gets the Screenshot3 item image.
+            </summary>
+            <returns>The Screenshot3 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot3(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot3 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot4">
+            <summary>
+            Gets the Screenshot4 item image.
+            </summary>
+            <returns>The Screenshot4 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot4(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot4 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot5">
+            <summary>
+            Gets the Screenshot5 item image.
+            </summary>
+            <returns>The Screenshot5 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot5(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot5 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot6">
+            <summary>
+            Gets the Screenshot6 item image.
+            </summary>
+            <returns>The Screenshot6 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot6(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot6 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot7">
+            <summary>
+            Gets the Screenshot7 item image.
+            </summary>
+            <returns>The Screenshot7 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot7(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot7 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot8">
+            <summary>
+            Gets the Screenshot8 item image.
+            </summary>
+            <returns>The Screenshot8 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot8(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot8 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot9">
+            <summary>
+            Gets the Screenshot9 item image.
+            </summary>
+            <returns>The Screenshot9 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfoClass.GetScreenshot9(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot9 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass">
+            <summary>
+            The BackgroundItemInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            BackgroundItemInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetMyTest_2_531ef5fa_rxlog1">
+            <summary>
+            Gets the MyTest_2_531ef5fa_rxlog1 item image.
+            </summary>
+            <returns>The MyTest_2_531ef5fa_rxlog1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetMyTest_2_531ef5fa_rxlog1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the MyTest_2_531ef5fa_rxlog1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetMyTest_2_83a0e2d0_rxlog1">
+            <summary>
+            Gets the MyTest_2_83a0e2d0_rxlog1 item image.
+            </summary>
+            <returns>The MyTest_2_83a0e2d0_rxlog1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetMyTest_2_83a0e2d0_rxlog1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the MyTest_2_83a0e2d0_rxlog1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetMyTest_2_f05e2cb_rxlog1">
+            <summary>
+            Gets the MyTest_2_f05e2cb_rxlog1 item image.
+            </summary>
+            <returns>The MyTest_2_f05e2cb_rxlog1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetMyTest_2_f05e2cb_rxlog1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the MyTest_2_f05e2cb_rxlog1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetN311">
+            <summary>
+            Gets the N311 item image.
+            </summary>
+            <returns>The N311 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetN311(System.Drawing.Rectangle)">
+            <summary>
+            Gets the N311 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot10">
+            <summary>
+            Gets the Screenshot10 item image.
+            </summary>
+            <returns>The Screenshot10 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot10(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot10 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot11">
+            <summary>
+            Gets the Screenshot11 item image.
+            </summary>
+            <returns>The Screenshot11 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot11(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot11 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot12">
+            <summary>
+            Gets the Screenshot12 item image.
+            </summary>
+            <returns>The Screenshot12 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot12(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot12 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot13">
+            <summary>
+            Gets the Screenshot13 item image.
+            </summary>
+            <returns>The Screenshot13 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot13(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot13 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot14">
+            <summary>
+            Gets the Screenshot14 item image.
+            </summary>
+            <returns>The Screenshot14 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot14(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot14 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot15">
+            <summary>
+            Gets the Screenshot15 item image.
+            </summary>
+            <returns>The Screenshot15 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot15(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot15 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot16">
+            <summary>
+            Gets the Screenshot16 item image.
+            </summary>
+            <returns>The Screenshot16 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot16(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot16 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot17">
+            <summary>
+            Gets the Screenshot17 item image.
+            </summary>
+            <returns>The Screenshot17 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot17(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot17 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot18">
+            <summary>
+            Gets the Screenshot18 item image.
+            </summary>
+            <returns>The Screenshot18 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot18(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot18 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot19">
+            <summary>
+            Gets the Screenshot19 item image.
+            </summary>
+            <returns>The Screenshot19 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot19(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot19 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot20">
+            <summary>
+            Gets the Screenshot20 item image.
+            </summary>
+            <returns>The Screenshot20 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot20(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot20 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot21">
+            <summary>
+            Gets the Screenshot21 item image.
+            </summary>
+            <returns>The Screenshot21 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot21(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot21 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot22">
+            <summary>
+            Gets the Screenshot22 item image.
+            </summary>
+            <returns>The Screenshot22 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot22(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot22 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot23">
+            <summary>
+            Gets the Screenshot23 item image.
+            </summary>
+            <returns>The Screenshot23 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot23(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot23 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot24">
+            <summary>
+            Gets the Screenshot24 item image.
+            </summary>
+            <returns>The Screenshot24 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot24(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot24 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot25">
+            <summary>
+            Gets the Screenshot25 item image.
+            </summary>
+            <returns>The Screenshot25 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot25(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot25 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot26">
+            <summary>
+            Gets the Screenshot26 item image.
+            </summary>
+            <returns>The Screenshot26 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot26(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot26 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot27">
+            <summary>
+            Gets the Screenshot27 item image.
+            </summary>
+            <returns>The Screenshot27 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot27(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot27 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot3">
+            <summary>
+            Gets the Screenshot3 item image.
+            </summary>
+            <returns>The Screenshot3 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot3(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot3 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot4">
+            <summary>
+            Gets the Screenshot4 item image.
+            </summary>
+            <returns>The Screenshot4 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot4(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot4 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot5">
+            <summary>
+            Gets the Screenshot5 item image.
+            </summary>
+            <returns>The Screenshot5 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot5(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot5 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot6">
+            <summary>
+            Gets the Screenshot6 item image.
+            </summary>
+            <returns>The Screenshot6 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot6(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot6 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot7">
+            <summary>
+            Gets the Screenshot7 item image.
+            </summary>
+            <returns>The Screenshot7 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot7(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot7 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot8">
+            <summary>
+            Gets the Screenshot8 item image.
+            </summary>
+            <returns>The Screenshot8 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot8(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot8 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot9">
+            <summary>
+            Gets the Screenshot9 item image.
+            </summary>
+            <returns>The Screenshot9 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot9(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot9 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass">
+            <summary>
+            The BackgroundItem1InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            BackgroundItem1InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetMyTest_2_c412dbb8_rxlog1">
+            <summary>
+            Gets the MyTest_2_c412dbb8_rxlog1 item image.
+            </summary>
+            <returns>The MyTest_2_c412dbb8_rxlog1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetMyTest_2_c412dbb8_rxlog1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the MyTest_2_c412dbb8_rxlog1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetMyTest_2_d2dadbb8_rxlog1">
+            <summary>
+            Gets the MyTest_2_d2dadbb8_rxlog1 item image.
+            </summary>
+            <returns>The MyTest_2_d2dadbb8_rxlog1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetMyTest_2_d2dadbb8_rxlog1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the MyTest_2_d2dadbb8_rxlog1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetScreenshot3">
+            <summary>
+            Gets the Screenshot3 item image.
+            </summary>
+            <returns>The Screenshot3 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetScreenshot3(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot3 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetScreenshot4">
+            <summary>
+            Gets the Screenshot4 item image.
+            </summary>
+            <returns>The Screenshot4 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetScreenshot4(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot4 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetScreenshot5">
+            <summary>
+            Gets the Screenshot5 item image.
+            </summary>
+            <returns>The Screenshot5 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1InfoClass.GetScreenshot5(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot5 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ElementStringDelegateInfoClass">
+            <summary>
+            The ElementStringDelegateInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ElementStringDelegateInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ElementStringDelegateInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ElementStringDelegateInfoClass.GetMyTest_2_faa2dbb4_rxlog1">
+            <summary>
+            Gets the MyTest_2_faa2dbb4_rxlog1 item image.
+            </summary>
+            <returns>The MyTest_2_faa2dbb4_rxlog1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ElementStringDelegateInfoClass.GetMyTest_2_faa2dbb4_rxlog1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the MyTest_2_faa2dbb4_rxlog1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ElementStringDelegateInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ElementStringDelegateInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TextUnitValidatorInfoClass">
+            <summary>
+            The TextUnitValidatorInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TextUnitValidatorInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            TextUnitValidatorInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TextUnitValidatorInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TextUnitValidatorInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.AiItemPropertyRowInfoClass">
+            <summary>
+            The AiItemPropertyRowInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.AiItemPropertyRowInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            AiItemPropertyRowInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.AiItemPropertyRowInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.AiItemPropertyRowInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.AiItemPropertyRowInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.AiItemPropertyRowInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.DiagramViewInfoClass">
+            <summary>
+            The DiagramViewInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.DiagramViewInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            DiagramViewInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.DiagramViewInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.DiagramViewInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.kitsInfoClass">
+            <summary>
+            The kitsInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.kitsInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            kitsInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.kitsInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.kitsInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.kitsInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.kitsInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickOverlayInfoClass">
+            <summary>
+            The QQuickOverlayInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickOverlayInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            QQuickOverlayInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickOverlayInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickOverlayInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.PictureIconToolBarButton">
+            <summary>
+            The PictureIconToolBarButton item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.PictureIconToolBarButtonInfo">
+            <summary>
+            The PictureIconToolBarButton item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.PictureIconToolBarButton1">
+            <summary>
+            The PictureIconToolBarButton1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.PictureIconToolBarButton1Info">
+            <summary>
+            The PictureIconToolBarButton1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ShaderItem">
+            <summary>
+            The ShaderItem item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ShaderItemInfo">
+            <summary>
+            The ShaderItem item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerCloseButton">
+            <summary>
+            The ContainerCloseButton item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerCloseButtonInfo">
+            <summary>
+            The ContainerCloseButton item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TextTextSelectorComboBoxControl">
+            <summary>
+            The TextTextSelectorComboBoxControl item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TextTextSelectorComboBoxControlInfo">
+            <summary>
+            The TextTextSelectorComboBoxControl item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ShaderItem1">
+            <summary>
+            The ShaderItem1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ShaderItem1Info">
+            <summary>
+            The ShaderItem1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickSpinBox">
+            <summary>
+            The QQuickSpinBox item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickSpinBoxInfo">
+            <summary>
+            The QQuickSpinBox item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BaseSwitchControlQMLTYPE101">
+            <summary>
+            The BaseSwitchControlQMLTYPE101 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BaseSwitchControlQMLTYPE101Info">
+            <summary>
+            The BaseSwitchControlQMLTYPE101 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BaseSwitchControlQMLTYPE1011">
+            <summary>
+            The BaseSwitchControlQMLTYPE1011 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BaseSwitchControlQMLTYPE1011Info">
+            <summary>
+            The BaseSwitchControlQMLTYPE1011 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerIndicatorSwitchControl">
+            <summary>
+            The ContainerIndicatorSwitchControl item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerIndicatorSwitchControlInfo">
+            <summary>
+            The ContainerIndicatorSwitchControl item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerIndicatorSwitchControl1">
+            <summary>
+            The ContainerIndicatorSwitchControl1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerIndicatorSwitchControl1Info">
+            <summary>
+            The ContainerIndicatorSwitchControl1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickSpinBox1">
+            <summary>
+            The QQuickSpinBox1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickSpinBox1Info">
+            <summary>
+            The QQuickSpinBox1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BaseSwitchControlQMLTYPE1012">
+            <summary>
+            The BaseSwitchControlQMLTYPE1012 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BaseSwitchControlQMLTYPE1012Info">
+            <summary>
+            The BaseSwitchControlQMLTYPE1012 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BaseSwitchControlQMLTYPE1013">
+            <summary>
+            The BaseSwitchControlQMLTYPE1013 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BaseSwitchControlQMLTYPE1013Info">
+            <summary>
+            The BaseSwitchControlQMLTYPE1013 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickSpinBox2">
+            <summary>
+            The QQuickSpinBox2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickSpinBox2Info">
+            <summary>
+            The QQuickSpinBox2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickText">
+            <summary>
+            The QQuickText item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickTextInfo">
+            <summary>
+            The QQuickText item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerIndicatorSwitchControl2">
+            <summary>
+            The ContainerIndicatorSwitchControl2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerIndicatorSwitchControl2Info">
+            <summary>
+            The ContainerIndicatorSwitchControl2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.PictureIconToolBarButton2">
+            <summary>
+            The PictureIconToolBarButton2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.PictureIconToolBarButton2Info">
+            <summary>
+            The PictureIconToolBarButton2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerHeaderTabItemLayout">
+            <summary>
+            The ContainerHeaderTabItemLayout item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerHeaderTabItemLayoutInfo">
+            <summary>
+            The ContainerHeaderTabItemLayout item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerActionButton">
+            <summary>
+            The ContainerActionButton item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerActionButtonInfo">
+            <summary>
+            The ContainerActionButton item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerActionButton1">
+            <summary>
+            The ContainerActionButton1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerActionButton1Info">
+            <summary>
+            The ContainerActionButton1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerRootAppTitleBar">
+            <summary>
+            The ContainerRootAppTitleBar item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerRootAppTitleBarInfo">
+            <summary>
+            The ContainerRootAppTitleBar item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerMinimizeButton">
+            <summary>
+            The ContainerMinimizeButton item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerMinimizeButtonInfo">
+            <summary>
+            The ContainerMinimizeButton item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerActionButton2">
+            <summary>
+            The ContainerActionButton2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerActionButton2Info">
+            <summary>
+            The ContainerActionButton2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem">
+            <summary>
+            The BackgroundItem item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfo">
+            <summary>
+            The BackgroundItem item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TableDelegateView">
+            <summary>
+            The TableDelegateView item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TableDelegateViewInfo">
+            <summary>
+            The TableDelegateView item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1">
+            <summary>
+            The BackgroundItem1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem1Info">
+            <summary>
+            The BackgroundItem1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ComboBoxMIN">
+            <summary>
+            The ComboBoxMIN item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ComboBoxMINInfo">
+            <summary>
+            The ComboBoxMIN item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ChannelDockedItem">
+            <summary>
+            The ChannelDockedItem item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ChannelDockedItemInfo">
+            <summary>
+            The ChannelDockedItem item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TextStringTextEdit">
+            <summary>
+            The TextStringTextEdit item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TextStringTextEditInfo">
+            <summary>
+            The TextStringTextEdit item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ElementStringDelegate">
+            <summary>
+            The ElementStringDelegate item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ElementStringDelegateInfo">
+            <summary>
+            The ElementStringDelegate item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.DockingPlaceItem">
+            <summary>
+            The DockingPlaceItem item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.DockingPlaceItemInfo">
+            <summary>
+            The DockingPlaceItem item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TextUnitValidator">
+            <summary>
+            The TextUnitValidator item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TextUnitValidatorInfo">
+            <summary>
+            The TextUnitValidator item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.AiItemPropertyRow">
+            <summary>
+            The AiItemPropertyRow item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.AiItemPropertyRowInfo">
+            <summary>
+            The AiItemPropertyRow item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.DiagramView">
+            <summary>
+            The DiagramView item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.DiagramViewInfo">
+            <summary>
+            The DiagramView item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.kits">
+            <summary>
+            The kits item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.kitsInfo">
+            <summary>
+            The kits item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickOverlay">
+            <summary>
+            The QQuickOverlay item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickOverlayInfo">
+            <summary>
+            The QQuickOverlay item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickScrollBar">
+            <summary>
+            The QQuickScrollBar item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickScrollBarInfo">
+            <summary>
+            The QQuickScrollBar item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickItemQML150">
+            <summary>
+            The QQuickItemQML150 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickItemQML150Info">
+            <summary>
+            The QQuickItemQML150 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TabSelectorToolBar">
+            <summary>
+            The TabSelectorToolBar folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TabSelectorToolBar1">
+            <summary>
+            The TabSelectorToolBar1 folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ListContentListView">
+            <summary>
+            The ListContentListView folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TabSelectorToolBar2">
+            <summary>
+            The TabSelectorToolBar2 folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerRightSideToolBar">
+            <summary>
+            The ContainerRightSideToolBar folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.ContainerContentColumn">
+            <summary>
+            The ContainerContentColumn folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TableTable">
+            <summary>
+            The TableTable folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder">
+            <summary>
+            The TabSelectorToolBarFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TabSelectorToolBar  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.TextTextTabItemToolBar1">
+            <summary>
+            The TextTextTabItemToolBar1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.TextTextTabItemToolBar1Info">
+            <summary>
+            The TextTextTabItemToolBar1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.PictureImageLeftArrowTabItemToolBar">
+            <summary>
+            The PictureImageLeftArrowTabItemToolBar item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.PictureImageLeftArrowTabItemToolBarInfo">
+            <summary>
+            The PictureImageLeftArrowTabItemToolBar item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.TextTextCenter3">
+            <summary>
+            The TextTextCenter3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.TextTextCenter3Info">
+            <summary>
+            The TextTextCenter3 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.TextTextCenter2">
+            <summary>
+            The TextTextCenter2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.TextTextCenter2Info">
+            <summary>
+            The TextTextCenter2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ContainerHeaderTabItemLayout">
+            <summary>
+            The ContainerHeaderTabItemLayout item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ContainerHeaderTabItemLayoutInfo">
+            <summary>
+            The ContainerHeaderTabItemLayout item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.TextSelectedChannel">
+            <summary>
+            The TextSelectedChannel item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.TextSelectedChannelInfo">
+            <summary>
+            The TextSelectedChannel item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ContainerHeaderTabItemLayout1">
+            <summary>
+            The ContainerHeaderTabItemLayout1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ContainerHeaderTabItemLayout1Info">
+            <summary>
+            The ContainerHeaderTabItemLayout1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ContainerIndicatorSwitchControl">
+            <summary>
+            The ContainerIndicatorSwitchControl item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ContainerIndicatorSwitchControlInfo">
+            <summary>
+            The ContainerIndicatorSwitchControl item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItem">
+            <summary>
+            The ShaderItem item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItemInfo">
+            <summary>
+            The ShaderItem item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItem1">
+            <summary>
+            The ShaderItem1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItem1Info">
+            <summary>
+            The ShaderItem1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItem2">
+            <summary>
+            The ShaderItem2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItem2Info">
+            <summary>
+            The ShaderItem2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItem3">
+            <summary>
+            The ShaderItem3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItem3Info">
+            <summary>
+            The ShaderItem3 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItem4">
+            <summary>
+            The ShaderItem4 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItem4Info">
+            <summary>
+            The ShaderItem4 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItem5">
+            <summary>
+            The ShaderItem5 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBarFolder.ShaderItem5Info">
+            <summary>
+            The ShaderItem5 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder">
+            <summary>
+            The TabSelectorToolBar1Folder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TabSelectorToolBar1  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.TextTextTabItemToolBar">
+            <summary>
+            The TextTextTabItemToolBar item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.TextTextTabItemToolBarInfo">
+            <summary>
+            The TextTextTabItemToolBar item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.TextTextCenter4">
+            <summary>
+            The TextTextCenter4 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.TextTextCenter4Info">
+            <summary>
+            The TextTextCenter4 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.TextTextCenter1">
+            <summary>
+            The TextTextCenter1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.TextTextCenter1Info">
+            <summary>
+            The TextTextCenter1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.TextTextCenter5">
+            <summary>
+            The TextTextCenter5 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.TextTextCenter5Info">
+            <summary>
+            The TextTextCenter5 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.TextTextCenter">
+            <summary>
+            The TextTextCenter item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.TextTextCenterInfo">
+            <summary>
+            The TextTextCenter item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ListContentListViewFolder">
+            <summary>
+            The ListContentListViewFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ListContentListViewFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ListContentListView  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ListContentListViewFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ListContentListViewFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ListContentListViewFolder.SEGMent">
+            <summary>
+            The SEGMent item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ListContentListViewFolder.SEGMentInfo">
+            <summary>
+            The SEGMent item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ListContentListViewFolder.POWer">
+            <summary>
+            The POWer item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ListContentListViewFolder.POWerInfo">
+            <summary>
+            The POWer item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ListContentListViewFolder.LINear">
+            <summary>
+            The LINear item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ListContentListViewFolder.LINearInfo">
+            <summary>
+            The LINear item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ListContentListViewFolder.LOGarithmic">
+            <summary>
+            The LOGarithmic item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ListContentListViewFolder.LOGarithmicInfo">
+            <summary>
+            The LOGarithmic item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder">
+            <summary>
+            The TabSelectorToolBar2Folder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TabSelectorToolBar2  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerHeaderTabItemLayout">
+            <summary>
+            The ContainerHeaderTabItemLayout item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerHeaderTabItemLayoutInfo">
+            <summary>
+            The ContainerHeaderTabItemLayout item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerIndicatorSwitchControl3">
+            <summary>
+            The ContainerIndicatorSwitchControl3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerIndicatorSwitchControl3Info">
+            <summary>
+            The ContainerIndicatorSwitchControl3 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.QQuickText1">
+            <summary>
+            The QQuickText1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.QQuickText1Info">
+            <summary>
+            The QQuickText1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerIndicatorSwitchControl">
+            <summary>
+            The ContainerIndicatorSwitchControl item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerIndicatorSwitchControlInfo">
+            <summary>
+            The ContainerIndicatorSwitchControl item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerIndicatorSwitchControl1">
+            <summary>
+            The ContainerIndicatorSwitchControl1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerIndicatorSwitchControl1Info">
+            <summary>
+            The ContainerIndicatorSwitchControl1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerHeaderTabItemLayout1">
+            <summary>
+            The ContainerHeaderTabItemLayout1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerHeaderTabItemLayout1Info">
+            <summary>
+            The ContainerHeaderTabItemLayout1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.TextTextTabItemToolBar">
+            <summary>
+            The TextTextTabItemToolBar item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.TextTextTabItemToolBarInfo">
+            <summary>
+            The TextTextTabItemToolBar item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerHeaderTabItemLayout2">
+            <summary>
+            The ContainerHeaderTabItemLayout2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerHeaderTabItemLayout2Info">
+            <summary>
+            The ContainerHeaderTabItemLayout2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.TextTextTabItemToolBar1">
+            <summary>
+            The TextTextTabItemToolBar1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.TextTextTabItemToolBar1Info">
+            <summary>
+            The TextTextTabItemToolBar1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerHeaderTabItemLayout3">
+            <summary>
+            The ContainerHeaderTabItemLayout3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar2Folder.ContainerHeaderTabItemLayout3Info">
+            <summary>
+            The ContainerHeaderTabItemLayout3 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder">
+            <summary>
+            The ContainerRightSideToolBarFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContainerRightSideToolBar  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerRoot">
+            <summary>
+            The ContainerRoot item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerRootInfo">
+            <summary>
+            The ContainerRoot item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.PictureImageLeftArrowTabItemToolBar">
+            <summary>
+            The PictureImageLeftArrowTabItemToolBar item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.PictureImageLeftArrowTabItemToolBarInfo">
+            <summary>
+            The PictureImageLeftArrowTabItemToolBar item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerActionButton1">
+            <summary>
+            The ContainerActionButton1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerActionButton1Info">
+            <summary>
+            The ContainerActionButton1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerActionButton">
+            <summary>
+            The ContainerActionButton item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerActionButtonInfo">
+            <summary>
+            The ContainerActionButton item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerHeaderTabItemLayout">
+            <summary>
+            The ContainerHeaderTabItemLayout item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerHeaderTabItemLayoutInfo">
+            <summary>
+            The ContainerHeaderTabItemLayout item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerActionButton2">
+            <summary>
+            The ContainerActionButton2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerActionButton2Info">
+            <summary>
+            The ContainerActionButton2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerActionButton3">
+            <summary>
+            The ContainerActionButton3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerActionButton3Info">
+            <summary>
+            The ContainerActionButton3 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerRoot1">
+            <summary>
+            The ContainerRoot1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerRoot1Info">
+            <summary>
+            The ContainerRoot1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerRoot2">
+            <summary>
+            The ContainerRoot2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerRoot2Info">
+            <summary>
+            The ContainerRoot2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerRoot3">
+            <summary>
+            The ContainerRoot3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerRoot3Info">
+            <summary>
+            The ContainerRoot3 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerHeaderTabItemLayout1">
+            <summary>
+            The ContainerHeaderTabItemLayout1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerHeaderTabItemLayout1Info">
+            <summary>
+            The ContainerHeaderTabItemLayout1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerActionButton4">
+            <summary>
+            The ContainerActionButton4 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerActionButton4Info">
+            <summary>
+            The ContainerActionButton4 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ElementRoot">
+            <summary>
+            The ElementRoot item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ElementRootInfo">
+            <summary>
+            The ElementRoot item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ElementScrollBar">
+            <summary>
+            The ElementScrollBar item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ElementScrollBarInfo">
+            <summary>
+            The ElementScrollBar item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder">
+            <summary>
+            The ContainerContentColumnFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContainerContentColumn  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.TextMeasureType">
+            <summary>
+            The TextMeasureType item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.TextMeasureTypeInfo">
+            <summary>
+            The TextMeasureType item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.TextTextDelegateNumberIndicator">
+            <summary>
+            The TextTextDelegateNumberIndicator item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.TextTextDelegateNumberIndicatorInfo">
+            <summary>
+            The TextTextDelegateNumberIndicator item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter2">
+            <summary>
+            The ContainerDelegateChannelSetter2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter2Info">
+            <summary>
+            The ContainerDelegateChannelSetter2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter1">
+            <summary>
+            The ContainerDelegateChannelSetter1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter1Info">
+            <summary>
+            The ContainerDelegateChannelSetter1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter">
+            <summary>
+            The ContainerDelegateChannelSetter item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetterInfo">
+            <summary>
+            The ContainerDelegateChannelSetter item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter3">
+            <summary>
+            The ContainerDelegateChannelSetter3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter3Info">
+            <summary>
+            The ContainerDelegateChannelSetter3 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter4">
+            <summary>
+            The ContainerDelegateChannelSetter4 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter4Info">
+            <summary>
+            The ContainerDelegateChannelSetter4 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.TextMeasureType1">
+            <summary>
+            The TextMeasureType1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.TextMeasureType1Info">
+            <summary>
+            The TextMeasureType1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter5">
+            <summary>
+            The ContainerDelegateChannelSetter5 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter5Info">
+            <summary>
+            The ContainerDelegateChannelSetter5 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.TextMeasureType2">
+            <summary>
+            The TextMeasureType2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.TextMeasureType2Info">
+            <summary>
+            The TextMeasureType2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.TextMeasureType3">
+            <summary>
+            The TextMeasureType3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.TextMeasureType3Info">
+            <summary>
+            The TextMeasureType3 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter6">
+            <summary>
+            The ContainerDelegateChannelSetter6 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder.ContainerDelegateChannelSetter6Info">
+            <summary>
+            The ContainerDelegateChannelSetter6 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.TableTableFolder">
+            <summary>
+            The TableTableFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.TableTableFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TableTable  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TableTableFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TableTableFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TableTableFolder.Row0">
+            <summary>
+            The Row0 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TableTableFolder.Row0Info">
+            <summary>
+            The Row0 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TableTableFolder.Row3">
+            <summary>
+            The Row3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TableTableFolder.Row3Info">
+            <summary>
+            The Row3 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TableTableFolder.Vscrollbar">
+            <summary>
+            The Vscrollbar item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TableTableFolder.VscrollbarInfo">
+            <summary>
+            The Vscrollbar item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.List1">
+            <summary>
+            The List1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ExplorerAppFolder.List1Info">
+            <summary>
+            The List1 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.Explorer1AppFolder">
+            <summary>
+            The Explorer1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer1  folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкноInfoClass">
+            <summary>
+            The RanorexStudio1ЗапущенноеОкноInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкноInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            RanorexStudio1ЗапущенноеОкноInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкноInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкноInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкно">
+            <summary>
+            The RanorexStudio1ЗапущенноеОкно item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкноInfo">
+            <summary>
+            The RanorexStudio1ЗапущенноеОкно item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.AddClose_Cannel">
+             <summary>
+            The AddClose_Cannel recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.AddClose_Cannel.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddClose_Cannel.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.AddClose_Cannel.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddClose_Cannel.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.AddClose_Cannel.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddClose_Cannel.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.AddClose_Cannel.VnaNG_Screenshot3">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.AddClose_Cannel.VnaNG_Screenshot3_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.AddClose_Cannel.VnaNG_Screenshot4">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.AddClose_Cannel.VnaNG_Screenshot4_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.AddClose_Cannel.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Calibrate_Factoey_Term">
+             <summary>
+            The Calibrate_Factoey_Term recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Calibrate_Factoey_Term.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Calibrate_Factoey_Term.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_Factoey_Term.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.Calibrate_Factoey_Term.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Calibrate_Factoey_Term.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Calibrate_Factoey_Term.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.Calibrate_Factoey_Term.VnaNG_Screenshot22">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_Factoey_Term.VnaNG_Screenshot22_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_Factoey_Term.VnaNG_Screenshot23">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_Factoey_Term.VnaNG_Screenshot23_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.Calibrate_Factoey_Term.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.AddRemove_Diagram">
+             <summary>
+            The AddRemove_Diagram recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.AddRemove_Diagram.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddRemove_Diagram.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.AddRemove_Diagram.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddRemove_Diagram.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.AddRemove_Diagram.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddRemove_Diagram.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.AddRemove_Diagram.VnaNG_Screenshot5">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.AddRemove_Diagram.VnaNG_Screenshot5_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.AddRemove_Diagram.VnaNG_Screenshot6">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.AddRemove_Diagram.VnaNG_Screenshot6_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.AddRemove_Diagram.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.AddDelete_Trace">
+             <summary>
+            The AddDelete_Trace recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.AddDelete_Trace.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddDelete_Trace.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.AddDelete_Trace.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddDelete_Trace.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.AddDelete_Trace.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddDelete_Trace.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.AddDelete_Trace.BackgroundItem1_Screenshot4">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.AddDelete_Trace.BackgroundItem1_Screenshot4_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.AddDelete_Trace.BackgroundItem1_Screenshot5">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.AddDelete_Trace.BackgroundItem1_Screenshot5_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.AddDelete_Trace.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Check_scan_law">
+             <summary>
+            The Check_scan_law recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Check_scan_law.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Check_scan_law.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Check_scan_law.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.Check_scan_law.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Check_scan_law.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Check_scan_law.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.Check_scan_law.VnaNG_Screenshot7">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Check_scan_law.VnaNG_Screenshot7_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Check_scan_law.VnaNG_Screenshot8">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Check_scan_law.VnaNG_Screenshot8_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Check_scan_law.VnaNG_Screenshot9">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Check_scan_law.VnaNG_Screenshot9_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Check_scan_law.VnaNG_Screenshot10">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Check_scan_law.VnaNG_Screenshot10_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.Check_scan_law.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Adddelete_marker">
+             <summary>
+            The Adddelete_marker recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Adddelete_marker.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Adddelete_marker.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Adddelete_marker.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.Adddelete_marker.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Adddelete_marker.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Adddelete_marker.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.Adddelete_marker.VnaNG_Screenshot11">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Adddelete_marker.VnaNG_Screenshot11_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Adddelete_marker.VnaNG_Screenshot12">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Adddelete_marker.VnaNG_Screenshot12_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.Adddelete_marker.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Calibration_Kits_show_hide">
+             <summary>
+            The Calibration_Kits_show_hide recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Calibration_Kits_show_hide.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Calibration_Kits_show_hide.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibration_Kits_show_hide.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.Calibration_Kits_show_hide.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Calibration_Kits_show_hide.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Calibration_Kits_show_hide.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.Calibration_Kits_show_hide.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.CheckCloseApp">
+             <summary>
+            The CheckCloseApp recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.CheckCloseApp.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.CheckCloseApp.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.CheckCloseApp.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.CheckCloseApp.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.CheckCloseApp.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.CheckCloseApp.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.CheckCloseApp.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Recording1.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Trace_Measurement">
+             <summary>
+            The Trace_Measurement recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Trace_Measurement.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Trace_Measurement.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.Trace_Measurement.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Trace_Measurement.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Trace_Measurement.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot17">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot17_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot18">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot18_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot19">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot19_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot16">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot16_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot15">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot15_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot14">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot14_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot13">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot13_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot12">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot12_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot11">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot11_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot10">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.BackgroundItem_Screenshot10_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.QQuickOverlay_Screenshot1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Trace_Measurement.QQuickOverlay_Screenshot1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.Trace_Measurement.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Setting_VNA_Hide_VNA_collection">
+             <summary>
+            The Setting_VNA_Hide_VNA_collection recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Setting_VNA_Hide_VNA_collection.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Setting_VNA_Hide_VNA_collection.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Setting_VNA_Hide_VNA_collection.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.Setting_VNA_Hide_VNA_collection.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Setting_VNA_Hide_VNA_collection.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Setting_VNA_Hide_VNA_collection.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.Setting_VNA_Hide_VNA_collection.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.RunCloseApp">
+             <summary>
+            The RunCloseApp recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.RunCloseApp.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.RunCloseApp.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.RunCloseApp.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.RunCloseApp.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.RunCloseApp.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.RunCloseApp.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.RunCloseApp.VnaNG_Screenshot21">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.RunCloseApp.VnaNG_Screenshot21_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.RunCloseApp.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Stimul_scale">
+             <summary>
+            The Stimul_scale recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Stimul_scale.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Stimul_scale.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.Stimul_scale.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Stimul_scale.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Stimul_scale.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot20">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot20_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_MyTest_2_531ef5fa_rxlog1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_MyTest_2_531ef5fa_rxlog1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot21">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot21_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot23">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot23_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot24">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot24_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot25">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot25_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_MyTest_2_f05e2cb_rxlog1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_MyTest_2_f05e2cb_rxlog1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_MyTest_2_83a0e2d0_rxlog1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_MyTest_2_83a0e2d0_rxlog1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.Stimul_scale.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.USER_TERM_Full_2Port">
+             <summary>
+            The USER_TERM_Full_2Port recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.USER_TERM_Full_2Port.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.USER_TERM_Full_2Port.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.USER_TERM_Full_2Port.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.USER_TERM_Full_2Port.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.USER_TERM_Full_2Port.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.USER_TERM_Full_2Port.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.USER_TERM_Full_2Port.VnaNG_Screenshot13">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.USER_TERM_Full_2Port.VnaNG_Screenshot13_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.USER_TERM_Full_2Port.VnaNG_Screenshot14">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.USER_TERM_Full_2Port.VnaNG_Screenshot14_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.USER_TERM_Full_2Port.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Calibrate_power">
+             <summary>
+            The Calibrate_power recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Calibrate_power.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Calibrate_power.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.NewVariable">
+            <summary>
+            Gets or sets the value of variable NewVariable.
+            </summary>
+        </member>
+        <member name="M:MyTest.Calibrate_power.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Calibrate_power.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Calibrate_power.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot15">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot15_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot16">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot16_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot17">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot17_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_MyTest_2_f09d85a1_rxlog1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_MyTest_2_f09d85a1_rxlog1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot18">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot18_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_MyTest_2_92cc85a1_rxlog1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_MyTest_2_92cc85a1_rxlog1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot19">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot19_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot20">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Calibrate_power.VnaNG_Screenshot20_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.Calibrate_power.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.FullScreenOn_Off">
+             <summary>
+            The FullScreenOn_Off recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.FullScreenOn_Off.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.FullScreenOn_Off.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.FullScreenOn_Off.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.FullScreenOn_Off.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.FullScreenOn_Off.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.FullScreenOn_Off.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.FullScreenOn_Off.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Analyze_on_off">
+             <summary>
+            The Analyze_on_off recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Analyze_on_off.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Analyze_on_off.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.Analyze_on_off.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Analyze_on_off.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Analyze_on_off.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.DiagramView_Screenshot1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.DiagramView_Screenshot1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.BackgroundItem_Screenshot5">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.BackgroundItem_Screenshot5_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.BackgroundItem_Screenshot6">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.BackgroundItem_Screenshot6_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.BackgroundItem_Screenshot7">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.BackgroundItem_Screenshot7_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.BackgroundItem_Screenshot8">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.BackgroundItem_Screenshot8_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.AiItemPropertyRow_Screenshot2">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.AiItemPropertyRow_Screenshot2_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.BackgroundItem_Screenshot9">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Analyze_on_off.BackgroundItem_Screenshot9_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.Analyze_on_off.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.StartAUT.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="P:MyTest.StartAUT.NewVariable">
+            <summary>
+            Gets or sets the value of variable NewVariable.
+            </summary>
+        </member>
+        <member name="M:MyTest.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

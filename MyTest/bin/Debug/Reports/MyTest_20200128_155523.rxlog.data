@@ -1,0 +1,2109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="31.9s"
+		durationms="31895"
+		type="root"
+		rid="863879301c5f26a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="vitaliy.moseev"
+		rxversion="9.2.0.0"
+		host="KC0000136"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="ru-RU"
+		dtnlanguage="ru-RU"
+		screenresolution="1920x1080"
+		timestamp="28.01.2020 15:55:23"
+		timestampiso="2020-01-28T10:55:23"
+		endtime="28.01.2020 15:55:55"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="27.82s"
+			durationms="27818"
+			type="test-suite"
+			rid="141424175185d844"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyTest"
+			headertext="MyTest"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Success"
+				duration="27.79s"
+				durationms="27794"
+				type="smart-folder"
+				rid="c0a8a4cf6225478"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="smoke"
+				testcontainerid="45871da3-cccf-484d-84d2-b28d78e5c27a"
+				headertext="smoke"
+				displayName="smoke"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="27.79s"
+					durationms="27789"
+					type="test-case"
+					rid="19aabe28182d47f8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="3"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase00012_Trace_Measurement"
+					testcontainerid="9d3aa45d-fa26-4030-9c6f-112b87d9d641"
+					headertext="TestCase00012_Trace_Measurement"
+					displayName="TestCase00012_Trace_Measurement"
+					iteration="1"
+					activity-exectype="execute"
+					conditionstate="none">
+					<activity
+						result="Success"
+						duration="2.42s"
+						durationms="2417"
+						type="setup-container"
+						rid="157be95ede744153"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="1"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Success"
+							duration="2.4s"
+							durationms="2397"
+							type="test-module"
+							rid="5ab98f8b1499573"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="StartAUT"
+							displayName="StartAUT"
+							moduleid="19947001-dc33-4256-b70f-a10d38fc80ed"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="StartAutProcessIDVar"
+									value="">
+								</varbinding>
+								<varbinding
+									name="NewVariable"
+									value="">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.046"
+								timeRelativeToTestModuleStartTime="00:00.006"
+								timeWallClock="15:55:27"
+								time="00:00.046"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$StartAutProcessIDVar = '', $NewVariable = ''
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.087"
+								timeRelativeToTestModuleStartTime="00:00.047"
+								timeWallClock="15:55:27"
+								time="00:00.087"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Users\vitaliy.moseev\Desktop\123\soft\_bin\VNAApplication.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\StartAUT.cs"
+									codeline="108"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.399"
+								timeRelativeToTestModuleStartTime="00:00.360"
+								timeWallClock="15:55:27"
+								time="00:00.399"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 2s.
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\StartAUT.cs"
+									codeline="112"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="24.21s"
+						durationms="24207"
+						type="test-module"
+						rid="2043d6fd2f3a552"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Trace_Measurement"
+						displayName="Trace_Measurement"
+						moduleid="6b676d11-0c48-4d65-8193-eb779ea16f29"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.444"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="15:55:29"
+							time="00:02.444"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerRightSideToolBar.ContainerRoot2' at 51;61.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_columnToolBarButton']/container[7]"
+								itempath="element[@name='_columnToolBarButton']/container[7]"
+								fullname="MyTestRepository.VnaNG.ContainerRightSideToolBar.ContainerRoot2"
+								id="aaf2374f5bff45ba9c7f40f2e2f7aab2"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.994"
+							timeRelativeToTestModuleStartTime="00:02.553"
+							timeWallClock="15:55:32"
+							time="00:04.994"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.TabSelectorToolBar.ContainerHeaderTabItemLayout' at 211;32.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[7]/?/?/container[@name='_mainTabSelectorToolBar']/container[5]/?/?/container[@name='_headerTabItemLayout']"
+								itempath="?/?/container[@name='_mainTabSelectorToolBar']/container[5]/?/?/container[@name='_headerTabItemLayout']"
+								fullname="MyTestRepository.VnaNG.TabSelectorToolBar.ContainerHeaderTabItemLayout"
+								id="ae48538825514dc98dd87f2311c52fcd"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.742"
+							timeRelativeToTestModuleStartTime="00:03.301"
+							timeWallClock="15:55:33"
+							time="00:05.742"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.TabSelectorToolBar.TextSelectedChannel' at 56;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[7]/element/container[5]/container[@name='_contentTabItemToolBar']//container[@name='_container']/text[@name='_selectedChannel']"
+								itempath="element/container[5]/container[@name='_contentTabItemToolBar']//container[@name='_container']/text[@name='_selectedChannel']"
+								fullname="MyTestRepository.VnaNG.TabSelectorToolBar.TextSelectedChannel"
+								id="a80aeffb4b0c4ac894f9767b85ec807b"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.278"
+							timeRelativeToTestModuleStartTime="00:03.837"
+							timeWallClock="15:55:33"
+							time="00:06.278"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.TextMeasureType2' at 7;17.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/element[@name='_channelTypes']/text[@caption='P']"
+								itempath="element[@name='_channelTypes']/text[@caption='P']"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.TextMeasureType2"
+								id="edcfbb30eeed4d2fa46b4247d4d813d3"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.876"
+							timeRelativeToTestModuleStartTime="00:04.435"
+							timeWallClock="15:55:34"
+							time="00:06.876"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 3s.
+							</message>
+							<metainfo
+								itemindex="4"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="98"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.918"
+							timeRelativeToTestModuleStartTime="00:07.477"
+							timeWallClock="15:55:37"
+							time="00:09.918"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot17' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								itempath="?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								id="cda6440824c64347bdad994a440e5047"
+								timeout="60000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="101"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.318"
+							timeRelativeToTestModuleStartTime="00:07.877"
+							timeWallClock="15:55:37"
+							time="00:10.318"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_8a17f600_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_8a17f600_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="102"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.320"
+							timeRelativeToTestModuleStartTime="00:07.879"
+							timeWallClock="15:55:37"
+							time="00:10.320"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'MyTestRepository.VnaNG.BackgroundItem' does match the specified image (similarity actual='0,999999999965821', expected='0,999').
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="102"
+								loglvl="Success"
+								id="cda6440824c64347bdad994a440e5047"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								itemindex="5">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.357"
+							timeRelativeToTestModuleStartTime="00:07.916"
+							timeWallClock="15:55:37"
+							time="00:10.357"
+							level="Success"
+							category="Expected image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_feb2f600_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_feb2f600_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="102"
+								loglvl="Success"
+								itemindex="5">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.364"
+							timeRelativeToTestModuleStartTime="00:07.923"
+							timeWallClock="15:55:37"
+							time="00:10.364"
+							level="Success"
+							category="Actual image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_734df600_rxlog.png"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_734df600_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								replaceImage="true"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="102"
+								loglvl="Success"
+								itemindex="5">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.385"
+							timeRelativeToTestModuleStartTime="00:07.944"
+							timeWallClock="15:55:37"
+							time="00:10.385"
+							level="Success"
+							category="Difference images">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_e7e8f600_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_e7e8f600_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_b7abf600_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_b7abf600_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="102"
+								loglvl="Success"
+								itemindex="5">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.496"
+							timeRelativeToTestModuleStartTime="00:08.055"
+							timeWallClock="15:55:37"
+							time="00:10.496"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.TextMeasureType' at 26;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/element[@name='_channelTypes']/text[@caption='R']"
+								itempath="element[@name='_channelTypes']/text[@caption='R']"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.TextMeasureType"
+								id="a808a80b1ece454d9115716f745db1db"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="105"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.993"
+							timeRelativeToTestModuleStartTime="00:08.552"
+							timeWallClock="15:55:38"
+							time="00:10.993"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot18' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								itempath="?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								id="cda6440824c64347bdad994a440e5047"
+								timeout="60000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="109"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.356"
+							timeRelativeToTestModuleStartTime="00:08.915"
+							timeWallClock="15:55:38"
+							time="00:11.356"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_2c46f600_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_2c46f600_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="110"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.358"
+							timeRelativeToTestModuleStartTime="00:08.917"
+							timeWallClock="15:55:38"
+							time="00:11.358"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'MyTestRepository.VnaNG.BackgroundItem' does match the specified image (similarity actual='0,999319535157822', expected='0,999').
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="110"
+								loglvl="Success"
+								id="cda6440824c64347bdad994a440e5047"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								itemindex="7">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.403"
+							timeRelativeToTestModuleStartTime="00:08.962"
+							timeWallClock="15:55:38"
+							time="00:11.403"
+							level="Success"
+							category="Expected image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_a0e1f600_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_a0e1f600_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="110"
+								loglvl="Success"
+								itemindex="7">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.412"
+							timeRelativeToTestModuleStartTime="00:08.971"
+							timeWallClock="15:55:38"
+							time="00:11.412"
+							level="Success"
+							category="Actual image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_157cf600_rxlog.png"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_157cf600_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								replaceImage="true"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="110"
+								loglvl="Success"
+								itemindex="7">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.428"
+							timeRelativeToTestModuleStartTime="00:08.987"
+							timeWallClock="15:55:38"
+							time="00:11.428"
+							level="Success"
+							category="Difference images">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_e53ff600_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_e53ff600_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_59daf600_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_59daf600_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="110"
+								loglvl="Success"
+								itemindex="7">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.532"
+							timeRelativeToTestModuleStartTime="00:09.091"
+							timeWallClock="15:55:38"
+							time="00:11.532"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.TextMeasureType3' at 23;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/element[@name='_channelTypes']/text[@caption='T']"
+								itempath="element[@name='_channelTypes']/text[@caption='T']"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.TextMeasureType3"
+								id="d037de50a8a94a7bb6ad29f04a68088f"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="113"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.993"
+							timeRelativeToTestModuleStartTime="00:09.552"
+							timeWallClock="15:55:39"
+							time="00:11.993"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot19' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								itempath="?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								id="cda6440824c64347bdad994a440e5047"
+								timeout="60000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="117"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.348"
+							timeRelativeToTestModuleStartTime="00:09.907"
+							timeWallClock="15:55:39"
+							time="00:12.348"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_a63e310_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_a63e310_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="118"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.350"
+							timeRelativeToTestModuleStartTime="00:09.909"
+							timeWallClock="15:55:39"
+							time="00:12.350"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'MyTestRepository.VnaNG.BackgroundItem' does match the specified image (similarity actual='0,99999827519787', expected='0,999').
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="118"
+								loglvl="Success"
+								id="cda6440824c64347bdad994a440e5047"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								itemindex="9">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.388"
+							timeRelativeToTestModuleStartTime="00:09.947"
+							timeWallClock="15:55:39"
+							time="00:12.388"
+							level="Success"
+							category="Expected image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_a63e30f_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_a63e30f_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="118"
+								loglvl="Success"
+								itemindex="9">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.396"
+							timeRelativeToTestModuleStartTime="00:09.955"
+							timeWallClock="15:55:39"
+							time="00:12.396"
+							level="Success"
+							category="Actual image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_a63e30e_rxlog.png"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_a63e30e_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								replaceImage="true"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="118"
+								loglvl="Success"
+								itemindex="9">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.416"
+							timeRelativeToTestModuleStartTime="00:09.975"
+							timeWallClock="15:55:39"
+							time="00:12.416"
+							level="Success"
+							category="Difference images">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_a63e30d_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_a63e30d_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_a63e30c_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_a63e30c_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="118"
+								loglvl="Success"
+								itemindex="9">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.527"
+							timeRelativeToTestModuleStartTime="00:10.086"
+							timeWallClock="15:55:39"
+							time="00:12.527"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.ContainerDelegateChannelSetter4' at 25;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/list[@name='_channelSelectorRow']/element[@name='_activeChannelSetter']/element/container[1]"
+								itempath="list[@name='_channelSelectorRow']/element[@name='_activeChannelSetter']/element/container[1]"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.ContainerDelegateChannelSetter4"
+								id="c4c485695558464a9fd8745e036e2de0"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="121"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.009"
+							timeRelativeToTestModuleStartTime="00:10.569"
+							timeWallClock="15:55:40"
+							time="00:13.009"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.ContainerDelegateChannelSetter3' at 24;20.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/list[@name='_channelSelectorRow']/element[@name='_testChannelSetter']/element/container[1]"
+								itempath="list[@name='_channelSelectorRow']/element[@name='_testChannelSetter']/element/container[1]"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.ContainerDelegateChannelSetter3"
+								id="58f360d85bc143b6b4128a76e6c1a353"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="125"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.528"
+							timeRelativeToTestModuleStartTime="00:11.087"
+							timeWallClock="15:55:40"
+							time="00:13.528"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot16' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								itempath="?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								id="cda6440824c64347bdad994a440e5047"
+								timeout="60000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="129"
+								itemindex="12"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.912"
+							timeRelativeToTestModuleStartTime="00:11.471"
+							timeWallClock="15:55:41"
+							time="00:13.912"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_a63e30b_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_a63e30b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="130"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.914"
+							timeRelativeToTestModuleStartTime="00:11.473"
+							timeWallClock="15:55:41"
+							time="00:13.914"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'MyTestRepository.VnaNG.BackgroundItem' does match the specified image (similarity actual='0,999999999965821', expected='0,999').
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="130"
+								loglvl="Success"
+								id="cda6440824c64347bdad994a440e5047"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								itemindex="12">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.953"
+							timeRelativeToTestModuleStartTime="00:11.512"
+							timeWallClock="15:55:41"
+							time="00:13.953"
+							level="Success"
+							category="Expected image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_a63e30a_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_a63e30a_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="130"
+								loglvl="Success"
+								itemindex="12">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.960"
+							timeRelativeToTestModuleStartTime="00:11.519"
+							timeWallClock="15:55:41"
+							time="00:13.960"
+							level="Success"
+							category="Actual image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_a63e309_rxlog.png"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_a63e309_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								replaceImage="true"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="130"
+								loglvl="Success"
+								itemindex="12">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.980"
+							timeRelativeToTestModuleStartTime="00:11.539"
+							timeWallClock="15:55:41"
+							time="00:13.980"
+							level="Success"
+							category="Difference images">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_a63e318_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_a63e318_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_a63e317_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_a63e317_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="130"
+								loglvl="Success"
+								itemindex="12">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.092"
+							timeRelativeToTestModuleStartTime="00:11.651"
+							timeWallClock="15:55:41"
+							time="00:14.092"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.TabSelectorToolBar.TextSelectedChannel' at 37;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[7]/element/container[5]/container[@name='_contentTabItemToolBar']//container[@name='_container']/text[@name='_selectedChannel']"
+								itempath="element/container[5]/container[@name='_contentTabItemToolBar']//container[@name='_container']/text[@name='_selectedChannel']"
+								fullname="MyTestRepository.VnaNG.TabSelectorToolBar.TextSelectedChannel"
+								id="a80aeffb4b0c4ac894f9767b85ec807b"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="133"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.575"
+							timeRelativeToTestModuleStartTime="00:12.134"
+							timeWallClock="15:55:41"
+							time="00:14.575"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.TextMeasureType' at 21;9.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/element[@name='_channelTypes']/text[@caption='R']"
+								itempath="element[@name='_channelTypes']/text[@caption='R']"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.TextMeasureType"
+								id="a808a80b1ece454d9115716f745db1db"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="137"
+								itemindex="14"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.097"
+							timeRelativeToTestModuleStartTime="00:12.656"
+							timeWallClock="15:55:42"
+							time="00:15.097"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot15' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								itempath="?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								id="cda6440824c64347bdad994a440e5047"
+								timeout="60000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="141"
+								itemindex="15"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.448"
+							timeRelativeToTestModuleStartTime="00:13.007"
+							timeWallClock="15:55:42"
+							time="00:15.448"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_7efee310_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_7efee310_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="142"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.450"
+							timeRelativeToTestModuleStartTime="00:13.009"
+							timeWallClock="15:55:42"
+							time="00:15.450"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'MyTestRepository.VnaNG.BackgroundItem' does match the specified image (similarity actual='0,999322242151444', expected='0,999').
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="142"
+								loglvl="Success"
+								id="cda6440824c64347bdad994a440e5047"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								itemindex="15">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.485"
+							timeRelativeToTestModuleStartTime="00:13.044"
+							timeWallClock="15:55:42"
+							time="00:15.485"
+							level="Success"
+							category="Expected image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_7efee30f_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_7efee30f_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="142"
+								loglvl="Success"
+								itemindex="15">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.492"
+							timeRelativeToTestModuleStartTime="00:13.051"
+							timeWallClock="15:55:42"
+							time="00:15.492"
+							level="Success"
+							category="Actual image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_7efee30e_rxlog.png"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_7efee30e_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								replaceImage="true"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="142"
+								loglvl="Success"
+								itemindex="15">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.513"
+							timeRelativeToTestModuleStartTime="00:13.072"
+							timeWallClock="15:55:42"
+							time="00:15.513"
+							level="Success"
+							category="Difference images">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_7efee30d_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_7efee30d_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_7efee30c_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_7efee30c_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="142"
+								loglvl="Success"
+								itemindex="15">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.616"
+							timeRelativeToTestModuleStartTime="00:13.175"
+							timeWallClock="15:55:43"
+							time="00:15.616"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.TextMeasureType1' at 23;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/element[@name='_channelTypes']/text[@caption='S']"
+								itempath="element[@name='_channelTypes']/text[@caption='S']"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.TextMeasureType1"
+								id="0ca9cf0f1ce7413a95cd9f9565d059fa"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="145"
+								itemindex="16"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.109"
+							timeRelativeToTestModuleStartTime="00:13.669"
+							timeWallClock="15:55:43"
+							time="00:16.109"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot14' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								itempath="?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								id="cda6440824c64347bdad994a440e5047"
+								timeout="60000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="149"
+								itemindex="17"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.463"
+							timeRelativeToTestModuleStartTime="00:14.022"
+							timeWallClock="15:55:43"
+							time="00:16.463"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_7efee30b_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_7efee30b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="150"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.465"
+							timeRelativeToTestModuleStartTime="00:14.024"
+							timeWallClock="15:55:43"
+							time="00:16.465"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'MyTestRepository.VnaNG.BackgroundItem' does match the specified image (similarity actual='0,99999827519787', expected='0,999').
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="150"
+								loglvl="Success"
+								id="cda6440824c64347bdad994a440e5047"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								itemindex="17">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.504"
+							timeRelativeToTestModuleStartTime="00:14.064"
+							timeWallClock="15:55:43"
+							time="00:16.504"
+							level="Success"
+							category="Expected image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_7efee30a_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_7efee30a_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="150"
+								loglvl="Success"
+								itemindex="17">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.514"
+							timeRelativeToTestModuleStartTime="00:14.074"
+							timeWallClock="15:55:43"
+							time="00:16.514"
+							level="Success"
+							category="Actual image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_7efee309_rxlog.png"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_7efee309_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								replaceImage="true"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="150"
+								loglvl="Success"
+								itemindex="17">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.535"
+							timeRelativeToTestModuleStartTime="00:14.094"
+							timeWallClock="15:55:43"
+							time="00:16.535"
+							level="Success"
+							category="Difference images">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_7efee318_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_7efee318_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_7efee317_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_7efee317_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="150"
+								loglvl="Success"
+								itemindex="17">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.646"
+							timeRelativeToTestModuleStartTime="00:14.205"
+							timeWallClock="15:55:44"
+							time="00:16.646"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.TextMeasureType2' at 21;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/element[@name='_channelTypes']/text[@caption='P']"
+								itempath="element[@name='_channelTypes']/text[@caption='P']"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.TextMeasureType2"
+								id="edcfbb30eeed4d2fa46b4247d4d813d3"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="153"
+								itemindex="18"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.143"
+							timeRelativeToTestModuleStartTime="00:14.702"
+							timeWallClock="15:55:44"
+							time="00:17.143"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="19"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="157"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.205"
+							timeRelativeToTestModuleStartTime="00:16.764"
+							timeWallClock="15:55:46"
+							time="00:19.205"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot13' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								itempath="?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								id="cda6440824c64347bdad994a440e5047"
+								timeout="60000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="160"
+								itemindex="20"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.512"
+							timeRelativeToTestModuleStartTime="00:17.071"
+							timeWallClock="15:55:46"
+							time="00:19.512"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_f399e310_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_f399e310_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="161"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.514"
+							timeRelativeToTestModuleStartTime="00:17.073"
+							timeWallClock="15:55:46"
+							time="00:19.514"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'MyTestRepository.VnaNG.BackgroundItem' does match the specified image (similarity actual='0,999998666326799', expected='0,999').
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="161"
+								loglvl="Success"
+								id="cda6440824c64347bdad994a440e5047"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								itemindex="20">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.552"
+							timeRelativeToTestModuleStartTime="00:17.111"
+							timeWallClock="15:55:46"
+							time="00:19.552"
+							level="Success"
+							category="Expected image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_f399e30f_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_f399e30f_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="161"
+								loglvl="Success"
+								itemindex="20">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.562"
+							timeRelativeToTestModuleStartTime="00:17.121"
+							timeWallClock="15:55:46"
+							time="00:19.562"
+							level="Success"
+							category="Actual image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_f399e30e_rxlog.png"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_f399e30e_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								replaceImage="true"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="161"
+								loglvl="Success"
+								itemindex="20">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.580"
+							timeRelativeToTestModuleStartTime="00:17.139"
+							timeWallClock="15:55:46"
+							time="00:19.580"
+							level="Success"
+							category="Difference images">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_f399e30d_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_f399e30d_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_f399e30c_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_f399e30c_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="161"
+								loglvl="Success"
+								itemindex="20">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.684"
+							timeRelativeToTestModuleStartTime="00:17.243"
+							timeWallClock="15:55:47"
+							time="00:19.684"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.ContainerDelegateChannelSetter6' at 9;19.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/list[@name='_channelSelectorRow']/element[@name='_testChannelSetter']/element/container[6]"
+								itempath="list[@name='_channelSelectorRow']/element[@name='_testChannelSetter']/element/container[6]"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.ContainerDelegateChannelSetter6"
+								id="370f152599d2481193831bf5dfc568cb"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="164"
+								itemindex="21"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.162"
+							timeRelativeToTestModuleStartTime="00:17.722"
+							timeWallClock="15:55:47"
+							time="00:20.162"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.ContainerDelegateChannelSetter2' at 10;17.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/list[@name='_channelSelectorRow']/element[@name='_activeChannelSetter']/element/container[6]"
+								itempath="list[@name='_channelSelectorRow']/element[@name='_activeChannelSetter']/element/container[6]"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.ContainerDelegateChannelSetter2"
+								id="279734796cf34b049a22ffbbc914f594"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="168"
+								itemindex="22"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.659"
+							timeRelativeToTestModuleStartTime="00:18.218"
+							timeWallClock="15:55:48"
+							time="00:20.659"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="23"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="172"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.702"
+							timeRelativeToTestModuleStartTime="00:20.261"
+							timeWallClock="15:55:50"
+							time="00:22.702"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot12' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								itempath="?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								id="cda6440824c64347bdad994a440e5047"
+								timeout="60000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="175"
+								itemindex="24"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.013"
+							timeRelativeToTestModuleStartTime="00:20.573"
+							timeWallClock="15:55:50"
+							time="00:23.013"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_f399e30b_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_f399e30b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="176"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.015"
+							timeRelativeToTestModuleStartTime="00:20.575"
+							timeWallClock="15:55:50"
+							time="00:23.015"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'MyTestRepository.VnaNG.BackgroundItem' does match the specified image (similarity actual='0,999997751079865', expected='0,999').
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="176"
+								loglvl="Success"
+								id="cda6440824c64347bdad994a440e5047"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								itemindex="24">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.052"
+							timeRelativeToTestModuleStartTime="00:20.612"
+							timeWallClock="15:55:50"
+							time="00:23.052"
+							level="Success"
+							category="Expected image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_f399e30a_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_f399e30a_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="176"
+								loglvl="Success"
+								itemindex="24">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.062"
+							timeRelativeToTestModuleStartTime="00:20.622"
+							timeWallClock="15:55:50"
+							time="00:23.062"
+							level="Success"
+							category="Actual image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_f399e309_rxlog.png"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_f399e309_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								replaceImage="true"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="176"
+								loglvl="Success"
+								itemindex="24">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.082"
+							timeRelativeToTestModuleStartTime="00:20.642"
+							timeWallClock="15:55:50"
+							time="00:23.082"
+							level="Success"
+							category="Difference images">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_f399e318_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_f399e318_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_f399e317_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_f399e317_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="176"
+								loglvl="Success"
+								itemindex="24">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.192"
+							timeRelativeToTestModuleStartTime="00:20.751"
+							timeWallClock="15:55:50"
+							time="00:23.192"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.TabSelectorToolBar.TextSelectedChannel' at 32;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[7]/element/container[5]/container[@name='_contentTabItemToolBar']//container[@name='_container']/text[@name='_selectedChannel']"
+								itempath="element/container[5]/container[@name='_contentTabItemToolBar']//container[@name='_container']/text[@name='_selectedChannel']"
+								fullname="MyTestRepository.VnaNG.TabSelectorToolBar.TextSelectedChannel"
+								id="a80aeffb4b0c4ac894f9767b85ec807b"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="179"
+								itemindex="25"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.675"
+							timeRelativeToTestModuleStartTime="00:21.234"
+							timeWallClock="15:55:51"
+							time="00:23.675"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.TextMeasureType1' at 25;19.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/element[@name='_channelTypes']/text[@caption='S']"
+								itempath="element[@name='_channelTypes']/text[@caption='S']"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.TextMeasureType1"
+								id="0ca9cf0f1ce7413a95cd9f9565d059fa"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="183"
+								itemindex="26"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.179"
+							timeRelativeToTestModuleStartTime="00:21.739"
+							timeWallClock="15:55:51"
+							time="00:24.179"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot11' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								itempath="?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								id="cda6440824c64347bdad994a440e5047"
+								timeout="60000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="187"
+								itemindex="27"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.549"
+							timeRelativeToTestModuleStartTime="00:22.108"
+							timeWallClock="15:55:51"
+							time="00:24.549"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_c35ce310_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_c35ce310_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="188"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.552"
+							timeRelativeToTestModuleStartTime="00:22.111"
+							timeWallClock="15:55:51"
+							time="00:24.552"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'MyTestRepository.VnaNG.BackgroundItem' does match the specified image (similarity actual='0,999999999965821', expected='0,999').
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="188"
+								loglvl="Success"
+								id="cda6440824c64347bdad994a440e5047"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								itemindex="27">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.585"
+							timeRelativeToTestModuleStartTime="00:22.145"
+							timeWallClock="15:55:51"
+							time="00:24.585"
+							level="Success"
+							category="Expected image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_c35ce30f_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_c35ce30f_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="188"
+								loglvl="Success"
+								itemindex="27">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.596"
+							timeRelativeToTestModuleStartTime="00:22.156"
+							timeWallClock="15:55:51"
+							time="00:24.596"
+							level="Success"
+							category="Actual image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_c35ce30e_rxlog.png"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_c35ce30e_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								replaceImage="true"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="188"
+								loglvl="Success"
+								itemindex="27">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.613"
+							timeRelativeToTestModuleStartTime="00:22.173"
+							timeWallClock="15:55:51"
+							time="00:24.613"
+							level="Success"
+							category="Difference images">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_c35ce30d_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_c35ce30d_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_c35ce30c_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_c35ce30c_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="188"
+								loglvl="Success"
+								itemindex="27">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.725"
+							timeRelativeToTestModuleStartTime="00:22.284"
+							timeWallClock="15:55:52"
+							time="00:24.725"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.TextMeasureType' at 8;21.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/element[@name='_channelTypes']/text[@caption='R']"
+								itempath="element[@name='_channelTypes']/text[@caption='R']"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.TextMeasureType"
+								id="a808a80b1ece454d9115716f745db1db"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="191"
+								itemindex="28"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.226"
+							timeRelativeToTestModuleStartTime="00:22.785"
+							timeWallClock="15:55:52"
+							time="00:25.226"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot10' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								itempath="?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								id="cda6440824c64347bdad994a440e5047"
+								timeout="60000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="195"
+								itemindex="29"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.547"
+							timeRelativeToTestModuleStartTime="00:23.106"
+							timeWallClock="15:55:52"
+							time="00:25.547"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_c35ce30b_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_c35ce30b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="196"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.549"
+							timeRelativeToTestModuleStartTime="00:23.108"
+							timeWallClock="15:55:52"
+							time="00:25.549"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'MyTestRepository.VnaNG.BackgroundItem' does match the specified image (similarity actual='0,999286974742579', expected='0,999').
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="196"
+								loglvl="Success"
+								id="cda6440824c64347bdad994a440e5047"
+								path="/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']/element[@type='ChannelDockedItem']/?/?/element[@type='ChannelView']//element[@type='BackgroundItem']"
+								fullname="MyTestRepository.VnaNG.BackgroundItem"
+								itemindex="29">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.586"
+							timeRelativeToTestModuleStartTime="00:23.145"
+							timeWallClock="15:55:52"
+							time="00:25.586"
+							level="Success"
+							category="Expected image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_c35ce30a_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_c35ce30a_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="196"
+								loglvl="Success"
+								itemindex="29">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.598"
+							timeRelativeToTestModuleStartTime="00:23.157"
+							timeWallClock="15:55:52"
+							time="00:25.598"
+							level="Success"
+							category="Actual image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_c35ce309_rxlog.png"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_c35ce309_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								replaceImage="true"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="196"
+								loglvl="Success"
+								itemindex="29">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.614"
+							timeRelativeToTestModuleStartTime="00:23.173"
+							timeWallClock="15:55:53"
+							time="00:25.614"
+							level="Success"
+							category="Difference images">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_c35ce318_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_c35ce318_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_c35ce317_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_c35ce317_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="196"
+								loglvl="Success"
+								itemindex="29">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.715"
+							timeRelativeToTestModuleStartTime="00:23.275"
+							timeWallClock="15:55:53"
+							time="00:25.715"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'VnaNG.ContainerContentColumn.TextMeasureType3' at 6;20.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']//container[@name='_contentColumn']/element[@name='_channelTypes']/text[@caption='T']"
+								itempath="element[@name='_channelTypes']/text[@caption='T']"
+								fullname="MyTestRepository.VnaNG.ContainerContentColumn.TextMeasureType3"
+								id="d037de50a8a94a7bb6ad29f04a68088f"
+								timeout="90000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="199"
+								itemindex="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.194"
+							timeRelativeToTestModuleStartTime="00:23.753"
+							timeWallClock="15:55:53"
+							time="00:26.194"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=1000,Height=700}) on item 'VnaNG.QQuickOverlay'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']/element[@type='QQuickOverlay']"
+								itempath="element[@type='QQuickOverlay']"
+								fullname="MyTestRepository.VnaNG.QQuickOverlay"
+								id="ae692e7059024578b59ce8a3d2f0da5d"
+								timeout="60000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="203"
+								itemindex="31"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.449"
+							timeRelativeToTestModuleStartTime="00:24.009"
+							timeWallClock="15:55:53"
+							time="00:26.449"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_37f7e310_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_37f7e310_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="204"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.451"
+							timeRelativeToTestModuleStartTime="00:24.011"
+							timeWallClock="15:55:53"
+							time="00:26.451"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'MyTestRepository.VnaNG.QQuickOverlay' does match the specified image (similarity actual='0,999999999038831', expected='0,999').
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="204"
+								loglvl="Success"
+								id="ae692e7059024578b59ce8a3d2f0da5d"
+								path="/form[@title='VnaNG']/element[@type='QQuickOverlay']"
+								fullname="MyTestRepository.VnaNG.QQuickOverlay"
+								itemindex="31">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.492"
+							timeRelativeToTestModuleStartTime="00:24.052"
+							timeWallClock="15:55:53"
+							time="00:26.492"
+							level="Success"
+							category="Expected image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_37f7e30f_rxlog.jpg"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_37f7e30f_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="204"
+								loglvl="Success"
+								itemindex="31">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.507"
+							timeRelativeToTestModuleStartTime="00:24.066"
+							timeWallClock="15:55:53"
+							time="00:26.507"
+							level="Success"
+							category="Actual image"
+							errimg="images_MyTest_2_59c6ab36\MyTest_2_37f7e30e_rxlog.png"
+							errthumb="images_MyTest_2_59c6ab36\MyTest_2_37f7e30e_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								replaceImage="true"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="204"
+								loglvl="Success"
+								itemindex="31">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.543"
+							timeRelativeToTestModuleStartTime="00:24.102"
+							timeWallClock="15:55:53"
+							time="00:26.543"
+							level="Success"
+							category="Difference images">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_37f7e30d_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_37f7e30d_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_59c6ab36\MyTest_2_37f7e30c_rxlog.jpg"><img src="images_MyTest_2_59c6ab36\MyTest_2_37f7e30c_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Trace_Measurement.cs"
+								codeline="204"
+								loglvl="Success"
+								itemindex="31">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="1.16s"
+						durationms="1157"
+						type="teardown-container"
+						rid="495f002d2407122"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="1"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Success"
+							duration="1.15s"
+							durationms="1152"
+							type="test-module"
+							rid="25a3a8522c55790"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="CloseAUT"
+							displayName="CloseAUT"
+							moduleid="089047a2-0337-4064-ae97-8605f8f7ecbc"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="CloseAutProcessIDVar"
+									value="">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:26.651"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="15:55:54"
+								time="00:26.651"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$CloseAutProcessIDVar = ''
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:26.679"
+								timeRelativeToTestModuleStartTime="00:00.028"
+								timeWallClock="15:55:54"
+								time="00:26.679"
+								level="Info"
+								category="Application">
+								<message>
+									Killing application containing item 'VnaNG'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='VnaNG']"
+									itempath="/form[@title='VnaNG']"
+									fullname="MyTestRepository.VnaNG.Self"
+									id="a490e40c693e4fdaad4537a55d99c39a"
+									timeout="30000"
+									codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\CloseAUT.cs"
+									codeline="95"
+									itemindex="0"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:26.766"
+								timeRelativeToTestModuleStartTime="00:00.115"
+								timeWallClock="15:55:54"
+								time="00:26.766"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 1s.
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\CloseAUT.cs"
+									codeline="99"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,19 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value=".\Ranorex.rxsettings" />
+  </Array>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value=".\Ranorex.rxsettings" />
+  </Array>
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>{8B3D02F8-DB79-4529-B2CD-7797C037CBF0}</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution MyTest[MyTest[]]]&#xD;&#xA;Solution MyTest\MyTest\CloseAUT.rxrec&#xD;&#xA;Solution MyTest\MyTest" />
+  <StartupProject value="{8B3D02F8-DB79-4529-B2CD-7797C037CBF0}" />
+</Properties>

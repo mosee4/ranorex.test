@@ -1,0 +1,1010 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7a631161-dd2d-4e90-a4bb-3b59227a92d8"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RunCloseApp"
+	namespace="MyTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="CompareImage"
+		codegenpropertyname="VnaNG_Screenshot21"
+		duration="100ms"
+		enabled="True"
+		imageoptions="0.999;None;0,0,1000,700;True;10000000;0ms;3,607,60,57"
+		imagerect="0,0,1000,700"
+		optional="False"
+		screenshotguid="81c475f8-ea82-4a9c-9ac3-a26fb27bccd0"
+		screenshotname="Screenshot21"
+		searchpropertyid="5dea5e0c-0ad1-4993-b77e-00571dde6efa">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a490e40c-693e-4fda-ad45-37a55d99c39a"
+			sourcename="ElementTree">
+				<element
+				capabilities="qtelement, qtwindow, nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="17"
+				prefcap="form"
+				rect="10,10,1000,700"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						iVBORw0KGgoAAAANSUhEUgAAAA8AAAAMCAYAAAC9QufkAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGgSURBVChTnZHLK0RRHMfNfcydmTsHE4OYDCZk
+GI/yCHk0LJQGeWw8RpQZQkJeUWIlUmrKMwtsLFiJUhYWimxshGwt/AMSeXz9zoyykfCtT/fc8/t9
+zu13btA/0kPIgeXfYg8JZo/0dARefxcjMS6K4tVyCwOtm/y7v4hZEITz4QoDcuJleCtCodFo5j9r
+P8ZKX7uZqTMiLlyEt0SPuDI76LDjz/q30RHZkiTdpVskWMNEGBUNbBFa2KNlyLJ8H2j7SgMxRLSr
+qvrAZ4sxiUiLkZAcJcESpsNseyq2J5yY7M94p75ILvF0EVlEVYlDefM1MnSW6vlsqMlSsOw2ocdl
+w5jHhZPdBRz62villXORZ4QYTTSz526nHlWZCphO8MtmJsBdyLAzUYSznRlcn+7hwOfh8qDfpKYt
+h9Xw4spQUJmuIN8mozhJ65er6SB3gR6bvcnYn6vH0ZIXm30OXtvgbkeB3fCaS79hukbFVLUKZ4oW
+Aol5CTJW3AyLzQyrrSase2IJC9Zag/mNX3A5guDD1xKXxBNxSwwQfJ/XvyEo/APWmIk5X479kQAA
+AABJRU5ErkJggg==
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						VnaNG
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						VNAAppWindow;BasicWindow;QQuickWindow;QWindow;QObject
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						100
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						VNAAppWindow
+					</attribute>
+					<attribute
+					name="appname"
+					type="System.String">
+						VnaNG
+					</attribute>
+					<attribute
+					name="appversion"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="qtversion"
+					type="System.String">
+						5.12.4
+					</attribute>
+					<attribute
+					name="ranorexlibversion"
+					type="System.String">
+						8.3.2.0-qt5_x64_msvc
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Qt5QWindowOwnDCIcon
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						3081944
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						13096
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						VNAApplication
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, ClipChildren, ClipSiblings, Visible, Popup
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						VnaNG
+					</attribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.activeFocusItem property of type QRemoteObject."
+					name="ActiveFocusItem"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.appStatusBarModelLeft property of type QRemoteObject."
+					name="AppStatusBarModelLeft"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.appStatusBarModelRight property of type QRemoteObject."
+					name="AppStatusBarModelRight"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.appTitleBarModel property of type QRemoteObject."
+					name="AppTitleBarModel"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.backgroundColor property of type String."
+					name="BackgroundColor"
+					readonly="False"
+					type="System.String">
+						#2d2d2d
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.color property of type String."
+					name="Color"
+					readonly="False"
+					type="System.String">
+						#2d2d2d
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.content property of type Object."
+					name="Content"
+					type="System.Object">
+						{Qt-RemoteObject:108}
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.contentItem property of type QRemoteObject."
+					name="ContentItem"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.contentOrientation property of type String."
+					name="ContentOrientation"
+					readonly="False"
+					type="System.String">
+						PrimaryOrientation
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.data property of type QRemoteObject."
+					name="Data"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.flags property of type String."
+					name="Flags"
+					readonly="False"
+					type="System.String">
+						Window,FramelessWindowHint,CustomizeWindowHint
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.height property of type Int32."
+					name="Height"
+					readonly="False"
+					type="System.Int32">
+						700
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.leftToolBarArea property of type Object."
+					name="LeftToolBarArea"
+					type="System.Object">
+						{Qt-RemoteObject:123}
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.markerResponseDigitsCount property of type Object."
+					name="MarkerResponseDigitsCount"
+					type="System.Object">
+						{Qt-RemoteObject:307}
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.markerStimulusDigitsCount property of type Object."
+					name="MarkerStimulusDigitsCount"
+					type="System.Object">
+						{Qt-RemoteObject:308}
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.maximumHeight property of type Int32."
+					name="MaximumHeight"
+					readonly="False"
+					type="System.Int32">
+						16777215
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.maximumWidth property of type Int32."
+					name="MaximumWidth"
+					readonly="False"
+					type="System.Int32">
+						16777215
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.minimumHeight property of type Int32."
+					name="MinimumHeight"
+					readonly="False"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.minimumWidth property of type Int32."
+					name="MinimumWidth"
+					readonly="False"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.modality property of type String."
+					name="Modality"
+					readonly="False"
+					type="System.String">
+						NonModal
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.model property of type Object."
+					name="Model"
+					type="System.Object">
+						{Qt-RemoteObject:309}
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+						1
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.rootItem property of type Object."
+					name="RootItem"
+					type="System.Object">
+						{Qt-RemoteObject:310}
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.sideBarArea property of type QRemoteObject."
+					name="SideBarArea"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.statusBar property of type Object."
+					name="StatusBar"
+					type="System.Object">
+						{Qt-RemoteObject:112}
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.titleBar property of type Object."
+					name="TitleBar"
+					type="System.Object">
+						{Qt-RemoteObject:113}
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.topToolBarArea property of type Object."
+					name="TopToolBarArea"
+					type="System.Object">
+						{Qt-RemoteObject:124}
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.visibility property of type Object."
+					name="Visibility"
+					type="System.Object">
+						2
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.width property of type Int32."
+					name="Width"
+					readonly="False"
+					type="System.Int32">
+						1000
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.x property of type Int32."
+					name="X"
+					readonly="False"
+					type="System.Int32">
+						10
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt VNAAppWindow.y property of type Int32."
+					name="Y"
+					readonly="False"
+					type="System.Int32">
+						10
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt VNAAppWindow.alert(int) method."
+					displayName="Alert">
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg0"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.getTopToolBarAreaHeight() method."
+					displayName="GetTopToolBarAreaHeight">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Double">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.hide() method."
+					displayName="Hide">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.leftBarAreaWidthChanged() method."
+					displayName="LeftBarAreaWidthChanged">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.lower() method."
+					displayName="Lower">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.raise() method."
+					displayName="Raise">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.releaseResources() method."
+					displayName="ReleaseResources">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.requestActivate() method."
+					displayName="RequestActivate">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.requestClose() method."
+					displayName="RequestClose">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.requestShowFullScreen() method."
+					displayName="RequestShowFullScreen">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.requestShowMaximized() method."
+					displayName="RequestShowMaximized">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.requestShowMinimized() method."
+					displayName="RequestShowMinimized">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.requestShowNormal() method."
+					displayName="RequestShowNormal">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.requestUpdate() method."
+					displayName="RequestUpdate">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.setGeometry(int,int,int,int) method."
+					displayName="SetGeometry">
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg0"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg1"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg2"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg3"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.setHeight(int) method."
+					displayName="SetHeight">
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg0"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.setMaximumHeight(int) method."
+					displayName="SetMaximumHeight">
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg0"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.setMaximumWidth(int) method."
+					displayName="SetMaximumWidth">
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg0"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.setMinimumHeight(int) method."
+					displayName="SetMinimumHeight">
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg0"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.setMinimumWidth(int) method."
+					displayName="SetMinimumWidth">
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg0"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.setTitle(QString) method."
+					displayName="SetTitle">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.setVisible(bool) method."
+					displayName="SetVisible">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.setWidth(int) method."
+					displayName="SetWidth">
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg0"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.setX(int) method."
+					displayName="SetX">
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg0"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.setY(int) method."
+					displayName="SetY">
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg0"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.show() method."
+					displayName="Show">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.showFullScreen() method."
+					displayName="ShowFullScreen">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.showMaximized() method."
+					displayName="ShowMaximized">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.showMinimized() method."
+					displayName="ShowMinimized">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.showNormal() method."
+					displayName="ShowNormal">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.sideBarAreaWidthChanged() method."
+					displayName="SideBarAreaWidthChanged">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.unDockChildByItem(AnalyzerItem*) method."
+					displayName="UnDockChildByItem">
+						<argument
+						description="A method argument of type Object."
+						displayName="arg0"
+						type="System.Object">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.unDockTableView(TableDelegateModel*) method."
+					displayName="UnDockTableView">
+						<argument
+						description="A method argument of type Object."
+						displayName="arg0"
+						type="System.Object">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt VNAAppWindow.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='VnaNG']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ef049734-6d58-4cf3-afdd-ce74425843a9">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDE8+T+
+9+go8+T+9+gqOilyrsTyx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7
+Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq
+7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0F
+R0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHny
+f3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v
+0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7En
+nyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7B
+yx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0
+Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3
+v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0F
+Hnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Ennyf3v0FHnyf3v0FR0Ucq7Byx7Enny
+f3v0FFR0Ucq7Byx7BRRRTKCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAop/ky/8APJ/++TR5Mv8Azyf/AL5NADKKf5Mv/PJ/
+++TR5Mv/ADyf/vk0AMop/ky/88n/AO+TR5Mv/PJ/++TQAyin+TL/AM8n/wC+TR5Mv/PJ/wDvk0AM
+op/ky/8APJ/++TR5Mv8Azyf/AL5NADKKf5Mv/PJ/++TR5Mv/ADyf/vk0AMop/ky/88n/AO+TR5Mv
+/PJ/++TQAyin+TL/AM8n/wC+TR5Mv/PJ/wDvk0AMop/ky/8APJ/++TR5Mv8Azyf/AL5NADKKf5Mv
+/PJ/++TR5Mv/ADyf/vk0AMop/ky/88n/AO+TR5Mv/PJ/++TQAyin+TL/AM8n/wC+TR5Mv/PJ/wDv
+k0AMop/ky/8APJ/++TR5Mv8Azyf/AL5NADKKf5Mv/PJ/++TR5Mv/ADyf/vk0AMop/ky/88n/AO+T
+R5Mv/PJ/++TQAyin+TL/AM8n/wC+TR5Mv/PJ/wDvk0AMop/ky/8APJ/++TR5Mv8Azyf/AL5NADKK
+f5Mv/PJ/++TR5Mv/ADyf/vk0AMop/ky/88n/AO+TR5Mv/PJ/++TQAyin+TL/AM8n/wC+TR5Mv/PJ
+/wDvk0AMop/ky/8APJ/++TR5Mv8Azyf/AL5NADKKf5Mv/PJ/++TR5Mv/ADyf/vk0AMop/ky/88n/
+AO+TR5Mv/PJ/++TQAyin+TL/AM8n/wC+TR5Mv/PJ/wDvk0AMop/ky/8APJ/++TR5Mv8Azyf/AL5N
+ADKKf5Mv/PJ/++TR5Mv/ADyf/vk0AMop/ky/88n/AO+TR5Mv/PJ/++TQAyin+TL/AM8n/wC+TR5M
+v/PJ/wDvk0AMop/ky/8APJ/++TR5Mv8Azyf/AL5NADKKf5Mv/PJ/++TR5Mv/ADyf/vk0AMop/ky/
+88n/AO+TR5Mv/PJ/++TQAyin+TL/AM8n/wC+TRQBWooooAKKKKACiiigApzdfwFNpzdfwFADaKKK
+ACiiigAooooAKKKKACiiigB38B+optO/gP1FNoAKKKKACiiigAooooAKKKKACnL98fWm05fvj60A
+NooooAKKKKACiiigAooooAKKKKACnHov0ptOPRfpQA2iiigAooooAKKKKACiiigAooooAcOjfSm0
+4dG+lNoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApzdfwFNpzdfwFADaKKKACiiig
+AooooAKKKKACiiigB38B+optO/gP1FNoAKKKKACiiigAooooAKKKKACnL98fWm05fvj60ANooooA
+KKKKACiiigAooooAKKKKACnHov0ptOPRfpQA2iiigAooooAKKKKACiiigAooooAcOjfSm04dG+lN
+oAKKKKACiiigAooooAKKKKACiiigAop24+35Cjcfb8hQA2inbj7fkKNx9vyFADaKduPt+Qo3H2/I
+UANpzdfwFG4+35ClZjnt0HagBlFO3H2/IUbj7fkKAG0U7cfb8hRuPt+QoAbRTtx9vyFG4+35CgBt
+FO3H2/IUbj7fkKAG0U7cfb8hRuPt+QoAP4D9RTafuO09OvpSbj7fkKAG0U7cfb8hRuPt+QoAbRTt
+x9vyFG4+35CgBtFO3H2/IUbj7fkKAG0U7cfb8hRuPt+QoAbTl++PrRuPt+QpVY7h06+lADKKduPt
++Qo3H2/IUANop24+35Cjcfb8hQA2inbj7fkKNx9vyFADaKduPt+Qo3H2/IUANop24+35Cjcfb8hQ
+A2nHov0o3H2/IUpY4HTp6UAMop24+35Cjcfb8hQA2inbj7fkKNx9vyFADaKduPt+Qo3H2/IUANop
+24+35Cjcfb8hQA2inbj7fkKNx9vyFAAOjfSm08McHp09KTcfb8hQA2inbj7fkKNx9vyFADaKduPt
++Qo3H2/IUANop24+35Cjcfb8hQA2inbj7fkKNx9vyFADaKduPt+QooAbRRRQAUUUUAFFFFABTm6/
+gKbTm6/gKAG0UUUAFFFFABRRRQAUUUUAFFFFADv4D9RTad/AfqKbQAUUUUAFFFFABRRRQAUUUUAF
+OX74+tNpy/fH1oAbRRRQAUUUUAFFFFABRRRQAUUUUAFOPRfpTacei/SgBtFFFABRRRQAUUUUAFFF
+FABRRRQA4dG+lNpw6N9KbQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABTm6/gKbTm6
+/gKAG0UUUAFFFFABRRRQAUUUUAFFFFADv4D9RTad/AfqKbQAUUUUAFFFFABRRRQAUUUUAFOX74+t
+Npy/fH1oAbRRRQAUUUUAFFFFABRRRQAUUUUAFOPRfpTacei/SgBtFFFABRRRQAUUUUAFFFFABRRR
+QA4dG+lNpw6N9KbQAUUUUAFFFFABRRRQAUUUUAFFFFADvl9T+VHy+p/Km0UAO+X1P5UfL6n8qbRQ
+A75fU/lR8vqfyptFADvl9T+VK23PU9B2plObr+AoAPl9T+VHy+p/Km0UAO+X1P5UfL6n8qbRQA75
+fU/lR8vqfyptFADvl9T+VHy+p/Km0UAO+X1P5UfL6n8qbRQA/wCXaeT19KT5fU/lR/AfqKbQA75f
+U/lR8vqfyptFADvl9T+VHy+p/Km0UAO+X1P5UfL6n8qbRQA75fU/lR8vqfyptFADvl9T+VKu3cOT
+19KZTl++PrQAfL6n8qPl9T+VNooAd8vqfyo+X1P5U2igB3y+p/Kj5fU/lTaKAHfL6n8qPl9T+VNo
+oAd8vqfyo+X1P5U2igB3y+p/KlO3A5PT0plOPRfpQAfL6n8qPl9T+VNooAd8vqfyo+X1P5U2igB3
+y+p/Kj5fU/lTaKAHfL6n8qPl9T+VNooAd8vqfyo+X1P5U2igB424PJ6elJ8vqfyoHRvpTaAHfL6n
+8qPl9T+VNooAd8vqfyo+X1P5U2igB3y+p/Kj5fU/lTaKAHfL6n8qPl9T+VNooAd8vqfyoptFABRR
+RQAUUUUAFFFFABTm6/gKbTm6/gKAG0UUUAFFFFABRRRQAUUUUAFFFFADv4D9RTad/AfqKbQAUUUU
+AFFFFABRRRQAUUUUAFOX74+tNpy/fH1oAbRRRQAUUUUAFFFFABRRRQAUUUUAFOPRfpTacei/SgBt
+FFFABRRRQAUUUUAFFFFABRRRQA4dG+lNpw6N9KbQAUUUUAFFFFABRRRQAUUUUAFFFFABRTtrf3T+
+VG1v7p/KgBtFO2t/dP5UbW/un8qAG0U7a390/lRtb+6fyoAbTm6/gKNrf3T+VKytnoeg7UAMop21
+v7p/Kja390/lQA2inbW/un8qNrf3T+VADaKdtb+6fyo2t/dP5UANop21v7p/Kja390/lQA2inbW/
+un8qNrf3T+VAB/AfqKbT9rbTwevpSbW/un8qAG0U7a390/lRtb+6fyoAbRTtrf3T+VG1v7p/KgBt
+FO2t/dP5UbW/un8qAG0U7a390/lRtb+6fyoAbTl++PrRtb+6fypVVtw4PX0oAZRTtrf3T+VG1v7p
+/KgBtFO2t/dP5UbW/un8qAG0U7a390/lRtb+6fyoAbRTtrf3T+VG1v7p/KgBtFO2t/dP5UbW/un8
+qAG049F+lG1v7p/KlKtgcHp6UAMop21v7p/Kja390/lQA2inbW/un8qNrf3T+VADaKdtb+6fyo2t
+/dP5UANop21v7p/Kja390/lQA2inbW/un8qNrf3T+VAAOjfSm08K2DwenpSbW/un8qAG0U7a390/
+lRtb+6fyoAbRTtrf3T+VG1v7p/KgBtFO2t/dP5UbW/un8qAG0U7a390/lRtb+6fyoAbRTtrf3T+V
+FADaKKKACiiigAooooAKc3X8BTac3X8BQA2iiigAooooAKKKKACiiigAooooAd/AfqKbTv4D9RTa
+ACiiigAooooAKKKKACiiigApy/fH1ptOX74+tADaKKKACiiigAooooAKKKKACiiigApx6L9KbTj0
+X6UANooooAKKKKACiiigAooooAKKKKAHDo30ptOHRvpTaACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKc3X8BTac3X8BQA2iiigAooooAKKKKACiiigAooooAd/AfqKbTv4D9RTaACiiig
+AooooAKKKKACiiigApy/fH1ptOX74+tADaKKKACiiigAooooAKKKKACiiigApx6L9KbTj0X6UANo
+oooAKKKKACiiigAooooAKKKKAHDo30ptOHRvpTaACiiigAooooAKKKKACiiigAooooAKKduPt+Qo
+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
+/un8qAG0U7a390/lRtb+6fyoAbTm6/gKNrf3T+VKytnoeg7UAMop21v7p/Kja390/lQA2inbW/un
+8qNrf3T+VADaKdtb+6fyo2t/dP5UANop21v7p/Kja390/lQA2inbW/un8qNrf3T+VAB/AfqKbT9r
+bTwevpSbW/un8qAG0U7a390/lRtb+6fyoAbRTtrf3T+VG1v7p/KgBtFO2t/dP5UbW/un8qAG0U7a
+390/lRtb+6fyoAbTl++PrRtb+6fypVVtw4PX0oAZRTtrf3T+VG1v7p/KgBtFO2t/dP5UbW/un8qA
+G0U7a390/lRtb+6fyoAbRTtrf3T+VG1v7p/KgBtFO2t/dP5UbW/un8qAG049F+lG1v7p/KlKtgcH
+p6UAMop21v7p/Kja390/lQA2inbW/un8qNrf3T+VADaKdtb+6fyo2t/dP5UANop21v7p/Kja390/
+lQA2inbW/un8qNrf3T+VAAOjfSm08K2DwenpSbW/un8qAG0U7a390/lRtb+6fyoAbRTtrf3T+VG1
+v7p/KgBtFO2t/dP5UbW/un8qAG0U7a390/lRtb+6fyoAbRTtrf3T+VFADaKKKACiiigAooooAKc3
+X8BTac3X8BQA2iiigAooooAKKKKACiiigAooooAd/AfqKbTv4D9RTaACiiigAooooAKKKKACiiig
+Apy/fH1ptOX74+tADaKKKACiiigAooooAKKKKACiiigApx6L9KbTj0X6UANooooAKKKKACiiigAo
+oooAKKKKAHDo30ptOHRvpTaACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKc3X8BTac
+3X8BQA2iiigAooooAKKKKACiiigAooooAd/AfqKbTv4D9RTaACiiigAooooAKKKKACiiigApy/fH
+1ptOX74+tADaKKKACiiigAooooAKKKKACiiigApx6L9KbTj0X6UANooooAKKKKACiiigAooooAKK
+KKAHDo30ptOHRvpTaACiiigAooooAKKKKACiiigAooooAKKsZj/54p+bf40Zj/54p+bf40AV6KsZ
+j/54p+bf40Zj/wCeKfm3+NAFeirGY/8Anin5t/jR8hGfITj3b/GgCvTm6/gKn2jbu+zrt9fmx/Og
+7cjMC5PT73+NAFairGUH/LFPzb/GjMf/ADxT82/xoAr0VYzH/wA8U/Nv8aMx/wDPFPzb/GgCvRVj
+Mf8AzxT82/xozH/zxT82/wAaAK9FWMx/88U/Nv8AGjMf/PFPzb/GgCvRVldrHCwKT6Dd/jQAGOFt
+1J9Bu/xoAg/gP1FNqz8oBBgUY6/e/wAaT5AM+QnPu3+NAFeirGY/+eKfm3+NGY/+eKfm3+NAFeir
+GY/+eKfm3+NGY/8Anin5t/jQBXoqxmP/AJ4p+bf40Zj/AOeKfm3+NAFeirGY/wDnin5t/jRlP+eK
+fm3+NAFenL98fWp2AXG63UZ6Z3f40pXaRm2Az0zu/wAaAKtFWPl5/cLx15b/ABozH/zxT82/xoAr
+0VYzH/zxT82/xozH/wA8U/Nv8aAK9FWMx/8APFPzb/GjMf8AzxT82/xoAr0VYzH/AM8U/Nv8aMx/
+88U/Nv8AGgCvRVjMf/PFPzb/ABpflyB5C89Pvc/rQBWpx6L9KnwN237Ou70+bP8AOlIAO1rdQQOh
+3f40AVaKsfJjPkJj1y3+NGY/+eKfm3+NAFeirGY/+eKfm3+NGY/+eKfm3+NAFeirGY/+eKfm3+NG
+Y/8Anin5t/jQBXoqxmP/AJ4p+bf40Zj/AOeKfm3+NAFeirA2HOIE468t/jS4AXd9nXb6/Nj+dAEA
+6N9KbVrACbvs67T3+bH86T5c48hcnt83+NAFairGU/54p+bf40Zj/wCeKfm3+NAFeirGY/8Anin5
+t/jRmP8A54p+bf40AV6KsZj/AOeKfm3+NGY/+eKfm3+NAFeirGY/+eKfm3+NGU/54p+bf40AV6Ks
+EoDgwID9W/xooAbRRRQAUUUUAFWF2+QwDr0BPBqvRQBY2MzlgSFxwwGRQSnmR5VicDkN/wDWqvRQ
+BYdXEbfu8gnrs6D61XoooAKKKKACiiigAooooAlh5VgF3H0pzLuDKmSd3IHJqCigCwwCq+8s3A9i
+P50qjcqGNCQAcggN/Sq1FACuCHO5dp9MYpKKKACiiigAooooAKVPvrzjmkooAtEBSuQV+Y/e7+9N
+VGUZYsPmHBHB+hqvRQBYGwtIFVt2D1Of6UydXAAZMY77cZqKigAooooAKKKKACiiigAHBqxuLNGS
+fmKED681XooAsYOAnSTZjHfr0/KlRdm3cW+63ykYI4qtRQBPGA0eIlIO4few3Y+1RzBt/KFPT5cZ
+plFABRRRQAUUUUAFFFFAEsbHyZF7Yz+opzK6IWdWJYDPHAFQUUAWCjF5HyQpBw2Mgj0zSgp9oTKt
+u+Xndx0+lVqKAJnVxCMx8Hnds6D61DRRQAUUUUAFFFFABTo2KuCvWm0UASSgGZ8sB8x7UVHRQBJt
+X0pGUBeBRRQAypNq+lFFABtX0o2r6UUUAG1fSjavpRRQAbV9KNq+lFFABtX0o2r6UUUAG1fSjavp
+RRQAbV9KNq+lFFABtX0o2r6UUUAR09VBXkUUUALtX0o2r6UUUAG1fSjavpRRQA11AHFNHUUUUASb
+V9KNq+lFFABtX0o2r6UUUAIVGDxTKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q==
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="5885ebbf-970a-49f4-8cd6-c773d19e6f65"
+	name="MyTestRepository"
+	relativepath="MyTestRepository.rxrep">
+		<codegen
+		classname="MyTestRepository"
+		namespace="MyTest">
+		</codegen>
+		<rootfolder
+		id="8accd565-6a33-4cfa-8495-e28ee449d26e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RunCloseApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
