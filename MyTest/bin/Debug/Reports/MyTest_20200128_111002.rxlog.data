@@ -1,0 +1,1726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="32.88s"
+		durationms="32879"
+		type="root"
+		rid="68751176abdfdaa"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="vitaliy.moseev"
+		rxversion="9.2.0.0"
+		host="KC0000136"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="ru-RU"
+		dtnlanguage="ru-RU"
+		screenresolution="1920x1080"
+		timestamp="28.01.2020 11:10:02"
+		timestampiso="2020-01-28T06:10:02"
+		endtime="28.01.2020 11:10:35"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="29.26s"
+			durationms="29260"
+			type="test-suite"
+			rid="754d46aee1684ae"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyTest"
+			headertext="MyTest"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Success"
+				duration="29.24s"
+				durationms="29240"
+				type="test-case"
+				rid="286f9d3c1cf4574"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="3"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase0007_Calibrate_POWER"
+				testcontainerid="00b54c3d-ea96-49be-adab-1c5ca45585eb"
+				headertext="TestCase0007_Calibrate_POWER"
+				displayName="TestCase0007_Calibrate_POWER"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<activity
+					result="Success"
+					duration="2.42s"
+					durationms="2424"
+					type="setup-container"
+					rid="2d4a1eb2aa64939e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="2.4s"
+						durationms="2404"
+						type="test-module"
+						rid="3639fce9d89b500"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="StartAUT"
+						displayName="StartAUT"
+						moduleid="19947001-dc33-4256-b70f-a10d38fc80ed"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="StartAutProcessIDVar"
+								value="">
+							</varbinding>
+							<varbinding
+								name="NewVariable"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.046"
+							timeRelativeToTestModuleStartTime="00:00.006"
+							timeWallClock="11:10:06"
+							time="00:00.046"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$StartAutProcessIDVar = '', $NewVariable = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.093"
+							timeRelativeToTestModuleStartTime="00:00.053"
+							timeWallClock="11:10:06"
+							time="00:00.093"
+							level="Info"
+							category="Application">
+							<message>
+								Run application 'C:\Users\vitaliy.moseev\Desktop\123\soft\_bin\VNAApplication.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\StartAUT.cs"
+								codeline="108"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.405"
+							timeRelativeToTestModuleStartTime="00:00.366"
+							timeWallClock="11:10:06"
+							time="00:00.405"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\StartAUT.cs"
+								codeline="112"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="25.65s"
+					durationms="25653"
+					type="test-module"
+					rid="16980f22d7e466a2"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Calibrate_power"
+					displayName="Calibrate_power"
+					moduleid="ec5125c0-8143-4085-8522-6edd8889740f"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="NewVariable"
+							value="">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.448"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="11:10:08"
+						time="00:02.448"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$NewVariable = ''
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.487"
+						timeRelativeToTestModuleStartTime="00:00.039"
+						timeWallClock="11:10:08"
+						time="00:02.487"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 958;355.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="95"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.848"
+						timeRelativeToTestModuleStartTime="00:02.401"
+						timeWallClock="11:10:10"
+						time="00:04.848"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 805;205.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="99"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.382"
+						timeRelativeToTestModuleStartTime="00:02.935"
+						timeWallClock="11:10:11"
+						time="00:05.382"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 879;201.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="103"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.231"
+						timeRelativeToTestModuleStartTime="00:03.784"
+						timeWallClock="11:10:12"
+						time="00:06.231"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 3s.
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="107"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.272"
+						timeRelativeToTestModuleStartTime="00:06.825"
+						timeWallClock="11:10:15"
+						time="00:09.272"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating CompareImage (Screenshot: 'Screenshot15' with region {X=0,Y=0,Width=1000,Height=700}) on item 'VnaNG'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="110"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.589"
+						timeRelativeToTestModuleStartTime="00:07.141"
+						timeWallClock="11:10:15"
+						time="00:09.589"
+						level="Info"
+						category="Screenshot"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_b28f7aea_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_b28f7aea_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="111"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.590"
+						timeRelativeToTestModuleStartTime="00:07.142"
+						timeWallClock="11:10:15"
+						time="00:09.590"
+						level="Success"
+						category="Validation">
+						<message>
+							Screenshot of item 'MyTestRepository.VnaNG.Self' does match the specified image (similarity actual='0,999667242351843', expected='0,999').
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="111"
+							loglvl="Success"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							path="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.634"
+						timeRelativeToTestModuleStartTime="00:07.186"
+						timeWallClock="11:10:15"
+						time="00:09.634"
+						level="Success"
+						category="Expected image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_3df47aea_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_3df47aea_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="111"
+							loglvl="Success"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.649"
+						timeRelativeToTestModuleStartTime="00:07.201"
+						timeWallClock="11:10:15"
+						time="00:09.649"
+						level="Success"
+						category="Actual image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_c9597aea_rxlog.png"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_c9597aea_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							replaceImage="true"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="111"
+							loglvl="Success"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.685"
+						timeRelativeToTestModuleStartTime="00:07.237"
+						timeWallClock="11:10:15"
+						time="00:09.685"
+						level="Success"
+						category="Difference images">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_54be7aea_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_54be7aea_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_e0237aea_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_e0237aea_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="111"
+							loglvl="Success"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.789"
+						timeRelativeToTestModuleStartTime="00:07.341"
+						timeWallClock="11:10:15"
+						time="00:09.789"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 886;251.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="114"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.232"
+						timeRelativeToTestModuleStartTime="00:07.785"
+						timeWallClock="11:10:16"
+						time="00:10.232"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating CompareImage (Screenshot: 'Screenshot16' with region {X=0,Y=0,Width=1000,Height=700}) on item 'VnaNG'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="118"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.554"
+						timeRelativeToTestModuleStartTime="00:08.107"
+						timeWallClock="11:10:16"
+						time="00:10.554"
+						level="Info"
+						category="Screenshot"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_6b887aea_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_6b887aea_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="119"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.555"
+						timeRelativeToTestModuleStartTime="00:08.108"
+						timeWallClock="11:10:16"
+						time="00:10.555"
+						level="Success"
+						category="Validation">
+						<message>
+							Screenshot of item 'MyTestRepository.VnaNG.Self' does match the specified image (similarity actual='0,999687990547592', expected='0,999').
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="119"
+							loglvl="Success"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							path="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							itemindex="6">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.596"
+						timeRelativeToTestModuleStartTime="00:08.148"
+						timeWallClock="11:10:16"
+						time="00:10.596"
+						level="Success"
+						category="Expected image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_f6ed7aea_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_f6ed7aea_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="119"
+							loglvl="Success"
+							itemindex="6">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.613"
+						timeRelativeToTestModuleStartTime="00:08.165"
+						timeWallClock="11:10:16"
+						time="00:10.613"
+						level="Success"
+						category="Actual image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_82527aea_rxlog.png"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_82527aea_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							replaceImage="true"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="119"
+							loglvl="Success"
+							itemindex="6">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.651"
+						timeRelativeToTestModuleStartTime="00:08.203"
+						timeWallClock="11:10:16"
+						time="00:10.651"
+						level="Success"
+						category="Difference images">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_db77aea_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_db77aea_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_991c7aea_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_991c7aea_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="119"
+							loglvl="Success"
+							itemindex="6">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.755"
+						timeRelativeToTestModuleStartTime="00:08.307"
+						timeWallClock="11:10:16"
+						time="00:10.755"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 958;408.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="122"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.181"
+						timeRelativeToTestModuleStartTime="00:08.734"
+						timeWallClock="11:10:17"
+						time="00:11.181"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 972;371.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="126"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.597"
+						timeRelativeToTestModuleStartTime="00:09.150"
+						timeWallClock="11:10:17"
+						time="00:11.597"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 894;206.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="130"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.031"
+						timeRelativeToTestModuleStartTime="00:09.583"
+						timeWallClock="11:10:18"
+						time="00:12.031"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 3s.
+						</message>
+						<metainfo
+							itemindex="10"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="134"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.066"
+						timeRelativeToTestModuleStartTime="00:12.618"
+						timeWallClock="11:10:21"
+						time="00:15.066"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating CompareImage (Screenshot: 'Screenshot17' with region {X=0,Y=0,Width=1000,Height=700}) on item 'VnaNG'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="137"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.319"
+						timeRelativeToTestModuleStartTime="00:12.872"
+						timeWallClock="11:10:21"
+						time="00:15.319"
+						level="Info"
+						category="Screenshot"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_560567ba_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_560567ba_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="138"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.321"
+						timeRelativeToTestModuleStartTime="00:12.874"
+						timeWallClock="11:10:21"
+						time="00:15.321"
+						level="Success"
+						category="Validation">
+						<message>
+							Screenshot of item 'MyTestRepository.VnaNG.Self' does match the specified image (similarity actual='0,999667242351843', expected='0,999').
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="138"
+							loglvl="Success"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							path="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							itemindex="11">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.368"
+						timeRelativeToTestModuleStartTime="00:12.921"
+						timeWallClock="11:10:21"
+						time="00:15.368"
+						level="Success"
+						category="Expected image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_560567b9_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_560567b9_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="138"
+							loglvl="Success"
+							itemindex="11">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.379"
+						timeRelativeToTestModuleStartTime="00:12.932"
+						timeWallClock="11:10:21"
+						time="00:15.379"
+						level="Success"
+						category="Actual image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_560567bc_rxlog.png"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_560567bc_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							replaceImage="true"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="138"
+							loglvl="Success"
+							itemindex="11">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.412"
+						timeRelativeToTestModuleStartTime="00:12.964"
+						timeWallClock="11:10:21"
+						time="00:15.412"
+						level="Success"
+						category="Difference images">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_560567bb_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_560567bb_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_560567b6_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_560567b6_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="138"
+							loglvl="Success"
+							itemindex="11">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.526"
+						timeRelativeToTestModuleStartTime="00:13.079"
+						timeWallClock="11:10:21"
+						time="00:15.526"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 884;253.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="141"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.951"
+						timeRelativeToTestModuleStartTime="00:13.504"
+						timeWallClock="11:10:22"
+						time="00:15.951"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating CompareImage (Screenshot: 'MyTest_2_f09d85a1_rxlog1' with region {X=0,Y=0,Width=1000,Height=700}) on item 'VnaNG'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="145"
+							itemindex="13"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.287"
+						timeRelativeToTestModuleStartTime="00:13.839"
+						timeWallClock="11:10:22"
+						time="00:16.287"
+						level="Info"
+						category="Screenshot"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_560567b5_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_560567b5_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="146"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.289"
+						timeRelativeToTestModuleStartTime="00:13.841"
+						timeWallClock="11:10:22"
+						time="00:16.289"
+						level="Success"
+						category="Validation">
+						<message>
+							Screenshot of item 'MyTestRepository.VnaNG.Self' does match the specified image (similarity actual='0,999999998401714', expected='0,999').
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="146"
+							loglvl="Success"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							path="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							itemindex="13">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.335"
+						timeRelativeToTestModuleStartTime="00:13.888"
+						timeWallClock="11:10:22"
+						time="00:16.335"
+						level="Success"
+						category="Expected image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_560567b8_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_560567b8_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="146"
+							loglvl="Success"
+							itemindex="13">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.347"
+						timeRelativeToTestModuleStartTime="00:13.900"
+						timeWallClock="11:10:22"
+						time="00:16.347"
+						level="Success"
+						category="Actual image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_560567b7_rxlog.png"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_560567b7_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							replaceImage="true"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="146"
+							loglvl="Success"
+							itemindex="13">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.385"
+						timeRelativeToTestModuleStartTime="00:13.938"
+						timeWallClock="11:10:22"
+						time="00:16.385"
+						level="Success"
+						category="Difference images">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_560567c2_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_560567c2_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_560567c1_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_560567c1_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="146"
+							loglvl="Success"
+							itemindex="13">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.488"
+						timeRelativeToTestModuleStartTime="00:14.041"
+						timeWallClock="11:10:22"
+						time="00:16.488"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 961;405.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="149"
+							itemindex="14"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.914"
+						timeRelativeToTestModuleStartTime="00:14.467"
+						timeWallClock="11:10:23"
+						time="00:16.914"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 955;446.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="153"
+							itemindex="15"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.348"
+						timeRelativeToTestModuleStartTime="00:14.901"
+						timeWallClock="11:10:23"
+						time="00:17.348"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 892;210.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="157"
+							itemindex="16"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.781"
+						timeRelativeToTestModuleStartTime="00:15.334"
+						timeWallClock="11:10:23"
+						time="00:17.781"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 3s.
+						</message>
+						<metainfo
+							itemindex="17"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="161"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.818"
+						timeRelativeToTestModuleStartTime="00:18.371"
+						timeWallClock="11:10:26"
+						time="00:20.818"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating CompareImage (Screenshot: 'Screenshot18' with region {X=0,Y=0,Width=1000,Height=700}) on item 'VnaNG'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="164"
+							itemindex="18"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.087"
+						timeRelativeToTestModuleStartTime="00:18.639"
+						timeWallClock="11:10:27"
+						time="00:21.087"
+						level="Info"
+						category="Screenshot"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67ba_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67ba_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="165"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.089"
+						timeRelativeToTestModuleStartTime="00:18.641"
+						timeWallClock="11:10:27"
+						time="00:21.089"
+						level="Success"
+						category="Validation">
+						<message>
+							Screenshot of item 'MyTestRepository.VnaNG.Self' does match the specified image (similarity actual='0,99966432811556', expected='0,999').
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="165"
+							loglvl="Success"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							path="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							itemindex="18">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.135"
+						timeRelativeToTestModuleStartTime="00:18.687"
+						timeWallClock="11:10:27"
+						time="00:21.135"
+						level="Success"
+						category="Expected image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67b9_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67b9_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="165"
+							loglvl="Success"
+							itemindex="18">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.149"
+						timeRelativeToTestModuleStartTime="00:18.701"
+						timeWallClock="11:10:27"
+						time="00:21.149"
+						level="Success"
+						category="Actual image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67bc_rxlog.png"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67bc_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							replaceImage="true"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="165"
+							loglvl="Success"
+							itemindex="18">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.183"
+						timeRelativeToTestModuleStartTime="00:18.735"
+						timeWallClock="11:10:27"
+						time="00:21.183"
+						level="Success"
+						category="Difference images">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67bb_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67bb_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67b6_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67b6_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="165"
+							loglvl="Success"
+							itemindex="18">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.294"
+						timeRelativeToTestModuleStartTime="00:18.846"
+						timeWallClock="11:10:27"
+						time="00:21.294"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 902;248.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="168"
+							itemindex="19"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.732"
+						timeRelativeToTestModuleStartTime="00:19.284"
+						timeWallClock="11:10:27"
+						time="00:21.732"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating CompareImage (Screenshot: 'MyTest_2_92cc85a1_rxlog1' with region {X=0,Y=0,Width=1000,Height=700}) on item 'VnaNG'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="172"
+							itemindex="20"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.089"
+						timeRelativeToTestModuleStartTime="00:19.642"
+						timeWallClock="11:10:28"
+						time="00:22.089"
+						level="Info"
+						category="Screenshot"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67b5_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67b5_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="173"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.092"
+						timeRelativeToTestModuleStartTime="00:19.645"
+						timeWallClock="11:10:28"
+						time="00:22.092"
+						level="Success"
+						category="Validation">
+						<message>
+							Screenshot of item 'MyTestRepository.VnaNG.Self' does match the specified image (similarity actual='0,999999998434668', expected='0,999').
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="173"
+							loglvl="Success"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							path="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							itemindex="20">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.133"
+						timeRelativeToTestModuleStartTime="00:19.685"
+						timeWallClock="11:10:28"
+						time="00:22.133"
+						level="Success"
+						category="Expected image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67b8_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67b8_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="173"
+							loglvl="Success"
+							itemindex="20">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.147"
+						timeRelativeToTestModuleStartTime="00:19.699"
+						timeWallClock="11:10:28"
+						time="00:22.147"
+						level="Success"
+						category="Actual image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67b7_rxlog.png"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67b7_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							replaceImage="true"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="173"
+							loglvl="Success"
+							itemindex="20">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.181"
+						timeRelativeToTestModuleStartTime="00:19.733"
+						timeWallClock="11:10:28"
+						time="00:22.181"
+						level="Success"
+						category="Difference images">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67c2_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67c2_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67c1_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_e16a67c1_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="173"
+							loglvl="Success"
+							itemindex="20">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.293"
+						timeRelativeToTestModuleStartTime="00:19.845"
+						timeWallClock="11:10:28"
+						time="00:22.293"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 970;447.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="176"
+							itemindex="21"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.700"
+						timeRelativeToTestModuleStartTime="00:20.252"
+						timeWallClock="11:10:28"
+						time="00:22.700"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 959;480.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="180"
+							itemindex="22"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.132"
+						timeRelativeToTestModuleStartTime="00:20.684"
+						timeWallClock="11:10:29"
+						time="00:23.132"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 833;212.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="184"
+							itemindex="23"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.564"
+						timeRelativeToTestModuleStartTime="00:21.116"
+						timeWallClock="11:10:29"
+						time="00:23.564"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 3s.
+						</message>
+						<metainfo
+							itemindex="24"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="188"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.602"
+						timeRelativeToTestModuleStartTime="00:24.154"
+						timeWallClock="11:10:32"
+						time="00:26.602"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating CompareImage (Screenshot: 'Screenshot19' with region {X=0,Y=0,Width=1000,Height=700}) on item 'VnaNG'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="191"
+							itemindex="25"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.870"
+						timeRelativeToTestModuleStartTime="00:24.422"
+						timeWallClock="11:10:33"
+						time="00:26.870"
+						level="Info"
+						category="Screenshot"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67ba_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67ba_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="192"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.873"
+						timeRelativeToTestModuleStartTime="00:24.425"
+						timeWallClock="11:10:33"
+						time="00:26.873"
+						level="Success"
+						category="Validation">
+						<message>
+							Screenshot of item 'MyTestRepository.VnaNG.Self' does match the specified image (similarity actual='0,999666873795793', expected='0,999').
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="192"
+							loglvl="Success"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							path="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							itemindex="25">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.914"
+						timeRelativeToTestModuleStartTime="00:24.467"
+						timeWallClock="11:10:33"
+						time="00:26.914"
+						level="Success"
+						category="Expected image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67b9_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67b9_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="192"
+							loglvl="Success"
+							itemindex="25">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.932"
+						timeRelativeToTestModuleStartTime="00:24.485"
+						timeWallClock="11:10:33"
+						time="00:26.932"
+						level="Success"
+						category="Actual image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67bc_rxlog.png"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67bc_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							replaceImage="true"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="192"
+							loglvl="Success"
+							itemindex="25">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.966"
+						timeRelativeToTestModuleStartTime="00:24.519"
+						timeWallClock="11:10:33"
+						time="00:26.966"
+						level="Success"
+						category="Difference images">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67bb_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67bb_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67b6_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67b6_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="192"
+							loglvl="Success"
+							itemindex="25">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.078"
+						timeRelativeToTestModuleStartTime="00:24.630"
+						timeWallClock="11:10:33"
+						time="00:27.078"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'VnaNG' at 892;250.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="195"
+							itemindex="26"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.515"
+						timeRelativeToTestModuleStartTime="00:25.068"
+						timeWallClock="11:10:33"
+						time="00:27.515"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating CompareImage (Screenshot: 'Screenshot20' with region {X=0,Y=0,Width=1000,Height=700}) on item 'VnaNG'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='VnaNG']"
+							itempath="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							timeout="30000"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="199"
+							itemindex="27"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.897"
+						timeRelativeToTestModuleStartTime="00:25.450"
+						timeWallClock="11:10:34"
+						time="00:27.897"
+						level="Info"
+						category="Screenshot"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67b5_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67b5_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="200"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.900"
+						timeRelativeToTestModuleStartTime="00:25.453"
+						timeWallClock="11:10:34"
+						time="00:27.900"
+						level="Success"
+						category="Validation">
+						<message>
+							Screenshot of item 'MyTestRepository.VnaNG.Self' does match the specified image (similarity actual='0,999687990618993', expected='0,999').
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="200"
+							loglvl="Success"
+							id="a490e40c693e4fdaad4537a55d99c39a"
+							path="/form[@title='VnaNG']"
+							fullname="MyTestRepository.VnaNG.Self"
+							itemindex="27">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.951"
+						timeRelativeToTestModuleStartTime="00:25.504"
+						timeWallClock="11:10:34"
+						time="00:27.951"
+						level="Success"
+						category="Expected image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67b8_rxlog.jpg"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67b8_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="200"
+							loglvl="Success"
+							itemindex="27">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.963"
+						timeRelativeToTestModuleStartTime="00:25.516"
+						timeWallClock="11:10:34"
+						time="00:27.963"
+						level="Success"
+						category="Actual image"
+						errimg="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67b7_rxlog.png"
+						errthumb="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67b7_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							replaceImage="true"
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="200"
+							loglvl="Success"
+							itemindex="27">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.998"
+						timeRelativeToTestModuleStartTime="00:25.551"
+						timeWallClock="11:10:34"
+						time="00:27.998"
+						level="Success"
+						category="Difference images">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67c2_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67c2_rxlog_thumb.jpg" alt="Screenshot"/></a><a class="thickbox" style="padding-right:8px" rel="module" href="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67c1_rxlog.jpg"><img src="images_MyTest_2_2d5cd8c8\MyTest_2_6ccf67c1_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Calibrate_power.cs"
+							codeline="200"
+							loglvl="Success"
+							itemindex="27">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="1.15s"
+					durationms="1154"
+					type="teardown-container"
+					rid="856acf63c6412"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="1.15s"
+						durationms="1154"
+						type="test-module"
+						rid="eb4603f911d5555"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseAUT"
+						displayName="CloseAUT"
+						moduleid="089047a2-0337-4064-ae97-8605f8f7ecbc"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="CloseAutProcessIDVar"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.107"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="11:10:34"
+							time="00:28.107"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$CloseAutProcessIDVar = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.138"
+							timeRelativeToTestModuleStartTime="00:00.034"
+							timeWallClock="11:10:34"
+							time="00:28.138"
+							level="Info"
+							category="Application">
+							<message>
+								Killing application containing item 'VnaNG'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='VnaNG']"
+								itempath="/form[@title='VnaNG']"
+								fullname="MyTestRepository.VnaNG.Self"
+								id="a490e40c693e4fdaad4537a55d99c39a"
+								timeout="30000"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\CloseAUT.cs"
+								codeline="95"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.225"
+							timeRelativeToTestModuleStartTime="00:00.121"
+							timeWallClock="11:10:34"
+							time="00:28.225"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 1s.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\CloseAUT.cs"
+								codeline="99"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

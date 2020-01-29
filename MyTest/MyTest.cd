@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MyTest.FullScreenOn_Off" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="2.393512" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.Calibrate_Factoey_Term" Collapsed="False">
+    <Position X="0.5" Y="3.2" Width="3.072418" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.MyTestRepository" Collapsed="False">
+    <Position X="0.5" Y="5.9" Width="4.661432" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.AddClose_Cannel" Collapsed="False">
+    <Position X="0.5" Y="9.6" Width="2.406403" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.Calibrate_power" Collapsed="False">
+    <Position X="0.5" Y="12.3" Width="2.229694" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.StartAUT" Collapsed="False">
+    <Position X="0.5" Y="15.4" Width="2.026613" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.Check_scan_law" Collapsed="False">
+    <Position X="0.5" Y="18.4" Width="2.290602" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.USER_TERM_Full_2Port" Collapsed="False">
+    <Position X="0.5" Y="21.1" Width="3.134186" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.Recording3" Collapsed="False">
+    <Position X="0.5" Y="23.9" Width="1.738346" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.Recording4" Collapsed="False">
+    <Position X="0.5" Y="26.6" Width="1.738346" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.Recording5" Collapsed="False">
+    <Position X="0.5" Y="29.3" Width="1.738346" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.Adddelete_marker" Collapsed="False">
+    <Position X="0.5" Y="32" Width="2.430036" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.Calibration_Kits_show_hide" Collapsed="False">
+    <Position X="0.5" Y="34.7" Width="3.378141" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.Trace_Measurement" Collapsed="False">
+    <Position X="0.5" Y="37.5" Width="2.66776" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.CloseAUT" Collapsed="False">
+    <Position X="0.5" Y="40.2" Width="2.077692" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.AddRemove_Diagram" Collapsed="False">
+    <Position X="0.5" Y="43.2" Width="2.807624" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.Program" Collapsed="False">
+    <Position X="0.5" Y="46" Width="1.029215" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.Analyze_on_off" Collapsed="False">
+    <Position X="0.5" Y="47.3" Width="2.139782" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.AddDelete_Trace" Collapsed="False">
+    <Position X="0.5" Y="50.1" Width="2.34195" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="MyTest.MyTestRepositoryFolders" Collapsed="False">
+    <Position X="0.5" Y="52.8" Width="5.454791" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

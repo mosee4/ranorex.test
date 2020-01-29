@@ -1,0 +1,3863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="153eadfe-36ef-41ae-841d-eae0de50055d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddRemove_Diagram"
+	namespace="MyTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="31;26"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e6cd06f9-950b-47fc-93a1-7ca59ca9479e"
+		sx="1405"
+		sy="276"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3e55590c-54b6-43a2-9c5f-3ab7b903a68b"
+			sourcename="Recorder">
+				<element
+				capabilities="qtelement"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="1374,250,45,45"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="basetype"
+					type="System.String">
+						QQuickImage;QQuickImageBase;QQuickImplicitSizeItem;QQuickItem;QObject
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						101
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_iconToolBarButton
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						QQuickImage
+					</attribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.activeFocus property of type Boolean."
+					name="ActiveFocus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.activeFocusOnTab property of type Boolean."
+					name="ActiveFocusOnTab"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.anchors property of type QRemoteObject."
+					name="Anchors"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.antialiasing property of type Boolean."
+					name="Antialiasing"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.asynchronous property of type Boolean."
+					name="Asynchronous"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.autoTransform property of type Boolean."
+					name="AutoTransform"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.baseline property of type QRemoteObject."
+					name="Baseline"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.baselineOffset property of type Double."
+					name="BaselineOffset"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.bottom property of type QRemoteObject."
+					name="Bottom"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.cache property of type Boolean."
+					name="Cache"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.children property of type QRemoteObject."
+					name="Children"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.childrenRect property of type RectangleF."
+					name="ChildrenRect"
+					readonly="False"
+					type="System.Drawing.RectangleF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.clip property of type Boolean."
+					name="Clip"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.containmentMask property of type QRemoteObject."
+					name="ContainmentMask"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.data property of type QRemoteObject."
+					name="Data"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.enabled property of type Boolean."
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.fillMode property of type Object."
+					name="FillMode"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.focus property of type Boolean."
+					name="Focus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.horizontalAlignment property of type Object."
+					name="HorizontalAlignment"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.horizontalCenter property of type QRemoteObject."
+					name="HorizontalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.implicitHeight property of type Double."
+					name="ImplicitHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.implicitWidth property of type Double."
+					name="ImplicitWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.layer property of type QRemoteObject."
+					name="Layer"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.left property of type QRemoteObject."
+					name="Left"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.mipmap property of type Boolean."
+					name="Mipmap"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.mirror property of type Boolean."
+					name="Mirror"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.paintedHeight property of type Double."
+					name="PaintedHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.paintedWidth property of type Double."
+					name="PaintedWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.parent property of type QRemoteObject."
+					name="Parent"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.progress property of type Double."
+					name="Progress"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.resources property of type QRemoteObject."
+					name="Resources"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.right property of type QRemoteObject."
+					name="Right"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.rotation property of type Double."
+					name="Rotation"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.scale property of type Double."
+					name="Scale"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.smooth property of type Boolean."
+					name="Smooth"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.source property of type String."
+					name="Source"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.sourceSize property of type Size."
+					name="SourceSize"
+					readonly="False"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.state property of type String."
+					name="State"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.states property of type QRemoteObject."
+					name="States"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.status property of type Object."
+					name="Status"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.top property of type QRemoteObject."
+					name="Top"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.transform property of type QRemoteObject."
+					name="Transform"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.transformOrigin property of type Object."
+					name="TransformOrigin"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.transformOriginPoint property of type PointF."
+					name="TransformOriginPoint"
+					readonly="False"
+					type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.transitions property of type QRemoteObject."
+					name="Transitions"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.verticalAlignment property of type Object."
+					name="VerticalAlignment"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.verticalCenter property of type QRemoteObject."
+					name="VerticalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.visibleChildren property of type QRemoteObject."
+					name="VisibleChildren"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.x property of type Double."
+					name="X"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.y property of type Double."
+					name="Y"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickImage.z property of type Double."
+					name="Z"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt QQuickImage.childAt(double,double) method."
+					displayName="ChildAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickImage.contains(QPointF) method."
+					displayName="Contains">
+						<argument
+						description="A method argument of type PointF."
+						displayName="arg0"
+						type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickImage.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickImage.forceActiveFocus(Qt::FocusReason) method."
+					displayName="ForceActiveFocus">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickImage.grabToImage(QJSValue,QSize) method."
+					displayName="GrabToImage">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<argument
+						description="A method argument of type Size."
+						displayName="arg1"
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickImage.mapFromGlobal(QQmlV4Function*) method."
+					displayName="MapFromGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickImage.mapFromItem(QQmlV4Function*) method."
+					displayName="MapFromItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickImage.mapToGlobal(QQmlV4Function*) method."
+					displayName="MapToGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickImage.mapToItem(QQmlV4Function*) method."
+					displayName="MapToItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickImage.nextItemInFocusChain(bool) method."
+					displayName="NextItemInFocusChain">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickImage.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='VnaNG']//container[@name='_rightSideToolBar']/element[@name='_columnToolBarButton']/container[8]/picture[@name='_iconToolBarButton']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="19150088-297c-4e99-9c9d-a405b40ed2e7">
+				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
+V23/ANWfrRRW+H+MyrfCf//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="107;20"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="012015b2-53db-473e-b81e-5a1ea1acfe86"
+		sx="1289"
+		sy="313"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9d3cca2a-eb7b-4970-bf9e-62489ed321a9"
+			sourcename="Recorder">
+				<element
+				capabilities="qtelement"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="2"
+				prefcap="text"
+				rect="1182,293,185,40"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						CHANNEL 1 (OF 1) - LINEAR
+					</attribute>
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						CHANNEL 1 (OF 1) - LINEAR
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						QQuickText_QML_6;QQuickText;QQuickImplicitSizeItem;QQuickItem;QObject
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						246
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_textTabItemToolBar
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						QQuickText
+					</attribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.activeFocus property of type Boolean."
+					name="ActiveFocus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.activeFocusOnTab property of type Boolean."
+					name="ActiveFocusOnTab"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.advance property of type SizeF."
+					name="Advance"
+					readonly="False"
+					type="System.Drawing.SizeF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.anchors property of type QRemoteObject."
+					name="Anchors"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.antialiasing property of type Boolean."
+					name="Antialiasing"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.baseline property of type QRemoteObject."
+					name="Baseline"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.baselineOffset property of type Double."
+					name="BaselineOffset"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.baseUrl property of type String."
+					name="BaseUrl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.bottom property of type QRemoteObject."
+					name="Bottom"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.bottomPadding property of type Double."
+					name="BottomPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.children property of type QRemoteObject."
+					name="Children"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.childrenRect property of type RectangleF."
+					name="ChildrenRect"
+					readonly="False"
+					type="System.Drawing.RectangleF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.clip property of type Boolean."
+					name="Clip"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.color property of type String."
+					name="Color"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.containmentMask property of type QRemoteObject."
+					name="ContainmentMask"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.contentHeight property of type Double."
+					name="ContentHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.contentWidth property of type Double."
+					name="ContentWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.data property of type QRemoteObject."
+					name="Data"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.effectiveHorizontalAlignment property of type Object."
+					name="EffectiveHorizontalAlignment"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.elide property of type Object."
+					name="Elide"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.enabled property of type Boolean."
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.focus property of type Boolean."
+					name="Focus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.font property of type String."
+					name="Font"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.fontInfo property of type QRemoteObject."
+					name="FontInfo"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.fontSizeMode property of type Object."
+					name="FontSizeMode"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.horizontalAlignment property of type Object."
+					name="HorizontalAlignment"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.horizontalCenter property of type QRemoteObject."
+					name="HorizontalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.hoveredLink property of type String."
+					name="HoveredLink"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.implicitHeight property of type Double."
+					name="ImplicitHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.implicitWidth property of type Double."
+					name="ImplicitWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.layer property of type QRemoteObject."
+					name="Layer"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.left property of type QRemoteObject."
+					name="Left"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.leftPadding property of type Double."
+					name="LeftPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.lineCount property of type Int32."
+					name="LineCount"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.lineHeight property of type Double."
+					name="LineHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.lineHeightMode property of type Object."
+					name="LineHeightMode"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.linkColor property of type String."
+					name="LinkColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.maximumLineCount property of type Int32."
+					name="MaximumLineCount"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.minimumPixelSize property of type Int32."
+					name="MinimumPixelSize"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.minimumPointSize property of type Int32."
+					name="MinimumPointSize"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.padding property of type Double."
+					name="Padding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.paintedHeight property of type Double."
+					name="PaintedHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.paintedWidth property of type Double."
+					name="PaintedWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.parent property of type QRemoteObject."
+					name="Parent"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.renderType property of type Object."
+					name="RenderType"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.resources property of type QRemoteObject."
+					name="Resources"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.right property of type QRemoteObject."
+					name="Right"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.rightPadding property of type Double."
+					name="RightPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.rotation property of type Double."
+					name="Rotation"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.scale property of type Double."
+					name="Scale"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.smooth property of type Boolean."
+					name="Smooth"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.state property of type String."
+					name="State"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.states property of type QRemoteObject."
+					name="States"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.style property of type Object."
+					name="Style"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.styleColor property of type String."
+					name="StyleColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.textFormat property of type Object."
+					name="TextFormat"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.textToShow property of type String."
+					name="TextToShow"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.top property of type QRemoteObject."
+					name="Top"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.topPadding property of type Double."
+					name="TopPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.transform property of type QRemoteObject."
+					name="Transform"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.transformOrigin property of type Object."
+					name="TransformOrigin"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.transformOriginPoint property of type PointF."
+					name="TransformOriginPoint"
+					readonly="False"
+					type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.transitions property of type QRemoteObject."
+					name="Transitions"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.truncated property of type Boolean."
+					name="Truncated"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.verticalAlignment property of type Object."
+					name="VerticalAlignment"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.verticalCenter property of type QRemoteObject."
+					name="VerticalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.visibleChildren property of type QRemoteObject."
+					name="VisibleChildren"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.wrapMode property of type Object."
+					name="WrapMode"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.x property of type Double."
+					name="X"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.y property of type Double."
+					name="Y"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText_QML_6.z property of type Double."
+					name="Z"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.childAt(double,double) method."
+					displayName="ChildAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.contains(QPointF) method."
+					displayName="Contains">
+						<argument
+						description="A method argument of type PointF."
+						displayName="arg0"
+						type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.doLayout() method."
+					displayName="DoLayout">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.forceActiveFocus(Qt::FocusReason) method."
+					displayName="ForceActiveFocus">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.forceLayout() method."
+					displayName="ForceLayout">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.grabToImage(QJSValue,QSize) method."
+					displayName="GrabToImage">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<argument
+						description="A method argument of type Size."
+						displayName="arg1"
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.linkAt(double,double) method."
+					displayName="LinkAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.mapFromGlobal(QQmlV4Function*) method."
+					displayName="MapFromGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.mapFromItem(QQmlV4Function*) method."
+					displayName="MapFromItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.mapToGlobal(QQmlV4Function*) method."
+					displayName="MapToGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.mapToItem(QQmlV4Function*) method."
+					displayName="MapToItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.nextItemInFocusChain(bool) method."
+					displayName="NextItemInFocusChain">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText_QML_6.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[8]/?/?/container[@name='_mainTabSelectorToolBar']/container[8]//text[@name='_textTabItemToolBar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ed70d500-f858-4475-9c7e-a123a1d23090">
+				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
+KzNCwL2YSxyggNGu1cDtT11CYBgVjYMxchkzzVSigCxJeSvHsG1F3bsIMc0r300kRjbaQyhScckD
+pVaigCWad59nmYJVdoOOSKjPakpT2qXujen/AA5/L8xKKKKowCtC61LfapbW0fkx7cMB39vpWfRQ
+AVah/wBUKq1ah/1QrWj8RlV2IL3+D8akqO9/g/Gpa6qPxS+RhU+GJl1YgOEwc47cVC67HZT2OKnh
+/wBUK89q+h3058j5kO4/vN+X/wBajj+835f/AFqWily+Zp7Zfyr+vmJx/eb8v/rUcf3m/L/61LRR
+y+Ye2X8q/r5icf3m/L/61HH95vy/+tS0UcvmHtl/Kv6+YnH95vy/+tRx/eb8v/rUtFHL5h7Zfyr+
+vmJx/eb8v/rUcf3m/L/61LRRy+Ye2X8q/r5icf3m/L/61HH95vy/+tS0UcvmHtl/Kv6+YnH95vy/
++tRx/eb8v/rUtFHL5h7Zfyr+vmNCqv3cj6L/APWpeP7zfl/9aloo5fMPbL+Vf18xOP7zfl/9ajj+
+835f/WpaKOXzD2y/lX9fMTj+835f/Wo4/vN+X/1qWijl8w9sv5V/XzE4/vN+X/1qOP7zfl/9aloo
+5fMPbL+Vf18xOP7zfl/9amuzcbM+/FPoo5db3E614uKSVyLdJ7/lRuk9/wAqloqjEi3Se/5UbpPf
+8qlooAi3Se/5U9ZLgKNobH+7TqtQ/wCqFaU1dkTdkUZGlbHm59sjFXahvf4PxqauqgrSkvQ56ruk
+ULv/AI+X/D+VPh/1QqCV98jN6mp4f9UK4nudMVaKRYggkuH2RgEgZJJwAKlNjKrqpaMBhlX3jafx
+pdOLCZtjorFSNrjh/an6iiIsW0CNyDuiV9wWkUMk0+aNlVmj3MQAA4zzTWsZ1ikkIG2NtrYPerV0
+wOrwkEY+TmrIlQLKrMNslwynnsR1oAzI7GeSFJVA2u20ZPemi1kYygY/dfe5rV86KOIIGGyGVFz9
+Op/OoWTyBeSO6bZj+7wwO7mgCg9rIl0Lc48wkDrxzQLWQmYAD9z97mtC5iYaoLrK+UrKSdw6cdqR
+0EC3kkkiBZvuEMDnmgCm+nzpGWIXKjcyhhuA9SKq1sTKHiledo+E+SeNsFz6Ed6x6ACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKuXenS20KTbhJGwGWXoD/nvVOt+xBsNOdr5v3bfdiIy
+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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="58;8"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f8ca9647-95eb-4abc-9cc0-64d5aa15bbad"
+		sx="1320"
+		sy="587"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a1197ec5-a7f5-4d30-8537-ac37b9d626c3"
+			sourcename="Recorder">
+				<element
+				capabilities="qtelement"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="1262,579,79,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Add diagram
+					</attribute>
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Add diagram
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						QQuickText;QQuickImplicitSizeItem;QQuickItem;QObject
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						317
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_textCenter
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						QQuickText
+					</attribute>
+					<dynamicattribute
+					description="The Qt QQuickText.activeFocus property of type Boolean."
+					name="ActiveFocus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.activeFocusOnTab property of type Boolean."
+					name="ActiveFocusOnTab"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.advance property of type SizeF."
+					name="Advance"
+					readonly="False"
+					type="System.Drawing.SizeF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.anchors property of type QRemoteObject."
+					name="Anchors"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.antialiasing property of type Boolean."
+					name="Antialiasing"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.baseline property of type QRemoteObject."
+					name="Baseline"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.baselineOffset property of type Double."
+					name="BaselineOffset"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.baseUrl property of type String."
+					name="BaseUrl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.bottom property of type QRemoteObject."
+					name="Bottom"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.bottomPadding property of type Double."
+					name="BottomPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.children property of type QRemoteObject."
+					name="Children"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.childrenRect property of type RectangleF."
+					name="ChildrenRect"
+					readonly="False"
+					type="System.Drawing.RectangleF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.clip property of type Boolean."
+					name="Clip"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.color property of type String."
+					name="Color"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.containmentMask property of type QRemoteObject."
+					name="ContainmentMask"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.contentHeight property of type Double."
+					name="ContentHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.contentWidth property of type Double."
+					name="ContentWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.data property of type QRemoteObject."
+					name="Data"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.effectiveHorizontalAlignment property of type Object."
+					name="EffectiveHorizontalAlignment"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.elide property of type Object."
+					name="Elide"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.enabled property of type Boolean."
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.focus property of type Boolean."
+					name="Focus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.font property of type String."
+					name="Font"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.fontInfo property of type QRemoteObject."
+					name="FontInfo"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.fontSizeMode property of type Object."
+					name="FontSizeMode"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.horizontalAlignment property of type Object."
+					name="HorizontalAlignment"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.horizontalCenter property of type QRemoteObject."
+					name="HorizontalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.hoveredLink property of type String."
+					name="HoveredLink"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.implicitHeight property of type Double."
+					name="ImplicitHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.implicitWidth property of type Double."
+					name="ImplicitWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.layer property of type QRemoteObject."
+					name="Layer"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.left property of type QRemoteObject."
+					name="Left"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.leftPadding property of type Double."
+					name="LeftPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.lineCount property of type Int32."
+					name="LineCount"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.lineHeight property of type Double."
+					name="LineHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.lineHeightMode property of type Object."
+					name="LineHeightMode"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.linkColor property of type String."
+					name="LinkColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.maximumLineCount property of type Int32."
+					name="MaximumLineCount"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.minimumPixelSize property of type Int32."
+					name="MinimumPixelSize"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.minimumPointSize property of type Int32."
+					name="MinimumPointSize"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.padding property of type Double."
+					name="Padding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.paintedHeight property of type Double."
+					name="PaintedHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.paintedWidth property of type Double."
+					name="PaintedWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.parent property of type QRemoteObject."
+					name="Parent"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.renderType property of type Object."
+					name="RenderType"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.resources property of type QRemoteObject."
+					name="Resources"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.right property of type QRemoteObject."
+					name="Right"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.rightPadding property of type Double."
+					name="RightPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.rotation property of type Double."
+					name="Rotation"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.scale property of type Double."
+					name="Scale"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.smooth property of type Boolean."
+					name="Smooth"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.state property of type String."
+					name="State"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.states property of type QRemoteObject."
+					name="States"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.style property of type Object."
+					name="Style"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.styleColor property of type String."
+					name="StyleColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.textFormat property of type Object."
+					name="TextFormat"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.top property of type QRemoteObject."
+					name="Top"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.topPadding property of type Double."
+					name="TopPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.transform property of type QRemoteObject."
+					name="Transform"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.transformOrigin property of type Object."
+					name="TransformOrigin"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.transformOriginPoint property of type PointF."
+					name="TransformOriginPoint"
+					readonly="False"
+					type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.transitions property of type QRemoteObject."
+					name="Transitions"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.truncated property of type Boolean."
+					name="Truncated"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.verticalAlignment property of type Object."
+					name="VerticalAlignment"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.verticalCenter property of type QRemoteObject."
+					name="VerticalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.visibleChildren property of type QRemoteObject."
+					name="VisibleChildren"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.wrapMode property of type Object."
+					name="WrapMode"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.x property of type Double."
+					name="X"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.y property of type Double."
+					name="Y"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.z property of type Double."
+					name="Z"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt QQuickText.childAt(double,double) method."
+					displayName="ChildAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.contains(QPointF) method."
+					displayName="Contains">
+						<argument
+						description="A method argument of type PointF."
+						displayName="arg0"
+						type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.doLayout() method."
+					displayName="DoLayout">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.forceActiveFocus(Qt::FocusReason) method."
+					displayName="ForceActiveFocus">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.forceLayout() method."
+					displayName="ForceLayout">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.grabToImage(QJSValue,QSize) method."
+					displayName="GrabToImage">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<argument
+						description="A method argument of type Size."
+						displayName="arg1"
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.linkAt(double,double) method."
+					displayName="LinkAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.mapFromGlobal(QQmlV4Function*) method."
+					displayName="MapFromGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.mapFromItem(QQmlV4Function*) method."
+					displayName="MapFromItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.mapToGlobal(QQmlV4Function*) method."
+					displayName="MapToGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.mapToItem(QQmlV4Function*) method."
+					displayName="MapToItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.nextItemInFocusChain(bool) method."
+					displayName="NextItemInFocusChain">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[8]/element/container[8]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[4]//text[@name='_textCenter']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3a69b499-e734-4cea-bea4-94cdac188f62">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA2ANgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDFoqby
+R6mjyV9TQBDRU3kr6mjyV9TQBDRU3kr6mjyV9TQBDRU3kr6mjyV9TQBDRU3kr6mjyV9TQBDRU3kr
+6mjyV9TQBDRU3kr6mjyV9TQBDRU3kr6mjyV9TQBDRU3kr6mjyV9TQBDRU3kr6mjyV9TQBDRU3kr6
+mjyV9TQBDRU3kr6mjyV9TQBDRU3kr6mjyV9TQBDRU3kr6migCSiiigAooooAKKKKACiiigBe1Kys
+pwwxxmliUM4z0HJ+lS/LIVYtuw3ORjg1mop7nXUrThyqL6Ihwdm7tnFGDs3ds4qf5to80YG8dsU2
+Tf5J3jHzccYquSPYz+sVf5iJQWYKOppCCAOnNWIt37vYPl/iOO9Ig+VSBztPbJ60ckewfWKv8xXz
+RmrJGHJC/PsyBjvTZGaONnwNyxZ5HfNHJHsH1ir/ADEBPtk9gO9SeRJ/HIiE9FIyf51Iwe3vI4bl
+djo2TgfKQQQGB7jNMmZRcy+am7d93Kbs+natI04ct2rmUsVW5uVSsRlWRtrgZxnI6Gkp8gYQW6yc
+yDr9Mf8A6qZUygozaRbqyqUouW93+gUUUUGQUUUUAFFFFABRRRQAUVH5w9DR5y+hoAkoqPzl9DR5
+y+hoAkoqPzl9DR5y+hoAkoqPzl9DR5y+hoAl7UmKj85fQ0ecvoajla2Z0OrCVuaO3n/wCXFGKi85
+fQ0ecvoadpdxc9L+X8f+AS4oxUXnL6Gjzl9DRaXcOel/L+P/AACZTtOcA/Wm3DFonJwMKQAKj85f
+Q0jyKyFeRkYotLuJzpfy/j/wDrNVtLe6tD9odYtnKyk42E8fkfSuaWadCyeZE+043D5gfoQeaUX5
+luZJLsvIkylJFUDgdtoJwMH+tV1lG0bs5xzV3kvhZklBv31cm+YtudtzHqaSo/OX0NHnL6GpSd7t
+mk5xcVGKskSUVH5y+ho85fQ0zIkoqPzl9DR5y+hoAkoqPzl9DR5y+hoAkoqPzl9DRQBDRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<validationitem
+		action="CompareImage"
+		codegenpropertyname="VnaNG_Screenshot5"
+		duration="100ms"
+		enabled="True"
+		imageoptions="0.999;None;0,0,1000,700;True;10000000;0ms;8,606,61,57"
+		imagerect="0,0,1000,700"
+		optional="False"
+		screenshotguid="32549127-c562-481a-a32e-beee36460580"
+		screenshotname="Screenshot5"
+		searchpropertyid="5119777e-6b46-42f5-8442-15342ce1fb39">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a490e40c-693e-4fda-ad45-37a55d99c39a"
+			sourcename="ElementTree">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="17"
+				prefcap="form"
+				rect="10,10,1000,700"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						iVBORw0KGgoAAAANSUhEUgAAAA8AAAAMCAYAAAC9QufkAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGlSURBVChTYyAD5AAxK4RJGtAS5OP9BqR1IVzi
+AA8QVzMzM1+bEcv7H8iOBosSAUSZmJhOlXlw/TdVZP2f7iHwn5GRsRcqhxfIA2270RHM819BhPl/
+uj3nfwVnrf9Aww5A5bECDiA2YWFheawnw/JfXpj5Pw87439lMbb/WlKs/1lZWZ9DlCFAKBCXAnES
+Nzf3F5DfpAWZ/+tIs/xXl2D5LyPM8b8rSfv/ihqn//WF+v+A6sRBmkAgE4gNgdjPXpf97+Qo3v8Z
+Dpwgv/0PMGT/PyNO8H+Or/L/yjTf/0fWTvi/c3IiKNBcQBpBoByIK9RFeX9mO3H+9zNg/8/LwQTW
+LMrL9D/Omvf/mhrb/yfWdPy/fnzz/22T00Cai8E6gYoW68tz/fbVZ//vrcf+31KZ9b+dGhtYsz/Q
+oDgrzv+LctX/b+0O+b9nevr/Rfm6ILmFIL2pNlpcf8yA0dAUwP2/0Z/7v5Mm238moEZzJdb/M+N4
+/0+L4f0/K17w/9w0OSCW+T87ng8U4udBmsWAGOT5ICC+AsQ/gPgWEBcBMUgcJI8FM4gAAN+IiUHB
+HH2dAAAAAElFTkSuQmCC
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						VnaNG
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Qt5QWindowOwnDCIcon
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1378766
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						12708
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						VNAApplication
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, ClipChildren, ClipSiblings, Visible, Popup
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						VnaNG
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+						VnaNG
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Window
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					isempty="True"
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+					<limitation
+					name="BitBridge"
+					technology="Win32">
+						Ranorex and the automated process don&#8217;t have the same bit width and the 32/64 bit bridge couldn&#8217;t be started. Object recognition is limited.
+					</limitation>
+					<limitation
+					helpUrl="https://www.ranorex.com/help/v9.2/interfaces-connectivity/technology-instrumentation/qt-testing/"
+					name="QtWindow"
+					processId="12708"
+					processName="VNAApplication"
+					technology="Qt">
+						Ranorex can&#8217;t identify UI elements in your Qt AUT because it couldn&#8217;t instrument it automatically. Start Ranorex Studio and the AUT with the same privileges, preferably as an administrator, and ensure your Qt version is supported.
+					</limitation>
+				</element>
+				<path>
+					/form[@title='VnaNG']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b15d4ef1-27a7-44a3-9421-d2ed594dee96">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACrk4h/tW4NwWEYkckL1PJ4qnVmS7SSRpHt
+ICzEknL8k/8AAqAC7uzcxRqU2hGbaAOApC4A/L9arVLNP5kaRrEkaqScLnknHqT6CoqACnRSPFIG
+jPzfz9qbT4ZWhfegG7GAT/D7j3oAuyxrbIZoVxL/ABLnPk5/z+H1rP60+KV4pN6nnuDyCPQ0wnJJ
+xj2oAnk/49YP+BfzpkUbSyBF6mnyf8esH/Av51Jb/uraWYfePyiiTsTD/MWWYRDybfgD7z9yaq1P
+aBd0jMobbGWAIyM1ON21SyWi7hkBhg4qL2NbXKNSwzvCeOVPVT0NWf8AwCqOWFpMurQfKuSsZ7Uc
+ye4crWwy4iXaJov9W3b0NQVZs/nWSA9GXI+tVqpdiX3H0UUUxEVFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUATyf8esH/Av509RnTmx2kyfypkn/HrB/wAC
+/nT7NlJeF+BIMA+hpSFT/wAxLT/lt/1yai7/AOWP/XJaiYPE7KcqehqdpLeRU8wShlUL8uMcVL3u
+WtrFap7T/lt/1yaj/RP+m/6U5ZLeNX8sSlmUr82Mc027oErCWAzdA+gJNV6tRjyLVpG+9INqj29a
+q0LdsT2sPoooqhEVFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUATyf8AHrB/wL+dRVLJ/wAesH/Av51GqlmCgZJ6U2TDb7/zLIkjuVCznZIOA/r9aY9nMvRd
+49VNMaFgCeCAM5BpVWaMMVYqFAJwfWo22NPUFtp26Rt+PFSiGK3+adgzdox/Wm7bljtMjcgHljyD
+UYgcgk4UDOcmle/ULeQk0rTPub8B6UynOhTGccjIxTapEsk2t/dP5UVYopgUaKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAnk/49YP+BfzpkbbHDDnBp8n/
+AB6wf8C/nUVNkw2+/wDMlEwQHylK5GM7uetPN1n+AHP3snrxiq9FTyou7LC3RHVMjjHPTGP8KFuv
+kAKnOMblbB7f4VXopcqHzMkkkV1HytuAwDu9/pUdFFUlYm5cooooApbof78n/fA/xo3Q/wB+T/vg
+f41BRQBPuh/vyf8AfA/xo3Q/35P++B/jUFFAE+YcZ3yf98D/ABo3Q/35P++B/jUX8A+pptAE+6H+
+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
+g+mTRYXNfZEFFTi7l/i2sPQilHkz8AeU/b0NFg5mt0V6KV0ZGKsMEUlIsfRRRQBUooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKUdRSUo6igCWiiigCeT/j1g/wCBfzot
+0DMXf7qDJok/49YP+BfzpynFk3+0+KrqZfZt5/qRSSNI5ZupptFT2sW6YFgQAN3I60ty21FEyotv
+alnA3MO/8qpVoCVZ5HhIyuODVBhtYqexxTkZ0m9b7k+fPtyT9+Pv6iq9T2Z/f7ezAg1BSZcdG0Po
+oopFlSiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApR1FJSjqKAJaK
+KKAJ5P8Aj1g/4F/OnRfPbSJ3B3Cmyf8AHrB/wL+dNikMUgYfiPWn1M7Xjp3/AFGVbg84xgMm+MjH
+J5qKaIY8yLmM/pUYkkUYDsB6A0bA/fWhdggMRZ8ZPZc1ScMHbd97PNL50v8Az0f/AL6NCI8z4GST
+1Jpt32CMXFtyZJa/KXlPRF/WoKmmZUQQxnIHLH1NQ0mOOt2PooopFlSiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigApR1FJSjqKAJaKKKAJ5P+PWD/AIF/Ooqlk/49YP8A
+gX86jVSzBVGSTgU2THb7/wAx0crxHKHHqPWpPMgf78RU+qGtD7LbLIG2q8aIyybTnkDOfr1/KgWU
+C7d5Qo0YVWzjJJPP5YouDinqZ4a2H8EjexNNe4Zl2oAi+gq59l2vAHgOx02O+3gMSRnPr0qRYgY3
+dbQNGG2IQhJ46sTRcXKuplUVd1SMRTbViMa5OMx7c/rzVKkWPooooAqUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFKOopKUdRQBLRRRQBPJ/x6wf8C/nUVSyf8esH/Av
+51FTZMNvv/MKKKKRQZozRRQAUUUUAPooooAqUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFKOopKUdRQBLRRRQBPJ/wAesH/Av51FUsn/AB6wf8C/nUVNkw2+/wDMKVVZ
+vuqT9BUwRIVDTDc56J/jSNcyngHaPRRii3cXM38JGYpAMlGA+lNqRbiVekjfjzUgkjm4lUK3Zx/W
+jQLyW6K9FOkjaJ9rfn602kWncfRRRQBUooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKUdRSUo6igCWiiigCeT/j1g/wCBfzpbYAFpW6IM/jSSf8esH/Av504HFk3u+D+V
+V1Mvs28/1GxobiVtzY4yTTvJh/5+B/3zRafff/cNQUh6ttJk/kw/8/A/75oeBREXSUOF68VBU8f/
+AB5y/UUA7rqCHzrdlP3o+V+lQVPZn/SAPUEGoKGOOjaH0UUUiypRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUo6ikpR1FAEtFFFAE8n/AB6wf8C/nTofngki7/eFNk/4
+9YP+BfzpiOY3DL1FPqZpXj/XcktXVJG3nAKkZp6W0chwk2T9KbJEJR5kPP8AeXuKhBKngkH2p7Ct
+zap2ZaazVFLNLgD2prGKO3dFk3liO1Vy7EYLEj60+KFpDxwo6segov2DlaV5MfbfIskp/hGB9agq
+WaRSBHH9xe/qfWoqTKj3Y+iiikWVKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKAClHUUlKOooAlooooAnk/wCPWD/gX86iqWT/AI9YP+BfzqKmyYbff+YqsyNlSQfapvtA
+b/WxK59ehrQ3xedGZHhK7k2YK5HHzZx2+tFm8XlRb2hVVx3U559OoPv0ouDinuZ4miH3YFz7nNMk
+meThjgeg6VdMkdzHKibQ+wANIVQsd2fp0pYjDBahN8RmX94RnOf9nPTpRcFBJmbRVi+ZPP8ALhx5
+UY2rg5z71XpFD6KKKAKlFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BSjqKSlHUUAS0UUUATyf8esH/Av51FUsn/HrB/wL+dRU2TDb7/zCiiikUFFFFABRRRQA+iiigCpR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUo6ikpR1FAEtFFFAE8n/
+AB6wf8C/nUVSyf8AHrB/wL+dRAEnA5JpsmO33/mFSJBK4yqH+VSfJbDkB5ffotRPNI/3nP0oFdvY
+cbaYDOz9RUZBU4IIPvQrMv3WI+hqZZw42zjcP73cUaBeS8yCipJojE3XKnkH1qOkUndXQ+iiigZU
+opcH0NGD6GgBKKXB9DRg+hoASilwfQ0YPoaAEopcH0NGD6GgBKKXB9DRg+hoASilwfQ0YPoaAEop
+cH0NGD6GgBKKXB9DRg+hoASilwfQ0YPoaAEopcH0NGD6GgBKKXB9DRg+hoASilwfQ0YPoaAEopcH
+0NGD6GgBKKXB9DRg+hoASilwfQ0YPoaAEopcH0NGD6GgBKKXB9DRg+hoASilwfQ0YPoaAEopcH0N
+GD6GgBKKXB9DRg+hoASilwfQ0YPoaAEopcH0NGD6GgBKKXB9DRg+hoASilwfQ0YPoaAEopcH0NGD
+6GgBKUdRRg+hpQDkcGgCSiiigCeT/j1g/wCBfzp1sAoeYj7g4+tNk/49YP8AgX86cP8AjyOP7/P5
+VXUy+zbz/ULZFlmbzMngn604Pak4MbD3zSWX+tb/AHDVejoFryauWTbR54uEx9abJb7Yy6yK4HXF
+QVYj/wCPGX/eH9KNGD5o21Ei/ewPGeqjctQVPZ/8fA+hzUFLoUtJND6KKKRZFRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAE8n/AB6wf8C/nToebaYHoMGi
+iq6mX2fn+otj/rm/3T/Sn/ZU9W/OiijoJv3mH2VPVvzpzxiOzkCk8kdfqKKKZLb0IbXgSsOoQ4qC
+iip6Gq+Jj6KKKRZ//9k=
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="100ms"
+		enabled="True"
+		loc="84;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c6347197-4354-43b1-8603-64ce2a3552f6"
+		sx="1314"
+		sy="634"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6670658e-e869-4d22-a704-0735b024fb68"
+			sourcename="Recorder">
+				<element
+				capabilities="qtelement"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="1230,625,144,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Remove active diagram
+					</attribute>
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Remove active diagram
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						QQuickText;QQuickImplicitSizeItem;QQuickItem;QObject
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						351
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_textCenter
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						QQuickText
+					</attribute>
+					<dynamicattribute
+					description="The Qt QQuickText.activeFocus property of type Boolean."
+					name="ActiveFocus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.activeFocusOnTab property of type Boolean."
+					name="ActiveFocusOnTab"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.advance property of type SizeF."
+					name="Advance"
+					readonly="False"
+					type="System.Drawing.SizeF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.anchors property of type QRemoteObject."
+					name="Anchors"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.antialiasing property of type Boolean."
+					name="Antialiasing"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.baseline property of type QRemoteObject."
+					name="Baseline"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.baselineOffset property of type Double."
+					name="BaselineOffset"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.baseUrl property of type String."
+					name="BaseUrl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.bottom property of type QRemoteObject."
+					name="Bottom"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.bottomPadding property of type Double."
+					name="BottomPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.children property of type QRemoteObject."
+					name="Children"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.childrenRect property of type RectangleF."
+					name="ChildrenRect"
+					readonly="False"
+					type="System.Drawing.RectangleF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.clip property of type Boolean."
+					name="Clip"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.color property of type String."
+					name="Color"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.containmentMask property of type QRemoteObject."
+					name="ContainmentMask"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.contentHeight property of type Double."
+					name="ContentHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.contentWidth property of type Double."
+					name="ContentWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.data property of type QRemoteObject."
+					name="Data"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.effectiveHorizontalAlignment property of type Object."
+					name="EffectiveHorizontalAlignment"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.elide property of type Object."
+					name="Elide"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.enabled property of type Boolean."
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.focus property of type Boolean."
+					name="Focus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.font property of type String."
+					name="Font"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.fontInfo property of type QRemoteObject."
+					name="FontInfo"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.fontSizeMode property of type Object."
+					name="FontSizeMode"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.horizontalAlignment property of type Object."
+					name="HorizontalAlignment"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.horizontalCenter property of type QRemoteObject."
+					name="HorizontalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.hoveredLink property of type String."
+					name="HoveredLink"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.implicitHeight property of type Double."
+					name="ImplicitHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.implicitWidth property of type Double."
+					name="ImplicitWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.layer property of type QRemoteObject."
+					name="Layer"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.left property of type QRemoteObject."
+					name="Left"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.leftPadding property of type Double."
+					name="LeftPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.lineCount property of type Int32."
+					name="LineCount"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.lineHeight property of type Double."
+					name="LineHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.lineHeightMode property of type Object."
+					name="LineHeightMode"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.linkColor property of type String."
+					name="LinkColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.maximumLineCount property of type Int32."
+					name="MaximumLineCount"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.minimumPixelSize property of type Int32."
+					name="MinimumPixelSize"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.minimumPointSize property of type Int32."
+					name="MinimumPointSize"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.padding property of type Double."
+					name="Padding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.paintedHeight property of type Double."
+					name="PaintedHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.paintedWidth property of type Double."
+					name="PaintedWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.parent property of type QRemoteObject."
+					name="Parent"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.renderType property of type Object."
+					name="RenderType"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.resources property of type QRemoteObject."
+					name="Resources"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.right property of type QRemoteObject."
+					name="Right"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.rightPadding property of type Double."
+					name="RightPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.rotation property of type Double."
+					name="Rotation"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.scale property of type Double."
+					name="Scale"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.smooth property of type Boolean."
+					name="Smooth"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.state property of type String."
+					name="State"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.states property of type QRemoteObject."
+					name="States"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.style property of type Object."
+					name="Style"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.styleColor property of type String."
+					name="StyleColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.textFormat property of type Object."
+					name="TextFormat"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.top property of type QRemoteObject."
+					name="Top"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.topPadding property of type Double."
+					name="TopPadding"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.transform property of type QRemoteObject."
+					name="Transform"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.transformOrigin property of type Object."
+					name="TransformOrigin"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.transformOriginPoint property of type PointF."
+					name="TransformOriginPoint"
+					readonly="False"
+					type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.transitions property of type QRemoteObject."
+					name="Transitions"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.truncated property of type Boolean."
+					name="Truncated"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.verticalAlignment property of type Object."
+					name="VerticalAlignment"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.verticalCenter property of type QRemoteObject."
+					name="VerticalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.visibleChildren property of type QRemoteObject."
+					name="VisibleChildren"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.wrapMode property of type Object."
+					name="WrapMode"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.x property of type Double."
+					name="X"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.y property of type Double."
+					name="Y"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickText.z property of type Double."
+					name="Z"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt QQuickText.childAt(double,double) method."
+					displayName="ChildAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.contains(QPointF) method."
+					displayName="Contains">
+						<argument
+						description="A method argument of type PointF."
+						displayName="arg0"
+						type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.doLayout() method."
+					displayName="DoLayout">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.forceActiveFocus(Qt::FocusReason) method."
+					displayName="ForceActiveFocus">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.forceLayout() method."
+					displayName="ForceLayout">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.grabToImage(QJSValue,QSize) method."
+					displayName="GrabToImage">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<argument
+						description="A method argument of type Size."
+						displayName="arg1"
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.linkAt(double,double) method."
+					displayName="LinkAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.mapFromGlobal(QQmlV4Function*) method."
+					displayName="MapFromGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.mapFromItem(QQmlV4Function*) method."
+					displayName="MapFromItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.mapToGlobal(QQmlV4Function*) method."
+					displayName="MapToGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.mapToItem(QQmlV4Function*) method."
+					displayName="MapToItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.nextItemInFocusChain(bool) method."
+					displayName="NextItemInFocusChain">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickText.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[8]/element/container[8]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[3]//text[@name='_textCenter']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="5fecef5d-9304-40c9-8247-700d3de5f0d9">
+				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
+KACiiigD/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<validationitem
+		action="CompareImage"
+		codegenpropertyname="VnaNG_Screenshot6"
+		duration="100ms"
+		enabled="True"
+		imageoptions="0.999;None;0,0,1000,700;True;10000000;0ms;4,604,65,59"
+		imagerect="0,0,1000,700"
+		optional="False"
+		screenshotguid="fedd705d-f56d-4601-b959-87504ca56653"
+		screenshotname="Screenshot6"
+		searchpropertyid="24d2feff-b445-4954-bfcc-584e2c8be476">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a490e40c-693e-4fda-ad45-37a55d99c39a"
+			sourcename="ElementTree">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="17"
+				prefcap="form"
+				rect="10,10,1000,700"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						iVBORw0KGgoAAAANSUhEUgAAAA8AAAAMCAYAAAC9QufkAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGlSURBVChTYyAD5AAxK4RJGtAS5OP9BqR1IVzi
+AA8QVzMzM1+bEcv7H8iOBosSAUSZmJhOlXlw/TdVZP2f7iHwn5GRsRcqhxfIA2270RHM819BhPl/
+uj3nfwVnrf9Aww5A5bECDiA2YWFheawnw/JfXpj5Pw87439lMbb/WlKs/1lZWZ9DlCFAKBCXAnES
+Nzf3F5DfpAWZ/+tIs/xXl2D5LyPM8b8rSfv/ihqn//WF+v+A6sRBmkAgE4gNgdjPXpf97+Qo3v8Z
+Dpwgv/0PMGT/PyNO8H+Or/L/yjTf/0fWTvi/c3IiKNBcQBpBoByIK9RFeX9mO3H+9zNg/8/LwQTW
+LMrL9D/Omvf/mhrb/yfWdPy/fnzz/22T00Cai8E6gYoW68tz/fbVZ//vrcf+31KZ9b+dGhtYsz/Q
+oDgrzv+LctX/b+0O+b9nevr/Rfm6ILmFIL2pNlpcf8yA0dAUwP2/0Z/7v5Mm238moEZzJdb/M+N4
+/0+L4f0/K17w/9w0OSCW+T87ng8U4udBmsWAGOT5ICC+AsQ/gPgWEBcBMUgcJI8FM4gAAN+IiUHB
+HH2dAAAAAElFTkSuQmCC
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						VnaNG
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Qt5QWindowOwnDCIcon
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1378766
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						12708
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						VNAApplication
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, ClipChildren, ClipSiblings, Visible, Popup
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						VnaNG
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+						VnaNG
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Window
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					isempty="True"
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+					<limitation
+					name="BitBridge"
+					technology="Win32">
+						Ranorex and the automated process don&#8217;t have the same bit width and the 32/64 bit bridge couldn&#8217;t be started. Object recognition is limited.
+					</limitation>
+					<limitation
+					helpUrl="https://www.ranorex.com/help/v9.2/interfaces-connectivity/technology-instrumentation/qt-testing/"
+					name="QtWindow"
+					processId="12708"
+					processName="VNAApplication"
+					technology="Qt">
+						Ranorex can&#8217;t identify UI elements in your Qt AUT because it couldn&#8217;t instrument it automatically. Start Ranorex Studio and the AUT with the same privileges, preferably as an administrator, and ensure your Qt version is supported.
+					</limitation>
+				</element>
+				<path>
+					/form[@title='VnaNG']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ec9d8276-6e67-445e-bb90-e65dde5d1a86">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACrk4h/tW4NwWEYkckL1PJ4qnVmS7SSRpHt
+ICzEknL8k/8AAqAC7uzcxRqU2hGbaAOApC4A/L9arVLNP5kaRrEkaqScLnknHqT6CoqACnRSPFIG
+jPzfz9qbT4ZWhfegG7GAT/D7j3oAuyxrbIZoVxL/ABLnPk5/z+H1rP60+KV4pN6nnuDyCPQ0wnJJ
+xj2oAnk/49YP+BfzpkUbSyBF6mnyf8esH/Av51Jb/uraWYfePyiiTsTD/MWWYRDybfgD7z9yaq1P
+aBd0jMobbGWAIyM1ON21SyWi7hkBhg4qL2NbXKNSwzvCeOVPVT0NWf8AwCqOWFpMurQfKuSsZ7Uc
+ye4crWwy4iXaJov9W3b0NQVZs/nWSA9GXI+tVqpdiX3H0UUUxEVFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUATyf8esH/Av509RnTmx2kyfypkn/HrB/wAC
+/nT7NlJeF+BIMA+hpSFT/wAxLT/lt/1yai7/AOWP/XJaiYPE7KcqehqdpLeRU8wShlUL8uMcVL3u
+WtrFap7T/lt/1yaj/RP+m/6U5ZLeNX8sSlmUr82Mc027oErCWAzdA+gJNV6tRjyLVpG+9INqj29a
+q0LdsT2sPoooqhEVFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUATyf8AHrB/wL+dRVLJ/wAesH/Av51GqlmCgZJ6U2TDb7/zLIkjuVCznZIOA/r9aY9nMvRd
+49VNMaFgCeCAM5BpVWaMMVYqFAJwfWo22NPUFtp26Rt+PFSiGK3+adgzdox/Wm7bljtMjcgHljyD
+UYgcgk4UDOcmle/ULeQk0rTPub8B6UynOhTGccjIxTapEsk2t/dP5UVYopgUaKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAnk/49YP+BfzpkbbHDDnBp8n/
+AB6wf8C/nUVNkw2+/wDMlEwQHylK5GM7uetPN1n+AHP3snrxiq9FTyou7LC3RHVMjjHPTGP8KFuv
+kAKnOMblbB7f4VXopcqHzMkkkV1HytuAwDu9/pUdFFUlYm5cooooApbof78n/fA/xo3Q/wB+T/vg
+f41BRQBPuh/vyf8AfA/xo3Q/35P++B/jUFFAE+YcZ3yf98D/ABo3Q/35P++B/jUX8A+pptAE+6H+
+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
+PWiOxidYfmcGXHdeOfTrRcXLfdlAksck5JpKsXlutu6AFvmXJVsZX64qvSLH0UUUAVKKKKACiiig
+B38A+pptO/gH1NNoAKKKKACiiigAooooAcei/Sm049F+lNoAKKKKACiiigAooooAcei/Sm049F+l
+NoAKKKKACiiigAooooAc3X8BTac3X8BTaACiiigAooooAKKKKAHN98/Wm05vvn602gAooooAKKKK
+ACnL98fWm05fvj60ANooooAKKKKACiiigAqW3/1v/AW/9BNRVLb/AOt/4C3/AKCaAFooooAnk/49
+YP8AgX86jBKkEdRzUkn/AB6wf8C/nUVNkx2+/wDMsG9uD1kz16gdzk/rSG8uCGBlJDZznnrwagop
+FE/2ufIPmcgg5wOoGB+lKL2YBcFMp90+WuR364qvRQA55HdVDHIQYHHam0UUAPooooAqUU7afb8x
+RtPt+YoAbRTtp9vzFG0+35igA/gH1NNp+07R06+tJtPt+YoAbRTtp9vzFG0+35igBtFO2n2/MUbT
+7fmKAG0U7afb8xRtPt+YoAD0X6U2nlTgdOnrSbT7fmKAG0U7afb8xRtPt+YoAbRTtp9vzFG0+35i
+gBtFO2n2/MUbT7fmKAA9F+lNp5U4HTp60m0+35igBtFO2n2/MUbT7fmKAG0U7afb8xRtPt+YoAbR
+Ttp9vzFG0+35igAbr+AptPZTnt0Hek2n2/MUANop20+35ijafb8xQA2inbT7fmKNp9vzFADaKdtP
+t+Yo2n2/MUADffP1ptPZTuPTr60m0+35igBtFO2n2/MUbT7fmKAG0U7afb8xRtPt+YoAbTl++PrR
+tPt+YpVU7h06+tADKKdtPt+Yo2n2/MUANop20+35ijafb8xQA2inbT7fmKNp9vzFADalt/8AW/8A
+AW/9BNM2n2/MVJbgiXt91u/+yaACiiigCeT/AI9YP+BfzqKpZP8Aj1g/4F/OoqbJht9/5hRU0cG5
+d8jbE9fWnebCnCQ7vdqLCcui1K9FWWlC4ElunIzxxSeVFMP3J2t/caiwc/dFeilIKkgjBFJSLH0U
+UUAVKKKKACiiigB38A+pptO/gH1NNoAKKKKACiiigAooooAcei/Sm049F+lNoAKKKKACiiigAooo
+oAcei/Sm049F+lNoAKKKKACiiigAooooAc3X8BTac3X8BTaACiiigAooooAKKKKAHN98/Wm05vvn
+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
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="5885ebbf-970a-49f4-8cd6-c773d19e6f65"
+	name="MyTestRepository"
+	relativepath="MyTestRepository.rxrep">
+		<codegen
+		classname="MyTestRepository"
+		namespace="MyTest">
+		</codegen>
+		<rootfolder
+		id="8accd565-6a33-4cfa-8495-e28ee449d26e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddRemove_Diagram.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

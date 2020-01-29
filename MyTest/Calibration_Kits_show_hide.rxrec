@@ -1,0 +1,3909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5884560a-e9cb-4e74-8005-0891bf34578e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Calibration_Kits_show_hide"
+	namespace="MyTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="46;72"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8f115f39-6a2a-4d00-becc-fbedd6994df3"
+		sx="992"
+		sy="403"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fa5b796b-6406-4154-b242-72beaa866055"
+			sourcename="Recorder">
+				<element
+				capabilities="qtelement"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="4"
+				prefcap="container"
+				rect="946,331,60,79"
+				role="container"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="basetype"
+					type="System.String">
+						DelegateRightToolBarButton_QMLTYPE_2;QQuickRectangle;QQuickItem;QObject
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						116
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_root
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						DelegateRightToolBarButton
+					</attribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.activeFocus property of type Boolean."
+					name="ActiveFocus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.activeFocusOnTab property of type Boolean."
+					name="ActiveFocusOnTab"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.anchors property of type QRemoteObject."
+					name="Anchors"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.antialiasing property of type Boolean."
+					name="Antialiasing"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.baseline property of type QRemoteObject."
+					name="Baseline"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.baselineOffset property of type Double."
+					name="BaselineOffset"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.border property of type QRemoteObject."
+					name="Border"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.bottom property of type QRemoteObject."
+					name="Bottom"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.children property of type QRemoteObject."
+					name="Children"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.childrenRect property of type RectangleF."
+					name="ChildrenRect"
+					readonly="False"
+					type="System.Drawing.RectangleF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.clip property of type Boolean."
+					name="Clip"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.color property of type String."
+					name="Color"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.containmentMask property of type QRemoteObject."
+					name="ContainmentMask"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.data property of type QRemoteObject."
+					name="Data"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.dataRole property of type QRemoteObject."
+					name="DataRole"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.delegateItem property of type QRemoteObject."
+					name="DelegateItem"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.enabled property of type Boolean."
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.extendedPropertiesRole property of type QRemoteObject."
+					name="ExtendedPropertiesRole"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.focus property of type Boolean."
+					name="Focus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.gradient property of type QRemoteObject."
+					name="Gradient"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.horizontalCenter property of type QRemoteObject."
+					name="HorizontalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.implicitHeight property of type Double."
+					name="ImplicitHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.implicitWidth property of type Double."
+					name="ImplicitWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.isCurrentItem property of type Boolean."
+					name="IsCurrentItem"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.layer property of type QRemoteObject."
+					name="Layer"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.left property of type QRemoteObject."
+					name="Left"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.modelIndex property of type QRemoteObject."
+					name="ModelIndex"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.modelRole property of type QRemoteObject."
+					name="ModelRole"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.parent property of type QRemoteObject."
+					name="Parent"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.radius property of type Double."
+					name="Radius"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.resources property of type QRemoteObject."
+					name="Resources"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.right property of type QRemoteObject."
+					name="Right"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.rootRightToolbar property of type QRemoteObject."
+					name="RootRightToolbar"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.rotation property of type Double."
+					name="Rotation"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.scale property of type Double."
+					name="Scale"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.smooth property of type Boolean."
+					name="Smooth"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.state property of type String."
+					name="State"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.states property of type QRemoteObject."
+					name="States"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.top property of type QRemoteObject."
+					name="Top"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.transform property of type QRemoteObject."
+					name="Transform"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.transformOrigin property of type Object."
+					name="TransformOrigin"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.transformOriginPoint property of type PointF."
+					name="TransformOriginPoint"
+					readonly="False"
+					type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.transitions property of type QRemoteObject."
+					name="Transitions"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.verticalCenter property of type QRemoteObject."
+					name="VerticalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.visibleChildren property of type QRemoteObject."
+					name="VisibleChildren"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.x property of type Double."
+					name="X"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.y property of type Double."
+					name="Y"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.z property of type Double."
+					name="Z"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.childAt(double,double) method."
+					displayName="ChildAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.contains(QPointF) method."
+					displayName="Contains">
+						<argument
+						description="A method argument of type PointF."
+						displayName="arg0"
+						type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.forceActiveFocus(Qt::FocusReason) method."
+					displayName="ForceActiveFocus">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.grabToImage(QJSValue,QSize) method."
+					displayName="GrabToImage">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<argument
+						description="A method argument of type Size."
+						displayName="arg1"
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.mapFromGlobal(QQmlV4Function*) method."
+					displayName="MapFromGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.mapFromItem(QQmlV4Function*) method."
+					displayName="MapFromItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.mapToGlobal(QQmlV4Function*) method."
+					displayName="MapToGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.mapToItem(QQmlV4Function*) method."
+					displayName="MapToItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.nextItemInFocusChain(bool) method."
+					displayName="NextItemInFocusChain">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DelegateRightToolBarButton_QMLTYPE_2.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_columnToolBarButton']/container[5]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a460d20f-ad54-44ce-9d22-89beaef4f321">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="230;29"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="33e18a9c-a8a2-49a5-8ffe-d227a15d1b67"
+		sx="986"
+		sy="313"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="103f8ad8-1770-40ab-b770-408f0cebb390"
+			sourcename="Recorder">
+				<element
+				capabilities="qtelement"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="0"
+				prefcap="container"
+				rect="756,284,250,40"
+				role="container"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="basetype"
+					type="System.String">
+						QQuickRowLayout;QQuickLinearLayout;QQuickGridLayoutBase;QQuickLayout;QQuickItem;QObject
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						242
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_headerTabItemLayout
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						QQuickRowLayout
+					</attribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.activeFocus property of type Boolean."
+					name="ActiveFocus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.activeFocusOnTab property of type Boolean."
+					name="ActiveFocusOnTab"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.anchors property of type QRemoteObject."
+					name="Anchors"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.antialiasing property of type Boolean."
+					name="Antialiasing"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.baseline property of type QRemoteObject."
+					name="Baseline"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.baselineOffset property of type Double."
+					name="BaselineOffset"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.bottom property of type QRemoteObject."
+					name="Bottom"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.children property of type QRemoteObject."
+					name="Children"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.childrenRect property of type RectangleF."
+					name="ChildrenRect"
+					readonly="False"
+					type="System.Drawing.RectangleF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.clip property of type Boolean."
+					name="Clip"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.containmentMask property of type QRemoteObject."
+					name="ContainmentMask"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.data property of type QRemoteObject."
+					name="Data"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.enabled property of type Boolean."
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.focus property of type Boolean."
+					name="Focus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.horizontalCenter property of type QRemoteObject."
+					name="HorizontalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.implicitHeight property of type Double."
+					name="ImplicitHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.implicitWidth property of type Double."
+					name="ImplicitWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.layer property of type QRemoteObject."
+					name="Layer"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.layoutDirection property of type String."
+					name="LayoutDirection"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.left property of type QRemoteObject."
+					name="Left"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.parent property of type QRemoteObject."
+					name="Parent"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.resources property of type QRemoteObject."
+					name="Resources"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.right property of type QRemoteObject."
+					name="Right"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.rotation property of type Double."
+					name="Rotation"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.scale property of type Double."
+					name="Scale"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.smooth property of type Boolean."
+					name="Smooth"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.spacing property of type Double."
+					name="Spacing"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.state property of type String."
+					name="State"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.states property of type QRemoteObject."
+					name="States"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.top property of type QRemoteObject."
+					name="Top"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.transform property of type QRemoteObject."
+					name="Transform"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.transformOrigin property of type Object."
+					name="TransformOrigin"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.transformOriginPoint property of type PointF."
+					name="TransformOriginPoint"
+					readonly="False"
+					type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.transitions property of type QRemoteObject."
+					name="Transitions"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.verticalCenter property of type QRemoteObject."
+					name="VerticalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.visibleChildren property of type QRemoteObject."
+					name="VisibleChildren"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.x property of type Double."
+					name="X"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.y property of type Double."
+					name="Y"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt QQuickRowLayout.z property of type Double."
+					name="Z"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt QQuickRowLayout.childAt(double,double) method."
+					displayName="ChildAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickRowLayout.contains(QPointF) method."
+					displayName="Contains">
+						<argument
+						description="A method argument of type PointF."
+						displayName="arg0"
+						type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickRowLayout.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickRowLayout.forceActiveFocus(Qt::FocusReason) method."
+					displayName="ForceActiveFocus">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickRowLayout.grabToImage(QJSValue,QSize) method."
+					displayName="GrabToImage">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<argument
+						description="A method argument of type Size."
+						displayName="arg1"
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickRowLayout.mapFromGlobal(QQmlV4Function*) method."
+					displayName="MapFromGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickRowLayout.mapFromItem(QQmlV4Function*) method."
+					displayName="MapFromItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickRowLayout.mapToGlobal(QQmlV4Function*) method."
+					displayName="MapToGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickRowLayout.mapToItem(QQmlV4Function*) method."
+					displayName="MapToItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickRowLayout.nextItemInFocusChain(bool) method."
+					displayName="NextItemInFocusChain">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt QQuickRowLayout.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[5]/?/?/container[@name='_mainTabSelectorToolBar']/container[2]/?/?/container[@name='_headerTabItemLayout']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e540b3c1-0619-49af-a4f5-1b17920e9078">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AUoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwAooorj
+OsKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigCjJ/x/n/AD2qaoZP+P8AP+e1TV6+F/hnk4n4xKKWkrpOcKKKKALNFFFfPnvB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAUZP+P8/wCe1TVDJ/x/n/Papq9fC/wzycT8YUUUV0nOJRS0lAFmisKivF9l5ns+
+18jdorCoo9l5h7XyN2isKn0ey8w9r5G1RWLRR7LzD2vkbVFYtFHsvMPa+RtUVi0Uey8w9r5G1RWL
+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
+uqn/AC//AOfSrddFHZ+py1916CUUUVqYhRRRTAq2iRQrulZRJ6MeRT4ngZJFkZMF2PJptpLGw2TA
+eYD1YcmnReTGkjSBR85xkV4j3Z7a6EcMLYmiA3RsMq3bPao7RWW4MUikb1IINPjlYRyzklUPyovb
+NMtGYytK5LbFJyTVa6k6aFWrlU6n81vQVoQS0VF5rego81vQUAS0VF5rego81vQUAS0VF5rego81
+vQUAS0VF5rego81vQUAS0VF5rego81vQUAS0VF5rego81vQUAS0VF5rego81vQUAS0VF5rego81v
+QUAS0VF5rego81vQUAS0VF5rego81vQUAS0VF5rego81vQUAS0VF5rego81vQUAS0VF5rego81vQ
+UAS0VF5rego81vQUAS1drN81vQVJ9sk/ur+Va05KN7mdSLlsSf8AL/8A59KtVSgcyXSscZPp9Ku1
+00XdN+ZyV1aS9AooorY5wooooGZ5mhm/16EP/eTvUtybdWQuHc7BgdsVF/oknOXiPp1FGy26tO74
+6ALXj6HsjJJJLl1ULx0VR2p8xEEPkKcseXI/lSNcqilbdNmerHrVeqSJuFPplPqhBRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAE9p/r1/H
++VX6oWn+vX8f5VoV24f4ThxPxiUUUVucwUUUUDMyGNXxu/vgfhzUghjJyBkFcj5uM5x1quZZCcl2
+J+tDSO2dzMc8cmvJsz2LonECkSEAnBwv4daBHEQflxhA3LHvUBdyQSxyOhzQJHU5V2Bxjg0WYXQj
+Y3HHSnUwkk5JyTT6okKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAntP9ev4/yrQrPtP9en4/yrQrtw/wAJw4n4wooorc5hKKWkoGY1FFFe
+WesFFFFABT6ZT6ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKAJ7T/Xp+P8q0Kz7T/Xp+P8q0K7cP8ACcOJ+MKKKK3OYKKKKAMz7SV4iRUH
+0yaBdy/xbWHoRUFXVRbe1LOBuYd/5V5quz0pKMehEPJn4A8p+3oagdGRirDBFJVjPn25J+/H39RS
+3K+H0K9PplPpFhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFAE9p/r0/H+VaFZ9p/r0/H+VaFduH+E4cT8YUUUVucwUUUUAZlrFumBYEADdy
+OtWRKs8jwkZXHBqKDzjGAyb4yMcnmpIIDEWfGT2XNecjtm1dtv0KLDaxU9jiprM/v9vZgQaicMHb
+d97PNS2vyl5T0Rf1qVubz+Egp9Mp9IsKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAntP8AXp+P8q0Kz7T/AF6fj/KtCuzD/CcOJ+MKKKK6
+DmCiiigDHEkijAdgPQGl86X/AJ6P/wB9GpPMgf78RU+qGgNbD+CRvYmvMPTv5EaI8z4GST1Jp8zK
+iCGM5A5Y+ppHuGZdqAIvoKioGk27sKfTKfSLCiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAJ7T/AF6fj/KtCs+0/wBen4/yrQrsw/wnDifj
+Ciiiug5goopKAGiygXbvKFGjCq2cZJJ5/LFQ/ZdrwB4DsdNjvt4DEkZz69KzqM15Z65qrEDG7raB
+ow2xCEJPHViar6pGIptqxGNcnGY9uf15qlmigAp9Mp9ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAE9p/r0/H+VaFZ9p/r1/H+VaFdmH+
+E4cT8YUUUV0HMFFFFAGLRSqrN91SfoKUxSAZKMB9K8s9a6G0UUUDCn0yn0AFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAT2n+vT8f5VoVn
+2n+vT8f5VoV2Yf4ThxPxhRRRXQcwUlLSUDMxrmU8A7R6KMU1biVekjfjzT/Jh/5+B/3zR5MP/PwP
+++a83U9G8O34CiSObiVQrdnH9ahkjaJ9rfn61K8CiIukocL14oQ+dbsp+9Hyv0oBNLVbEFPplPqT
+UKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAntP9en4/wAq0Kz7T/Xp+P8AKtCuzD/CcOJ+MKKKK6DmCkpaSgDGoqyltHIcJNk/SnNZqilm
+lwB7V5nKz0/ax2I4/wDjzl+oosz/AKQB6gg05jFHbuiybyxHam23yLJKf4RgfWn1RL1jLzIKfTKf
+UmwUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQBPaf69Px/lWhWfaf69Px/lWhXZh/hOHE/GFFFFdBzBSUUUAY4JU8Eg+1BdiMFiR9am+0Bv
+9bErn16GgTRD7sC59zmvMPUu+wyKFpDxwo6segpZpFIEcf3F7+p9aSSZ5OGOB6DpUdAJNu7Cn0yn
+0iwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigCe0/16/j/KtCs+0/16/j/KtCuzD/CcOJ+MKSiiug5wooooAW2VRa2jbV+d9pG0Y6nn61Hd
+KPsbMQCxiBLYAP3/AGooryz1hlqqpYI4VS28NkjrzjH0xVfVEWK68lBhI1AH48/1oooYIqU+iigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigCe0/16/j/ACq/RRXZh/hOHE/GFFFFdBzhRRRQB//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="213;21"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c148f614-f8d4-4210-bdb6-5dc888addd4f"
+		sx="984"
+		sy="215"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2da3b89c-e231-4ad4-a2f0-c1f50d02424b"
+			sourcename="Recorder">
+				<element
+				capabilities="qtelement"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="0"
+				prefcap="container"
+				rect="771,194,220,34"
+				role="container"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="basetype"
+					type="System.String">
+						BaseButton_QMLTYPE_73;QQuickRectangle;QQuickItem;QObject
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						292
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_actionButton
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						BaseButton
+					</attribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.activeFocus property of type Boolean."
+					name="ActiveFocus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.activeFocusOnTab property of type Boolean."
+					name="ActiveFocusOnTab"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.anchors property of type QRemoteObject."
+					name="Anchors"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.antialiasing property of type Boolean."
+					name="Antialiasing"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.baseline property of type QRemoteObject."
+					name="Baseline"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.baselineOffset property of type Double."
+					name="BaselineOffset"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.bDisableClickAction property of type Boolean."
+					name="BDisableClickAction"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.border property of type QRemoteObject."
+					name="Border"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.bottom property of type QRemoteObject."
+					name="Bottom"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageOverlayColor property of type String."
+					name="CenterImageOverlayColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageSizeDecrement property of type Double."
+					name="CenterImageSizeDecrement"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageSource property of type String."
+					name="CenterImageSource"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.children property of type QRemoteObject."
+					name="Children"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.childrenRect property of type RectangleF."
+					name="ChildrenRect"
+					readonly="False"
+					type="System.Drawing.RectangleF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.clip property of type Boolean."
+					name="Clip"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.color property of type String."
+					name="Color"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.containmentMask property of type QRemoteObject."
+					name="ContainmentMask"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.data property of type QRemoteObject."
+					name="Data"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.disableCenterImageScaling property of type Boolean."
+					name="DisableCenterImageScaling"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.enabled property of type Boolean."
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.focus property of type Boolean."
+					name="Focus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.gradient property of type QRemoteObject."
+					name="Gradient"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.horizontalCenter property of type QRemoteObject."
+					name="HorizontalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.implicitHeight property of type Double."
+					name="ImplicitHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.implicitWidth property of type Double."
+					name="ImplicitWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.interStateButton property of type QRemoteObject."
+					name="InterStateButton"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.isMouseAreaActive property of type Boolean."
+					name="IsMouseAreaActive"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.layer property of type QRemoteObject."
+					name="Layer"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.left property of type QRemoteObject."
+					name="Left"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.parent property of type QRemoteObject."
+					name="Parent"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.radius property of type Double."
+					name="Radius"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.resources property of type QRemoteObject."
+					name="Resources"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.right property of type QRemoteObject."
+					name="Right"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.rightImageSource property of type String."
+					name="RightImageSource"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.rotation property of type Double."
+					name="Rotation"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.scale property of type Double."
+					name="Scale"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.showImageCenter property of type Boolean."
+					name="ShowImageCenter"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.showImageRight property of type Boolean."
+					name="ShowImageRight"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.smooth property of type Boolean."
+					name="Smooth"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.state property of type String."
+					name="State"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.states property of type QRemoteObject."
+					name="States"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textForRightImage property of type String."
+					name="TextForRightImage"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenter property of type String."
+					name="TextInCenter"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenterColor property of type String."
+					name="TextInCenterColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenterFont property of type String."
+					name="TextInCenterFont"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.top property of type QRemoteObject."
+					name="Top"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transform property of type QRemoteObject."
+					name="Transform"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transformOrigin property of type Object."
+					name="TransformOrigin"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transformOriginPoint property of type PointF."
+					name="TransformOriginPoint"
+					readonly="False"
+					type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transitions property of type QRemoteObject."
+					name="Transitions"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.verticalCenter property of type QRemoteObject."
+					name="VerticalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.visibleChildren property of type QRemoteObject."
+					name="VisibleChildren"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.x property of type Double."
+					name="X"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.y property of type Double."
+					name="Y"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.z property of type Double."
+					name="Z"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.childAt(double,double) method."
+					displayName="ChildAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.contains(QPointF) method."
+					displayName="Contains">
+						<argument
+						description="A method argument of type PointF."
+						displayName="arg0"
+						type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.forceActiveFocus(Qt::FocusReason) method."
+					displayName="ForceActiveFocus">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.grabToImage(QJSValue,QSize) method."
+					displayName="GrabToImage">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<argument
+						description="A method argument of type Size."
+						displayName="arg1"
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapFromGlobal(QQmlV4Function*) method."
+					displayName="MapFromGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapFromItem(QQmlV4Function*) method."
+					displayName="MapFromItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapToGlobal(QQmlV4Function*) method."
+					displayName="MapToGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapToItem(QQmlV4Function*) method."
+					displayName="MapToItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.nextItemInFocusChain(bool) method."
+					displayName="NextItemInFocusChain">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[5]/element/container[2]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[2]/element[@name='_root']/container[@name='_actionButton']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="dc0e479a-dd75-421f-9977-0552c1549a1b">
+				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
+rUrqw3U5MT0P/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="208;19"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ca226cde-7842-491c-95ed-9f58a39cc4a9"
+		sx="979"
+		sy="213"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2da3b89c-e231-4ad4-a2f0-c1f50d02424b"
+			sourcename="Recorder">
+				<element
+				capabilities="qtelement"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="0"
+				prefcap="container"
+				rect="771,194,220,34"
+				role="container"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="basetype"
+					type="System.String">
+						BaseButton_QMLTYPE_73;QQuickRectangle;QQuickItem;QObject
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						292
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_actionButton
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						BaseButton
+					</attribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.activeFocus property of type Boolean."
+					name="ActiveFocus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.activeFocusOnTab property of type Boolean."
+					name="ActiveFocusOnTab"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.anchors property of type QRemoteObject."
+					name="Anchors"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.antialiasing property of type Boolean."
+					name="Antialiasing"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.baseline property of type QRemoteObject."
+					name="Baseline"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.baselineOffset property of type Double."
+					name="BaselineOffset"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.bDisableClickAction property of type Boolean."
+					name="BDisableClickAction"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.border property of type QRemoteObject."
+					name="Border"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.bottom property of type QRemoteObject."
+					name="Bottom"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageOverlayColor property of type String."
+					name="CenterImageOverlayColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageSizeDecrement property of type Double."
+					name="CenterImageSizeDecrement"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageSource property of type String."
+					name="CenterImageSource"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.children property of type QRemoteObject."
+					name="Children"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.childrenRect property of type RectangleF."
+					name="ChildrenRect"
+					readonly="False"
+					type="System.Drawing.RectangleF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.clip property of type Boolean."
+					name="Clip"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.color property of type String."
+					name="Color"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.containmentMask property of type QRemoteObject."
+					name="ContainmentMask"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.data property of type QRemoteObject."
+					name="Data"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.disableCenterImageScaling property of type Boolean."
+					name="DisableCenterImageScaling"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.enabled property of type Boolean."
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.focus property of type Boolean."
+					name="Focus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.gradient property of type QRemoteObject."
+					name="Gradient"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.horizontalCenter property of type QRemoteObject."
+					name="HorizontalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.implicitHeight property of type Double."
+					name="ImplicitHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.implicitWidth property of type Double."
+					name="ImplicitWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.interStateButton property of type QRemoteObject."
+					name="InterStateButton"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.isMouseAreaActive property of type Boolean."
+					name="IsMouseAreaActive"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.layer property of type QRemoteObject."
+					name="Layer"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.left property of type QRemoteObject."
+					name="Left"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.parent property of type QRemoteObject."
+					name="Parent"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.radius property of type Double."
+					name="Radius"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.resources property of type QRemoteObject."
+					name="Resources"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.right property of type QRemoteObject."
+					name="Right"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.rightImageSource property of type String."
+					name="RightImageSource"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.rotation property of type Double."
+					name="Rotation"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.scale property of type Double."
+					name="Scale"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.showImageCenter property of type Boolean."
+					name="ShowImageCenter"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.showImageRight property of type Boolean."
+					name="ShowImageRight"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.smooth property of type Boolean."
+					name="Smooth"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.state property of type String."
+					name="State"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.states property of type QRemoteObject."
+					name="States"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textForRightImage property of type String."
+					name="TextForRightImage"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenter property of type String."
+					name="TextInCenter"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenterColor property of type String."
+					name="TextInCenterColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenterFont property of type String."
+					name="TextInCenterFont"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.top property of type QRemoteObject."
+					name="Top"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transform property of type QRemoteObject."
+					name="Transform"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transformOrigin property of type Object."
+					name="TransformOrigin"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transformOriginPoint property of type PointF."
+					name="TransformOriginPoint"
+					readonly="False"
+					type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transitions property of type QRemoteObject."
+					name="Transitions"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.verticalCenter property of type QRemoteObject."
+					name="VerticalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.visibleChildren property of type QRemoteObject."
+					name="VisibleChildren"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.x property of type Double."
+					name="X"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.y property of type Double."
+					name="Y"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.z property of type Double."
+					name="Z"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.childAt(double,double) method."
+					displayName="ChildAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.contains(QPointF) method."
+					displayName="Contains">
+						<argument
+						description="A method argument of type PointF."
+						displayName="arg0"
+						type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.forceActiveFocus(Qt::FocusReason) method."
+					displayName="ForceActiveFocus">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.grabToImage(QJSValue,QSize) method."
+					displayName="GrabToImage">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<argument
+						description="A method argument of type Size."
+						displayName="arg1"
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapFromGlobal(QQmlV4Function*) method."
+					displayName="MapFromGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapFromItem(QQmlV4Function*) method."
+					displayName="MapFromItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapToGlobal(QQmlV4Function*) method."
+					displayName="MapToGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapToItem(QQmlV4Function*) method."
+					displayName="MapToItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.nextItemInFocusChain(bool) method."
+					displayName="NextItemInFocusChain">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[5]/element/container[2]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[2]/element[@name='_root']/container[@name='_actionButton']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ec79c71a-bb62-4868-85a0-f5994ac8045a">
+				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
+UP8AeqnQAorUrLFaldWG6nJieh//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="214;26"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9dd4eadc-8804-40ac-9e3c-f56ec94584e6"
+		sx="985"
+		sy="256"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="69098e8c-af70-4d07-9773-be0e1a7feb84"
+			sourcename="Recorder">
+				<element
+				capabilities="qtelement"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="0"
+				prefcap="container"
+				rect="771,230,220,34"
+				role="container"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="basetype"
+					type="System.String">
+						BaseButton_QMLTYPE_73;QQuickRectangle;QQuickItem;QObject
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						275
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_actionButton
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						BaseButton
+					</attribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.activeFocus property of type Boolean."
+					name="ActiveFocus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.activeFocusOnTab property of type Boolean."
+					name="ActiveFocusOnTab"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.anchors property of type QRemoteObject."
+					name="Anchors"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.antialiasing property of type Boolean."
+					name="Antialiasing"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.baseline property of type QRemoteObject."
+					name="Baseline"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.baselineOffset property of type Double."
+					name="BaselineOffset"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.bDisableClickAction property of type Boolean."
+					name="BDisableClickAction"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.border property of type QRemoteObject."
+					name="Border"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.bottom property of type QRemoteObject."
+					name="Bottom"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageOverlayColor property of type String."
+					name="CenterImageOverlayColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageSizeDecrement property of type Double."
+					name="CenterImageSizeDecrement"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageSource property of type String."
+					name="CenterImageSource"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.children property of type QRemoteObject."
+					name="Children"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.childrenRect property of type RectangleF."
+					name="ChildrenRect"
+					readonly="False"
+					type="System.Drawing.RectangleF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.clip property of type Boolean."
+					name="Clip"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.color property of type String."
+					name="Color"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.containmentMask property of type QRemoteObject."
+					name="ContainmentMask"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.data property of type QRemoteObject."
+					name="Data"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.disableCenterImageScaling property of type Boolean."
+					name="DisableCenterImageScaling"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.enabled property of type Boolean."
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.focus property of type Boolean."
+					name="Focus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.gradient property of type QRemoteObject."
+					name="Gradient"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.horizontalCenter property of type QRemoteObject."
+					name="HorizontalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.implicitHeight property of type Double."
+					name="ImplicitHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.implicitWidth property of type Double."
+					name="ImplicitWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.interStateButton property of type QRemoteObject."
+					name="InterStateButton"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.isMouseAreaActive property of type Boolean."
+					name="IsMouseAreaActive"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.layer property of type QRemoteObject."
+					name="Layer"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.left property of type QRemoteObject."
+					name="Left"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.parent property of type QRemoteObject."
+					name="Parent"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.radius property of type Double."
+					name="Radius"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.resources property of type QRemoteObject."
+					name="Resources"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.right property of type QRemoteObject."
+					name="Right"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.rightImageSource property of type String."
+					name="RightImageSource"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.rotation property of type Double."
+					name="Rotation"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.scale property of type Double."
+					name="Scale"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.showImageCenter property of type Boolean."
+					name="ShowImageCenter"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.showImageRight property of type Boolean."
+					name="ShowImageRight"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.smooth property of type Boolean."
+					name="Smooth"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.state property of type String."
+					name="State"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.states property of type QRemoteObject."
+					name="States"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textForRightImage property of type String."
+					name="TextForRightImage"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenter property of type String."
+					name="TextInCenter"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenterColor property of type String."
+					name="TextInCenterColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenterFont property of type String."
+					name="TextInCenterFont"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.top property of type QRemoteObject."
+					name="Top"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transform property of type QRemoteObject."
+					name="Transform"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transformOrigin property of type Object."
+					name="TransformOrigin"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transformOriginPoint property of type PointF."
+					name="TransformOriginPoint"
+					readonly="False"
+					type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transitions property of type QRemoteObject."
+					name="Transitions"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.verticalCenter property of type QRemoteObject."
+					name="VerticalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.visibleChildren property of type QRemoteObject."
+					name="VisibleChildren"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.x property of type Double."
+					name="X"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.y property of type Double."
+					name="Y"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.z property of type Double."
+					name="Z"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.childAt(double,double) method."
+					displayName="ChildAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.contains(QPointF) method."
+					displayName="Contains">
+						<argument
+						description="A method argument of type PointF."
+						displayName="arg0"
+						type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.forceActiveFocus(Qt::FocusReason) method."
+					displayName="ForceActiveFocus">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.grabToImage(QJSValue,QSize) method."
+					displayName="GrabToImage">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<argument
+						description="A method argument of type Size."
+						displayName="arg1"
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapFromGlobal(QQmlV4Function*) method."
+					displayName="MapFromGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapFromItem(QQmlV4Function*) method."
+					displayName="MapFromItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapToGlobal(QQmlV4Function*) method."
+					displayName="MapToGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapToItem(QQmlV4Function*) method."
+					displayName="MapToItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.nextItemInFocusChain(bool) method."
+					displayName="NextItemInFocusChain">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[5]/element/container[2]/container[@name='_contentTabItemToolBar']//container[@name='_actionButton']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e3e9c00b-3586-4e19-b388-5481b2290707">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="100ms"
+		enabled="True"
+		loc="212;28"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2f4cc3cb-bda7-49e4-8146-e8bb5668b52d"
+		sx="983"
+		sy="258"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="69098e8c-af70-4d07-9773-be0e1a7feb84"
+			sourcename="Recorder">
+				<element
+				capabilities="qtelement"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="0"
+				prefcap="container"
+				rect="771,230,220,34"
+				role="container"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="basetype"
+					type="System.String">
+						BaseButton_QMLTYPE_73;QQuickRectangle;QQuickItem;QObject
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						275
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						_actionButton
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						BaseButton
+					</attribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.activeFocus property of type Boolean."
+					name="ActiveFocus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.activeFocusOnTab property of type Boolean."
+					name="ActiveFocusOnTab"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.anchors property of type QRemoteObject."
+					name="Anchors"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.antialiasing property of type Boolean."
+					name="Antialiasing"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.baseline property of type QRemoteObject."
+					name="Baseline"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.baselineOffset property of type Double."
+					name="BaselineOffset"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.bDisableClickAction property of type Boolean."
+					name="BDisableClickAction"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.border property of type QRemoteObject."
+					name="Border"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.bottom property of type QRemoteObject."
+					name="Bottom"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageOverlayColor property of type String."
+					name="CenterImageOverlayColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageSizeDecrement property of type Double."
+					name="CenterImageSizeDecrement"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.centerImageSource property of type String."
+					name="CenterImageSource"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.children property of type QRemoteObject."
+					name="Children"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.childrenRect property of type RectangleF."
+					name="ChildrenRect"
+					readonly="False"
+					type="System.Drawing.RectangleF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.clip property of type Boolean."
+					name="Clip"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.color property of type String."
+					name="Color"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.containmentMask property of type QRemoteObject."
+					name="ContainmentMask"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.data property of type QRemoteObject."
+					name="Data"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.disableCenterImageScaling property of type Boolean."
+					name="DisableCenterImageScaling"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.enabled property of type Boolean."
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.focus property of type Boolean."
+					name="Focus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.gradient property of type QRemoteObject."
+					name="Gradient"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.horizontalCenter property of type QRemoteObject."
+					name="HorizontalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.implicitHeight property of type Double."
+					name="ImplicitHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.implicitWidth property of type Double."
+					name="ImplicitWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.interStateButton property of type QRemoteObject."
+					name="InterStateButton"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.isMouseAreaActive property of type Boolean."
+					name="IsMouseAreaActive"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.layer property of type QRemoteObject."
+					name="Layer"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.left property of type QRemoteObject."
+					name="Left"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.parent property of type QRemoteObject."
+					name="Parent"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.radius property of type Double."
+					name="Radius"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.resources property of type QRemoteObject."
+					name="Resources"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.right property of type QRemoteObject."
+					name="Right"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.rightImageSource property of type String."
+					name="RightImageSource"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.rotation property of type Double."
+					name="Rotation"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.scale property of type Double."
+					name="Scale"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.showImageCenter property of type Boolean."
+					name="ShowImageCenter"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.showImageRight property of type Boolean."
+					name="ShowImageRight"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.smooth property of type Boolean."
+					name="Smooth"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.state property of type String."
+					name="State"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.states property of type QRemoteObject."
+					name="States"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textForRightImage property of type String."
+					name="TextForRightImage"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenter property of type String."
+					name="TextInCenter"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenterColor property of type String."
+					name="TextInCenterColor"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.textInCenterFont property of type String."
+					name="TextInCenterFont"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.top property of type QRemoteObject."
+					name="Top"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transform property of type QRemoteObject."
+					name="Transform"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transformOrigin property of type Object."
+					name="TransformOrigin"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transformOriginPoint property of type PointF."
+					name="TransformOriginPoint"
+					readonly="False"
+					type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.transitions property of type QRemoteObject."
+					name="Transitions"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.verticalCenter property of type QRemoteObject."
+					name="VerticalCenter"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.visibleChildren property of type QRemoteObject."
+					name="VisibleChildren"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.x property of type Double."
+					name="X"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.y property of type Double."
+					name="Y"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt BaseButton_QMLTYPE_73.z property of type Double."
+					name="Z"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.childAt(double,double) method."
+					displayName="ChildAt">
+						<argument
+						description="A method argument of type Double."
+						displayName="arg0"
+						type="System.Double">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="arg1"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.contains(QPointF) method."
+					displayName="Contains">
+						<argument
+						description="A method argument of type PointF."
+						displayName="arg0"
+						type="System.Drawing.PointF, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.forceActiveFocus(Qt::FocusReason) method."
+					displayName="ForceActiveFocus">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.grabToImage(QJSValue,QSize) method."
+					displayName="GrabToImage">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<argument
+						description="A method argument of type Size."
+						displayName="arg1"
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapFromGlobal(QQmlV4Function*) method."
+					displayName="MapFromGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapFromItem(QQmlV4Function*) method."
+					displayName="MapFromItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapToGlobal(QQmlV4Function*) method."
+					displayName="MapToGlobal">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.mapToItem(QQmlV4Function*) method."
+					displayName="MapToItem">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.nextItemInFocusChain(bool) method."
+					displayName="NextItemInFocusChain">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt BaseButton_QMLTYPE_73.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='VnaNG']/?/?/element[@type='WindowContentItem']/container[@name='_rightSideToolBar']/element[@name='_stackViewRightToolbar']/container[5]/element/container[2]/container[@name='_contentTabItemToolBar']//container[@name='_actionButton']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="49fc343d-b797-42f9-ae25-643f0ebfe2b9">
+				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
+E9D/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="5885ebbf-970a-49f4-8cd6-c773d19e6f65"
+	name="MyTestRepository"
+	relativepath="MyTestRepository.rxrep">
+		<codegen
+		classname="MyTestRepository"
+		namespace="MyTest">
+		</codegen>
+		<rootfolder
+		id="8accd565-6a33-4cfa-8495-e28ee449d26e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Calibration_Kits_show_hide.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
