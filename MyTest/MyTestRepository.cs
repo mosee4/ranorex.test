@@ -1340,6 +1340,27 @@ namespace MyTest
                 }
 
                 /// <summary>
+                /// Gets the Screenshot29 item image.
+                /// </summary>
+                /// <returns>The Screenshot29 image.</returns>
+                [RepositoryImage("1a6499eb-e0c7-4b44-93d0-7f8f4cf73ed2")]
+                public CompressedImage GetScreenshot29()
+                {
+                    return GetImage("1a6499eb-e0c7-4b44-93d0-7f8f4cf73ed2");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot29 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("1a6499eb-e0c7-4b44-93d0-7f8f4cf73ed2")]
+                public CompressedImage GetScreenshot29(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("1a6499eb-e0c7-4b44-93d0-7f8f4cf73ed2", cropRect);
+                }
+
+                /// <summary>
                 /// Gets the Screenshot3 item image.
                 /// </summary>
                 /// <returns>The Screenshot3 image.</returns>
@@ -1358,6 +1379,69 @@ namespace MyTest
                 public CompressedImage GetScreenshot3(System.Drawing.Rectangle cropRect)
                 {
                     return GetImage("9559221b-b6da-4088-bcfd-c7a636d8476a", cropRect);
+                }
+
+                /// <summary>
+                /// Gets the Screenshot30 item image.
+                /// </summary>
+                /// <returns>The Screenshot30 image.</returns>
+                [RepositoryImage("f1744dee-a7b0-4e0f-b60b-b6c8c4a61887")]
+                public CompressedImage GetScreenshot30()
+                {
+                    return GetImage("f1744dee-a7b0-4e0f-b60b-b6c8c4a61887");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot30 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("f1744dee-a7b0-4e0f-b60b-b6c8c4a61887")]
+                public CompressedImage GetScreenshot30(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("f1744dee-a7b0-4e0f-b60b-b6c8c4a61887", cropRect);
+                }
+
+                /// <summary>
+                /// Gets the Screenshot31 item image.
+                /// </summary>
+                /// <returns>The Screenshot31 image.</returns>
+                [RepositoryImage("4a288f06-c7da-4b8b-b86f-a886f38b2501")]
+                public CompressedImage GetScreenshot31()
+                {
+                    return GetImage("4a288f06-c7da-4b8b-b86f-a886f38b2501");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot31 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("4a288f06-c7da-4b8b-b86f-a886f38b2501")]
+                public CompressedImage GetScreenshot31(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("4a288f06-c7da-4b8b-b86f-a886f38b2501", cropRect);
+                }
+
+                /// <summary>
+                /// Gets the Screenshot32 item image.
+                /// </summary>
+                /// <returns>The Screenshot32 image.</returns>
+                [RepositoryImage("603f3543-b021-4914-9882-261f9fac220d")]
+                public CompressedImage GetScreenshot32()
+                {
+                    return GetImage("603f3543-b021-4914-9882-261f9fac220d");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot32 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("603f3543-b021-4914-9882-261f9fac220d")]
+                public CompressedImage GetScreenshot32(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("603f3543-b021-4914-9882-261f9fac220d", cropRect);
                 }
 
                 /// <summary>
@@ -3360,6 +3444,11 @@ namespace MyTest
             RepoItemInfo _texttextcenter1Info;
             RepoItemInfo _texttextcenter5Info;
             RepoItemInfo _texttextcenterInfo;
+            RepoItemInfo _containerheadertabitemlayoutInfo;
+            RepoItemInfo _basetextinputnumbervalidatorInfo;
+            RepoItemInfo _containerheadertabitemlayout1Info;
+            RepoItemInfo _containerheadertabitemlayout2Info;
+            RepoItemInfo _basetextinputnumbervalidator1Info;
 
             /// <summary>
             /// Creates a new TabSelectorToolBar1  folder.
@@ -3372,6 +3461,11 @@ namespace MyTest
                 _texttextcenter1Info = new RepoItemInfo(this, "TextTextCenter1", "element/container[8]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[4]//text[@name='_textCenter']", 30000, null, "a1197ec5-a7f5-4d30-8537-ac37b9d626c3");
                 _texttextcenter5Info = new RepoItemInfo(this, "TextTextCenter5", "element/container[8]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[6]//text[@name='_textCenter']", 30000, null, "4602ec5c-9c3f-4238-84d3-eeb4a628d41d");
                 _texttextcenterInfo = new RepoItemInfo(this, "TextTextCenter", "element/container[8]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[7]//text[@name='_textCenter']", 30000, null, "e30a5040-2ecf-4a78-9ed7-0ead7e203a4d");
+                _containerheadertabitemlayoutInfo = new RepoItemInfo(this, "ContainerHeaderTabItemLayout", "?/?/container[@name='_mainTabSelectorToolBar']/container[8]/?/?/container[@name='_headerTabItemLayout']", 30000, null, "748192d5-abc4-477e-9c6a-9f72079eee5c");
+                _basetextinputnumbervalidatorInfo = new RepoItemInfo(this, "BaseTextInputNumberValidator", "element/container[8]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[9]//text[@type='BaseTextInputNumberValidator']", 30000, null, "536476cd-7904-42e6-9fa9-8c981840d7fe");
+                _containerheadertabitemlayout1Info = new RepoItemInfo(this, "ContainerHeaderTabItemLayout1", "element/container[8]/?/?/container[@name='_headerTabItemLayout']", 30000, null, "f2fc6c01-687a-4594-be2d-8396276ee1e6");
+                _containerheadertabitemlayout2Info = new RepoItemInfo(this, "ContainerHeaderTabItemLayout2", "?/?/container[@name='_mainTabSelectorToolBar']/container[7]/?/?/container[@name='_headerTabItemLayout']", 30000, null, "bf4efed4-2cb9-4172-a281-711c18d71243");
+                _basetextinputnumbervalidator1Info = new RepoItemInfo(this, "BaseTextInputNumberValidator1", "element/container[7]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[12]//text[@type='BaseTextInputNumberValidator']", 30000, null, "9a1da590-9368-4df9-b3a5-31ce2cfac5d8");
             }
 
             /// <summary>
@@ -3515,6 +3609,126 @@ namespace MyTest
                 get
                 {
                     return _texttextcenterInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ContainerHeaderTabItemLayout item.
+            /// </summary>
+            [RepositoryItem("748192d5-abc4-477e-9c6a-9f72079eee5c")]
+            public virtual Ranorex.Container ContainerHeaderTabItemLayout
+            {
+                get
+                {
+                    return _containerheadertabitemlayoutInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ContainerHeaderTabItemLayout item info.
+            /// </summary>
+            [RepositoryItemInfo("748192d5-abc4-477e-9c6a-9f72079eee5c")]
+            public virtual RepoItemInfo ContainerHeaderTabItemLayoutInfo
+            {
+                get
+                {
+                    return _containerheadertabitemlayoutInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BaseTextInputNumberValidator item.
+            /// </summary>
+            [RepositoryItem("536476cd-7904-42e6-9fa9-8c981840d7fe")]
+            public virtual Ranorex.Text BaseTextInputNumberValidator
+            {
+                get
+                {
+                    return _basetextinputnumbervalidatorInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BaseTextInputNumberValidator item info.
+            /// </summary>
+            [RepositoryItemInfo("536476cd-7904-42e6-9fa9-8c981840d7fe")]
+            public virtual RepoItemInfo BaseTextInputNumberValidatorInfo
+            {
+                get
+                {
+                    return _basetextinputnumbervalidatorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ContainerHeaderTabItemLayout1 item.
+            /// </summary>
+            [RepositoryItem("f2fc6c01-687a-4594-be2d-8396276ee1e6")]
+            public virtual Ranorex.Container ContainerHeaderTabItemLayout1
+            {
+                get
+                {
+                    return _containerheadertabitemlayout1Info.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ContainerHeaderTabItemLayout1 item info.
+            /// </summary>
+            [RepositoryItemInfo("f2fc6c01-687a-4594-be2d-8396276ee1e6")]
+            public virtual RepoItemInfo ContainerHeaderTabItemLayout1Info
+            {
+                get
+                {
+                    return _containerheadertabitemlayout1Info;
+                }
+            }
+
+            /// <summary>
+            /// The ContainerHeaderTabItemLayout2 item.
+            /// </summary>
+            [RepositoryItem("bf4efed4-2cb9-4172-a281-711c18d71243")]
+            public virtual Ranorex.Container ContainerHeaderTabItemLayout2
+            {
+                get
+                {
+                    return _containerheadertabitemlayout2Info.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ContainerHeaderTabItemLayout2 item info.
+            /// </summary>
+            [RepositoryItemInfo("bf4efed4-2cb9-4172-a281-711c18d71243")]
+            public virtual RepoItemInfo ContainerHeaderTabItemLayout2Info
+            {
+                get
+                {
+                    return _containerheadertabitemlayout2Info;
+                }
+            }
+
+            /// <summary>
+            /// The BaseTextInputNumberValidator1 item.
+            /// </summary>
+            [RepositoryItem("9a1da590-9368-4df9-b3a5-31ce2cfac5d8")]
+            public virtual Ranorex.Text BaseTextInputNumberValidator1
+            {
+                get
+                {
+                    return _basetextinputnumbervalidator1Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BaseTextInputNumberValidator1 item info.
+            /// </summary>
+            [RepositoryItemInfo("9a1da590-9368-4df9-b3a5-31ce2cfac5d8")]
+            public virtual RepoItemInfo BaseTextInputNumberValidator1Info
+            {
+                get
+                {
+                    return _basetextinputnumbervalidator1Info;
                 }
             }
         }
@@ -3983,6 +4197,7 @@ namespace MyTest
             RepoItemInfo _containeractionbutton4Info;
             RepoItemInfo _elementrootInfo;
             RepoItemInfo _elementscrollbarInfo;
+            RepoItemInfo _containerroot4Info;
 
             /// <summary>
             /// Creates a new ContainerRightSideToolBar  folder.
@@ -4004,6 +4219,7 @@ namespace MyTest
                 _containeractionbutton4Info = new RepoItemInfo(this, "ContainerActionButton4", "element[@name='_stackViewRightToolbar']/container[1]/element/container[4]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[1]//container[@name='_actionButton']", 30000, null, "e5ec0d07-e326-4760-9e82-c1f0954c409b");
                 _elementrootInfo = new RepoItemInfo(this, "ElementRoot", "element[@name='_stackViewRightToolbar']/container[1]/element/container[4]/?/?/element[@name='_childItemsColumn']/element[22]/element[@name='_root']", 30000, null, "46add299-fbe0-4356-9e6e-fb0891b59b63");
                 _elementscrollbarInfo = new RepoItemInfo(this, "ElementScrollBar", "element[@name='_stackViewRightToolbar']/container[1]/element/container[4]/?/?/element[@name='_scrollBar']", 30000, null, "866ebc1c-7983-4b53-b486-45cc7872ed7d");
+                _containerroot4Info = new RepoItemInfo(this, "ContainerRoot4", "element[@name='_columnToolBarButton']/container[8]", 30000, null, "8e6f003f-aad4-49fb-bd22-b1ee676b9ea3");
             }
 
             /// <summary>
@@ -4363,6 +4579,30 @@ namespace MyTest
                 get
                 {
                     return _elementscrollbarInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ContainerRoot4 item.
+            /// </summary>
+            [RepositoryItem("8e6f003f-aad4-49fb-bd22-b1ee676b9ea3")]
+            public virtual Ranorex.Container ContainerRoot4
+            {
+                get
+                {
+                    return _containerroot4Info.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ContainerRoot4 item info.
+            /// </summary>
+            [RepositoryItemInfo("8e6f003f-aad4-49fb-bd22-b1ee676b9ea3")]
+            public virtual RepoItemInfo ContainerRoot4Info
+            {
+                get
+                {
+                    return _containerroot4Info;
                 }
             }
         }

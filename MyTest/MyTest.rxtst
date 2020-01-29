@@ -42,6 +42,10 @@
 			id="109a7b1e-1118-4ffd-822f-393de9c46d5f"
 			name="TestCase0006_USER_TERM_Full-2Port">
 			</testcase>
+			<setup
+			id="10a2a1dc-9b64-45ac-8d31-3442eef3773d"
+			name="setup111111111511">
+			</setup>
 			<testmodule
 			id="1111c8d9-120f-4b14-adc3-ec472c2f2d37"
 			name="CloseAUT"
@@ -81,6 +85,10 @@
 			name="setup1111111113">
 			</setup>
 			<teardown
+			id="180ed98c-0ed5-4b3a-9f7f-812130612095"
+			name="teardown111111111513">
+			</teardown>
+			<teardown
 			id="1948033c-d6d0-4a54-b9e8-6b8dfb256f3b"
 			name="teardown1111111114">
 			</teardown>
@@ -88,6 +96,20 @@
 			id="1e6ddd4b-56a3-457c-a5d2-f5ce98bb6fee"
 			name="TestCase0001_Add&amp;Close_Cannel">
 			</testcase>
+			<testmodule
+			id="2088f7c0-9058-4ceb-96a7-e6dad692e854"
+			name="CloseAUT"
+			ref="089047a2-0337-4064-ae97-8605f8f7ecbc"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="cb477634-451a-4ae7-8177-f9f097e38235"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="230cafd9-e9d9-4e63-b771-7bbe21c3f117"
 			name="TestCase0005_add&amp;delete_marker">
@@ -185,6 +207,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="37232db0-d0f2-4df7-9f43-3402ae03f1a2"
+			name="CloseAUT"
+			ref="089047a2-0337-4064-ae97-8605f8f7ecbc"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="cb477634-451a-4ae7-8177-f9f097e38235"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="38c73275-5d49-4fc5-acbf-0536f3b2d7d4"
 			name="Recording1"
 			ref="eeac59e7-50fa-4145-bbf3-2bbe5104957d"
@@ -235,6 +271,20 @@
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="424af7a4-4db2-48ff-91e0-135dfba8bcff"
+			name="CloseAUT"
+			ref="089047a2-0337-4064-ae97-8605f8f7ecbc"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="cb477634-451a-4ae7-8177-f9f097e38235"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			id="45871da3-cccf-484d-84d2-b28d78e5c27a"
 			name="smoke">
@@ -251,6 +301,26 @@
 			name="Calibration_Kits_show_hide"
 			ref="5884560a-e9cb-4e74-8005-0891bf34578e"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="47ea6b85-325c-4a52-8bb6-ab137dbd600b"
+			name="StartAUT"
+			ref="19947001-dc33-4256-b70f-a10d38fc80ed"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="94fba2aa-4c5f-4e37-ae37-6725a2c51414"
+					variablename="StartAutProcessIDVar">
+					</var>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="6cf2afaf-37d9-41da-adf4-c6b17f956a9d"
+					variablename="NewVariable">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="48a4dcf7-b5b4-4c49-9238-31a011514179"
@@ -364,9 +434,27 @@
 			ref="adaa7355-202d-432b-9d6f-582cbbf3f907"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="65132aea-af87-4982-86d8-bc1665c48850"
+			name="CloseAUT"
+			ref="089047a2-0337-4064-ae97-8605f8f7ecbc"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="cb477634-451a-4ae7-8177-f9f097e38235"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="66957a27-4d35-4cc7-ae99-e9b3b6f9ab0a"
 			name="teardown111111">
+			</teardown>
+			<teardown
+			id="66a78a07-d344-40c7-85aa-739829007617"
+			name="teardown111111111512">
 			</teardown>
 			<testmodule
 			id="6733ccc4-376a-47fa-8d55-4ec102ace339"
@@ -389,6 +477,10 @@
 			<setup
 			id="6ad00ad1-1a5a-41ba-8f32-cfda7cdf5c71"
 			name="setup1111111">
+			</setup>
+			<setup
+			id="6b6525dd-a8ed-4bd1-a5e9-a8e0d75e5778"
+			name="setup111111111512">
 			</setup>
 			<testmodule
 			id="6ba125e8-95e1-49a9-aa0a-a8c3a8555125"
@@ -469,6 +561,26 @@
 			name="setup11111">
 			</setup>
 			<testmodule
+			id="83ebd7fc-4567-4cac-ad6d-ed377cb0229a"
+			name="StartAUT"
+			ref="19947001-dc33-4256-b70f-a10d38fc80ed"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="94fba2aa-4c5f-4e37-ae37-6725a2c51414"
+					variablename="StartAutProcessIDVar">
+					</var>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="6cf2afaf-37d9-41da-adf4-c6b17f956a9d"
+					variablename="NewVariable">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="8710c1f8-cb05-40dc-b6e7-37e9aefbf169"
 			name="Calibrate_Factoey_Term"
 			ref="9d8988bb-8729-4545-afe4-772e674712de"
@@ -510,6 +622,26 @@
 			</testmodule>
 			<testmodule
 			id="904c96bb-32b2-41f3-be63-543b0fcf6099"
+			name="StartAUT"
+			ref="19947001-dc33-4256-b70f-a10d38fc80ed"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="94fba2aa-4c5f-4e37-ae37-6725a2c51414"
+					variablename="StartAutProcessIDVar">
+					</var>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="6cf2afaf-37d9-41da-adf4-c6b17f956a9d"
+					variablename="NewVariable">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="94425608-36a4-44f4-b80a-317f46a4e13b"
 			name="StartAUT"
 			ref="19947001-dc33-4256-b70f-a10d38fc80ed"
 			type="Recording">
@@ -612,6 +744,10 @@
 			id="afc22e6c-66dd-470b-a9a8-28417b1b23d5"
 			name="TestCase0008_FullScreenOn/Off">
 			</testcase>
+			<setup
+			id="b3497705-ede4-40ff-94e1-3a035498067d"
+			name="setup111111111514">
+			</setup>
 			<testmodule
 			id="b35fcf92-e654-4751-b157-fa1ed19aba8a"
 			name="StartAUT"
@@ -693,6 +829,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="c40f393b-77fa-430b-90c1-d6092d6313ba"
+			name="teardown111111111511">
+			</teardown>
 			<testcase
 			id="c5d4eefa-b621-41c0-aa7e-25852db065c4"
 			name="TestCase00014_Run&amp;Close_App">
@@ -709,6 +849,10 @@
 			id="c9ee5158-0401-420c-860e-9deeaf0f3be6"
 			name="regress">
 			</smartfoldernode>
+			<teardown
+			id="ccc44842-4ac2-43af-84f7-39c615ec6190"
+			name="teardown111111111514">
+			</teardown>
 			<teardown
 			id="cd03d0cd-1efc-490a-9266-52c58e8e83f8"
 			name="teardown1111111113">
@@ -779,6 +923,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="d8b8bed5-a3ff-4a28-83fb-583de68d9e49"
+			name="setup111111111515">
+			</setup>
 			<testmodule
 			id="d8de5709-5c74-49b2-872a-d116543754cb"
 			name="StartAUT"
@@ -825,6 +973,10 @@
 			ref="52e81316-d67f-4e5e-8326-e9ad520c5e10"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="e36a5534-55df-4ae9-9fb0-e5adad681d74"
+			name="teardown111111111515">
+			</teardown>
 			<testmodule
 			id="e43d3122-bb26-41ee-9d12-f39fa5249272"
 			name="StartAUT"
@@ -851,6 +1003,26 @@
 			</teardown>
 			<testmodule
 			id="e92d9376-9eb9-4477-983a-7b802a60b14e"
+			name="StartAUT"
+			ref="19947001-dc33-4256-b70f-a10d38fc80ed"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="94fba2aa-4c5f-4e37-ae37-6725a2c51414"
+					variablename="StartAutProcessIDVar">
+					</var>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="6cf2afaf-37d9-41da-adf4-c6b17f956a9d"
+					variablename="NewVariable">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="e93e96a8-f27e-40c4-b1d7-f408bbb7e383"
 			name="StartAUT"
 			ref="19947001-dc33-4256-b70f-a10d38fc80ed"
 			type="Recording">
@@ -898,6 +1070,46 @@
 			name="TestCase0004_Check_scan_law">
 			</testcase>
 			<testmodule
+			id="f7dde1c4-d7af-4e8f-87fb-9b1ace0fcdff"
+			name="Cannel_max_min"
+			ref="36e7e984-fc64-4fef-97ff-b4e15ad2f0e6"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="f8c92286-5570-482d-a14d-07c6ccd09cb7"
+			name="CloseAUT"
+			ref="089047a2-0337-4064-ae97-8605f8f7ecbc"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="cb477634-451a-4ae7-8177-f9f097e38235"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="f8d159be-c80b-4824-8e95-83ffef107ee0"
+			name="StartAUT"
+			ref="19947001-dc33-4256-b70f-a10d38fc80ed"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="94fba2aa-4c5f-4e37-ae37-6725a2c51414"
+					variablename="StartAutProcessIDVar">
+					</var>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="6cf2afaf-37d9-41da-adf4-c6b17f956a9d"
+					variablename="NewVariable">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="fa4544a2-ef5b-4773-965b-4d843851522b"
 			name="CloseAUT"
 			ref="089047a2-0337-4064-ae97-8605f8f7ecbc"
@@ -917,6 +1129,10 @@
 			ref="a779e089-8140-4ee3-86a2-7cbcc1d82110"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="fdbd82b2-b3cc-4bd5-b2d8-4daeb55ece2c"
+			name="setup111111111513">
+			</setup>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -1251,22 +1467,106 @@
 						<testcase
 						id="67aca13f-9714-4665-92dc-0f769e06a2e9"
 						name="TestCase00017_Channel">
+							<setup
+							id="10a2a1dc-9b64-45ac-8d31-3442eef3773d"
+							name="setup111111111511">
+								<testmodule
+								id="94425608-36a4-44f4-b80a-317f46a4e13b"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="f7dde1c4-d7af-4e8f-87fb-9b1ace0fcdff"
+							name="Cannel_max_min">
+							</testmodule>
+							<teardown
+							id="c40f393b-77fa-430b-90c1-d6092d6313ba"
+							name="teardown111111111511">
+								<testmodule
+								id="65132aea-af87-4982-86d8-bc1665c48850"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
 						</testcase>
 						<testcase
 						id="a9d07239-0da4-4975-995f-03e1937f6228"
 						name="TestCase00018_Trace">
+							<setup
+							id="6b6525dd-a8ed-4bd1-a5e9-a8e0d75e5778"
+							name="setup111111111512">
+								<testmodule
+								id="f8d159be-c80b-4824-8e95-83ffef107ee0"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+							<teardown
+							id="66a78a07-d344-40c7-85aa-739829007617"
+							name="teardown111111111512">
+								<testmodule
+								id="f8c92286-5570-482d-a14d-07c6ccd09cb7"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
 						</testcase>
 						<testcase
 						id="f127d8fa-b055-4f31-9363-4fd0de077418"
 						name="TestCase00019_Markers">
+							<setup
+							id="fdbd82b2-b3cc-4bd5-b2d8-4daeb55ece2c"
+							name="setup111111111513">
+								<testmodule
+								id="47ea6b85-325c-4a52-8bb6-ab137dbd600b"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+							<teardown
+							id="180ed98c-0ed5-4b3a-9f7f-812130612095"
+							name="teardown111111111513">
+								<testmodule
+								id="2088f7c0-9058-4ceb-96a7-e6dad692e854"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
 						</testcase>
 						<testcase
 						id="4f126ce2-83c5-4c2c-99af-fa3057b0db76"
 						name="TestCase00020_Calibration">
+							<setup
+							id="b3497705-ede4-40ff-94e1-3a035498067d"
+							name="setup111111111514">
+								<testmodule
+								id="83ebd7fc-4567-4cac-ad6d-ed377cb0229a"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+							<teardown
+							id="ccc44842-4ac2-43af-84f7-39c615ec6190"
+							name="teardown111111111514">
+								<testmodule
+								id="424af7a4-4db2-48ff-91e0-135dfba8bcff"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
 						</testcase>
 						<testcase
 						id="593e511b-206f-4a1b-b9b8-f1214ff31823"
 						name="TestCase00021_Analyze">
+							<setup
+							id="d8b8bed5-a3ff-4a28-83fb-583de68d9e49"
+							name="setup111111111515">
+								<testmodule
+								id="e93e96a8-f27e-40c4-b1d7-f408bbb7e383"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+							<teardown
+							id="e36a5534-55df-4ae9-9fb0-e5adad681d74"
+							name="teardown111111111515">
+								<testmodule
+								id="37232db0-d0f2-4df7-9f43-3402ae03f1a2"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
 						</testcase>
 					</smartfoldernode>
 					<smartfoldernode
@@ -1356,46 +1656,13 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="00b54c3d-ea96-49be-adab-1c5ca45585eb">
-			</testcontainer>
-			<testcontainer
-			id="109a7b1e-1118-4ffd-822f-393de9c46d5f">
-			</testcontainer>
-			<testcontainer
-			id="1e6ddd4b-56a3-457c-a5d2-f5ce98bb6fee">
-			</testcontainer>
-			<testcontainer
-			id="230cafd9-e9d9-4e63-b771-7bbe21c3f117">
+			id="0bfd1567-6fb5-409d-bfa3-5ae54d29c6da">
 			</testcontainer>
 			<testcontainer
 			id="41676491-e8e4-4e7d-afe4-bda3557e0e87">
 			</testcontainer>
 			<testcontainer
-			id="45871da3-cccf-484d-84d2-b28d78e5c27a">
-			</testcontainer>
-			<testcontainer
-			id="54b5985d-df8a-4b9d-b9d1-0b90f7f6835a">
-			</testcontainer>
-			<testcontainer
-			id="585edd97-c6a6-4bca-9882-868d8f39ded1">
-			</testcontainer>
-			<testcontainer
-			id="9d3aa45d-fa26-4030-9c6f-112b87d9d641">
-			</testcontainer>
-			<testcontainer
-			id="b6fcd5b7-da99-4ed6-a4d2-86020a0b610f">
-			</testcontainer>
-			<testcontainer
-			id="c1a7aa1d-d522-46a0-ab83-8980da2e5e0a">
-			</testcontainer>
-			<testcontainer
-			id="c5d4eefa-b621-41c0-aa7e-25852db065c4">
-			</testcontainer>
-			<testcontainer
-			id="eaef036d-6003-4998-9b0b-99c87408aad7">
-			</testcontainer>
-			<testcontainer
-			id="f2ae2378-767b-403d-a0b8-9842f0fbc2fd">
+			id="67aca13f-9714-4665-92dc-0f769e06a2e9">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

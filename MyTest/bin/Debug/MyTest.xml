@@ -4,6 +4,124 @@
         <name>MyTest</name>
     </assembly>
     <members>
+        <member name="T:MyTest.Cannel_max_min">
+             <summary>
+            The Cannel_max_min recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Cannel_max_min.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Cannel_max_min.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Cannel_max_min.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.Cannel_max_min.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Cannel_max_min.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Cannel_max_min.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot29">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot29_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot30">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot30_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot31">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot31_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot32">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot32_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:MyTest.Cannel_max_min.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Channel_stimulus_point_max_min">
+             <summary>
+            The Channel_stimulus_point_max_min recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Channel_stimulus_point_max_min.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Channel_stimulus_point_max_min.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Channel_stimulus_point_max_min.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest.Channel_stimulus_point_max_min.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Channel_stimulus_point_max_min.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Channel_stimulus_point_max_min.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.Channel_stimulus_point_max_min.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:MyTest.CloseAUT">
              <summary>
             The CloseAUT recording.
@@ -802,6 +920,19 @@
             <param name="cropRect">The bounds of the sub-image to return.</param>
             <returns>The cropped image.</returns>
         </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot29">
+            <summary>
+            Gets the Screenshot29 item image.
+            </summary>
+            <returns>The Screenshot29 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot29(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot29 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
         <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot3">
             <summary>
             Gets the Screenshot3 item image.
@@ -811,6 +942,45 @@
         <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot3(System.Drawing.Rectangle)">
             <summary>
             Gets the Screenshot3 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot30">
+            <summary>
+            Gets the Screenshot30 item image.
+            </summary>
+            <returns>The Screenshot30 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot30(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot30 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot31">
+            <summary>
+            Gets the Screenshot31 item image.
+            </summary>
+            <returns>The Screenshot31 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot31(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot31 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot32">
+            <summary>
+            Gets the Screenshot32 item image.
+            </summary>
+            <returns>The Screenshot32 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot32(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot32 item image.
             </summary>
             <param name="cropRect">The bounds of the sub-image to return.</param>
             <returns>The cropped image.</returns>
@@ -1836,6 +2006,56 @@
             The TextTextCenter item info.
             </summary>
         </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.ContainerHeaderTabItemLayout">
+            <summary>
+            The ContainerHeaderTabItemLayout item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.ContainerHeaderTabItemLayoutInfo">
+            <summary>
+            The ContainerHeaderTabItemLayout item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.BaseTextInputNumberValidator">
+            <summary>
+            The BaseTextInputNumberValidator item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.BaseTextInputNumberValidatorInfo">
+            <summary>
+            The BaseTextInputNumberValidator item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.ContainerHeaderTabItemLayout1">
+            <summary>
+            The ContainerHeaderTabItemLayout1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.ContainerHeaderTabItemLayout1Info">
+            <summary>
+            The ContainerHeaderTabItemLayout1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.ContainerHeaderTabItemLayout2">
+            <summary>
+            The ContainerHeaderTabItemLayout2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.ContainerHeaderTabItemLayout2Info">
+            <summary>
+            The ContainerHeaderTabItemLayout2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.BaseTextInputNumberValidator1">
+            <summary>
+            The BaseTextInputNumberValidator1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.TabSelectorToolBar1Folder.BaseTextInputNumberValidator1Info">
+            <summary>
+            The BaseTextInputNumberValidator1 item info.
+            </summary>
+        </member>
         <member name="T:MyTest.MyTestRepositoryFolders.ListContentListViewFolder">
             <summary>
             The ListContentListViewFolder folder.
@@ -2174,6 +2394,16 @@
         <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ElementScrollBarInfo">
             <summary>
             The ElementScrollBar item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerRoot4">
+            <summary>
+            The ContainerRoot4 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContainerRightSideToolBarFolder.ContainerRoot4Info">
+            <summary>
+            The ContainerRoot4 item info.
             </summary>
         </member>
         <member name="T:MyTest.MyTestRepositoryFolders.ContainerContentColumnFolder">

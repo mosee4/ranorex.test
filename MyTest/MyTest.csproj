@@ -126,6 +126,30 @@
     <Compile Include="AssemblyInfo.cs">
       <id>039d7bcc-035a-4a73-ab0c-866cf01ffb1b</id>
     </Compile>
+    <Compile Include="Cannel_max_min.cs">
+      <BoundTo>f1f7a745-8e64-4108-b415-480eefd867fd</BoundTo>
+      <DependentUpon>Cannel_max_min.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e54d22fb-8ef6-47d2-a9ef-6e5c4dd5b28d</id>
+    </Compile>
+    <Compile Include="Cannel_max_min.UserCode.cs">
+      <BoundTo>f1f7a745-8e64-4108-b415-480eefd867fd</BoundTo>
+      <DependentUpon>Cannel_max_min.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d029aee6-8f61-467d-a4bf-d9163830e9bb</id>
+    </Compile>
+    <Compile Include="Channel_stimulus_point_max_min.cs">
+      <BoundTo>dbaf4f33-fa59-4e1f-9e8c-9a69adfd4fa3</BoundTo>
+      <DependentUpon>Channel_stimulus_point_max_min.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>162ed664-3a50-4e85-b4e0-70a298a815e9</id>
+    </Compile>
+    <Compile Include="Channel_stimulus_point_max_min.UserCode.cs">
+      <BoundTo>dbaf4f33-fa59-4e1f-9e8c-9a69adfd4fa3</BoundTo>
+      <DependentUpon>Channel_stimulus_point_max_min.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e03045ee-8696-49dc-a908-982f27e816b5</id>
+    </Compile>
     <Compile Include="CloseAUT.cs">
       <BoundTo>49bee188-e9c6-4145-8be1-90583eca7dc9</BoundTo>
       <DependentUpon>CloseAUT.rxrec</DependentUpon>
@@ -367,6 +391,16 @@
   <ItemGroup>
     <None Include="app.config">
       <id>2c17a1e6-ba50-40b4-8bf2-64531f3d9ec6</id>
+    </None>
+    <None Include="Cannel_max_min.rxrec">
+      <BoundTo>e94f2baf-6b03-460b-8fdf-bfee17697281</BoundTo>
+      <id>f1f7a745-8e64-4108-b415-480eefd867fd</id>
+      <recordtableid>36e7e984-fc64-4fef-97ff-b4e15ad2f0e6</recordtableid>
+    </None>
+    <None Include="Channel_stimulus_point_max_min.rxrec">
+      <BoundTo>e94f2baf-6b03-460b-8fdf-bfee17697281</BoundTo>
+      <id>dbaf4f33-fa59-4e1f-9e8c-9a69adfd4fa3</id>
+      <recordtableid>8a4959f6-c211-442f-ab9a-ae3c66ef46fb</recordtableid>
     </None>
     <None Include="CloseAUT.rxrec">
       <BoundTo>e94f2baf-6b03-460b-8fdf-bfee17697281</BoundTo>
