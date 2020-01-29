@@ -373,6 +373,10 @@
       <id>49bee188-e9c6-4145-8be1-90583eca7dc9</id>
       <recordtableid>089047a2-0337-4064-ae97-8605f8f7ecbc</recordtableid>
     </None>
+    <Content Include="MyTest.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>ce1ecb61-8c75-468c-a5c9-c8084af2903f</id>
+    </Content>
     <None Include="MyTestRepository.rximg">
       <BoundTo>e94f2baf-6b03-460b-8fdf-bfee17697281</BoundTo>
       <DependentUpon>MyTestRepository.rxrep</DependentUpon>
