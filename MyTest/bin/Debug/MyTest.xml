@@ -78,11 +78,6 @@
             The Explorer folder.
             </summary>
         </member>
-        <member name="P:MyTest.MyTestRepository.Explorer1">
-            <summary>
-            The Explorer1 folder.
-            </summary>
-        </member>
         <member name="T:MyTest.MyTestRepositoryFolders">
             <summary>
             Inner folder classes.
@@ -790,6 +785,19 @@
         <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot27(System.Drawing.Rectangle)">
             <summary>
             Gets the Screenshot27 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot28">
+            <summary>
+            Gets the Screenshot28 item image.
+            </summary>
+            <returns>The Screenshot28 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot28(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot28 item image.
             </summary>
             <param name="cropRect">The bounds of the sub-image to return.</param>
             <returns>The cropped image.</returns>
@@ -2388,59 +2396,6 @@
             The List1 item info.
             </summary>
         </member>
-        <member name="T:MyTest.MyTestRepositoryFolders.Explorer1AppFolder">
-            <summary>
-            The Explorer1AppFolder folder.
-            </summary>
-        </member>
-        <member name="M:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new Explorer1  folder.
-            </summary>
-        </member>
-        <member name="T:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкноInfoClass">
-            <summary>
-            The RanorexStudio1ЗапущенноеОкноInfoClass folder.
-            </summary>
-        </member>
-        <member name="M:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкноInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            RanorexStudio1ЗапущенноеОкноInfoClass class constructor.
-            </summary>
-        </member>
-        <member name="M:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкноInfoClass.GetScreenshot1">
-            <summary>
-            Gets the Screenshot1 item image.
-            </summary>
-            <returns>The Screenshot1 image.</returns>
-        </member>
-        <member name="M:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкноInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
-            <summary>
-            Gets the Screenshot1 item image.
-            </summary>
-            <param name="cropRect">The bounds of the sub-image to return.</param>
-            <returns>The cropped image.</returns>
-        </member>
-        <member name="P:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
-        <member name="P:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкно">
-            <summary>
-            The RanorexStudio1ЗапущенноеОкно item.
-            </summary>
-        </member>
-        <member name="P:MyTest.MyTestRepositoryFolders.Explorer1AppFolder.RanorexStudio1ЗапущенноеОкноInfo">
-            <summary>
-            The RanorexStudio1ЗапущенноеОкно item info.
-            </summary>
-        </member>
         <member name="T:MyTest.AddClose_Cannel">
              <summary>
             The AddClose_Cannel recording.
@@ -3278,6 +3233,16 @@
             </summary>
         </member>
         <member name="P:MyTest.Stimul_scale.BackgroundItem_MyTest_2_83a0e2d0_rxlog1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot28">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyTest.Stimul_scale.BackgroundItem_Screenshot28_Options">
             <summary>
             DO NOT REFERENCE THIS CODE  - auto generated
             </summary>

@@ -9,3 +9,4 @@ C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\o
 C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\obj\x86\Debug\MyTest.exe
 C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\obj\x86\Debug\MyTest.pdb
 C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\RepositoryImages\MyTestRepository8accd565.rximgres
+C:\Users\vitaliy.moseev\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.rxsqc

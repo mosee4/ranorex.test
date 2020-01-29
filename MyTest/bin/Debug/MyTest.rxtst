@@ -220,6 +220,10 @@
 			ref="b6baf93e-a12d-458d-b0c1-274e5f5ac05e"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="3ed7e5a6-b257-45e7-9fe0-288081dc745a"
+			name="dont_work">
+			</smartfoldernode>
 			<testcase
 			id="41676491-e8e4-4e7d-afe4-bda3557e0e87"
 			name="MyTest"
@@ -538,10 +542,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testcase
-			id="99e5fc74-ac31-4cdd-9da3-1e69706f6420"
-			name="TestCase">
-			</testcase>
 			<testmodule
 			id="9d229d54-1f91-4254-83b6-3b9fc04d968f"
 			name="CloseAUT"
@@ -1192,10 +1192,6 @@
 								</testmodule>
 							</teardown>
 						</testcase>
-					</smartfoldernode>
-					<smartfoldernode
-					id="c9ee5158-0401-420c-860e-9deeaf0f3be6"
-					name="regress">
 						<testcase
 						id="eaef036d-6003-4998-9b0b-99c87408aad7"
 						name="TestCase00015_stimul_scale">
@@ -1220,26 +1216,82 @@
 								</testmodule>
 							</teardown>
 						</testcase>
+					</smartfoldernode>
+					<smartfoldernode
+					id="c9ee5158-0401-420c-860e-9deeaf0f3be6"
+					name="regress">
 						<testcase
-						id="afc22e6c-66dd-470b-a9a8-28417b1b23d5"
-						name="TestCase0008_FullScreenOn/Off">
+						id="bddcbf5c-f474-4f2c-8dce-a851cd1f37e9"
+						name="TestCase00016_noname">
 							<setup
-							id="6ad00ad1-1a5a-41ba-8f32-cfda7cdf5c71"
-							name="setup1111111">
+							id="45de0afa-50de-4799-bf2c-f6ff9570cfb3"
+							name="setup11111111151">
 								<testmodule
-								id="a2f13ef0-1a16-48a4-a5d2-d55597e08557"
+								id="3b0a44e6-5605-4545-8eb6-cfb8f91f72e2"
 								name="StartAUT">
 								</testmodule>
 							</setup>
 							<testmodule
-							id="6ba125e8-95e1-49a9-aa0a-a8c3a8555125"
-							name="FullScreenOn_Off">
+							id="38c73275-5d49-4fc5-acbf-0536f3b2d7d4"
+							name="Recording1">
 							</testmodule>
 							<teardown
-							id="e6039676-9077-4b8d-8d31-c405ac1dc313"
-							name="teardown1111111">
+							id="57c5e6f6-4243-4691-90f2-0cb5a0708cc9"
+							name="teardown11111111151">
 								<testmodule
-								id="1111c8d9-120f-4b14-adc3-ec472c2f2d37"
+								id="341fc8e4-10ba-47b9-990a-c5be66430182"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
+						</testcase>
+					</smartfoldernode>
+					<smartfoldernode
+					id="0bfd1567-6fb5-409d-bfa3-5ae54d29c6da"
+					name="input_fields">
+						<testcase
+						id="67aca13f-9714-4665-92dc-0f769e06a2e9"
+						name="TestCase00017_Channel">
+						</testcase>
+						<testcase
+						id="a9d07239-0da4-4975-995f-03e1937f6228"
+						name="TestCase00018_Trace">
+						</testcase>
+						<testcase
+						id="f127d8fa-b055-4f31-9363-4fd0de077418"
+						name="TestCase00019_Markers">
+						</testcase>
+						<testcase
+						id="4f126ce2-83c5-4c2c-99af-fa3057b0db76"
+						name="TestCase00020_Calibration">
+						</testcase>
+						<testcase
+						id="593e511b-206f-4a1b-b9b8-f1214ff31823"
+						name="TestCase00021_Analyze">
+						</testcase>
+					</smartfoldernode>
+					<smartfoldernode
+					id="3ed7e5a6-b257-45e7-9fe0-288081dc745a"
+					name="dont_work">
+						<testcase
+						id="56e22e18-8fae-443d-9c85-93ff61ca7b35"
+						name="TestCase00013_Setting_VNA_Hide_VNA_collection">
+							<setup
+							id="17eaf216-4298-496f-ab1d-2e6ba54bb613"
+							name="setup1111111113">
+								<testmodule
+								id="2bf5b473-c2b5-4176-a355-92fd93f544b1"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="ebc428cd-394f-483a-9277-02f1902864a3"
+							name="Setting_VNA_Hide_VNA_collection">
+							</testmodule>
+							<teardown
+							id="cd03d0cd-1efc-490a-9266-52c58e8e83f8"
+							name="teardown1111111113">
+								<testmodule
+								id="48c3fb87-c1bd-4b71-8e6a-2a1635ca5bb0"
 								name="CloseAUT">
 								</testmodule>
 							</teardown>
@@ -1269,80 +1321,28 @@
 							</teardown>
 						</testcase>
 						<testcase
-						id="56e22e18-8fae-443d-9c85-93ff61ca7b35"
-						name="TestCase00013_Setting_VNA_Hide_VNA_collection">
+						id="afc22e6c-66dd-470b-a9a8-28417b1b23d5"
+						name="TestCase0008_FullScreenOn/Off">
 							<setup
-							id="17eaf216-4298-496f-ab1d-2e6ba54bb613"
-							name="setup1111111113">
+							id="6ad00ad1-1a5a-41ba-8f32-cfda7cdf5c71"
+							name="setup1111111">
 								<testmodule
-								id="2bf5b473-c2b5-4176-a355-92fd93f544b1"
+								id="a2f13ef0-1a16-48a4-a5d2-d55597e08557"
 								name="StartAUT">
 								</testmodule>
 							</setup>
 							<testmodule
-							id="ebc428cd-394f-483a-9277-02f1902864a3"
-							name="Setting_VNA_Hide_VNA_collection">
+							id="6ba125e8-95e1-49a9-aa0a-a8c3a8555125"
+							name="FullScreenOn_Off">
 							</testmodule>
 							<teardown
-							id="cd03d0cd-1efc-490a-9266-52c58e8e83f8"
-							name="teardown1111111113">
+							id="e6039676-9077-4b8d-8d31-c405ac1dc313"
+							name="teardown1111111">
 								<testmodule
-								id="48c3fb87-c1bd-4b71-8e6a-2a1635ca5bb0"
+								id="1111c8d9-120f-4b14-adc3-ec472c2f2d37"
 								name="CloseAUT">
 								</testmodule>
 							</teardown>
-						</testcase>
-						<testcase
-						id="bddcbf5c-f474-4f2c-8dce-a851cd1f37e9"
-						name="TestCase00016_noname">
-							<setup
-							id="45de0afa-50de-4799-bf2c-f6ff9570cfb3"
-							name="setup11111111151">
-								<testmodule
-								id="3b0a44e6-5605-4545-8eb6-cfb8f91f72e2"
-								name="StartAUT">
-								</testmodule>
-							</setup>
-							<testmodule
-							id="38c73275-5d49-4fc5-acbf-0536f3b2d7d4"
-							name="Recording1">
-							</testmodule>
-							<teardown
-							id="57c5e6f6-4243-4691-90f2-0cb5a0708cc9"
-							name="teardown11111111151">
-								<testmodule
-								id="341fc8e4-10ba-47b9-990a-c5be66430182"
-								name="CloseAUT">
-								</testmodule>
-							</teardown>
-						</testcase>
-						<testcase
-						id="99e5fc74-ac31-4cdd-9da3-1e69706f6420"
-						name="TestCase">
-						</testcase>
-					</smartfoldernode>
-					<smartfoldernode
-					id="0bfd1567-6fb5-409d-bfa3-5ae54d29c6da"
-					name="input_fields">
-						<testcase
-						id="67aca13f-9714-4665-92dc-0f769e06a2e9"
-						name="TestCase00017_Channel">
-						</testcase>
-						<testcase
-						id="a9d07239-0da4-4975-995f-03e1937f6228"
-						name="TestCase00018_Trace">
-						</testcase>
-						<testcase
-						id="f127d8fa-b055-4f31-9363-4fd0de077418"
-						name="TestCase00019_Markers">
-						</testcase>
-						<testcase
-						id="4f126ce2-83c5-4c2c-99af-fa3057b0db76"
-						name="TestCase00020_Calibration">
-						</testcase>
-						<testcase
-						id="593e511b-206f-4a1b-b9b8-f1214ff31823"
-						name="TestCase00021_Analyze">
 						</testcase>
 					</smartfoldernode>
 				</testcase>
@@ -1356,13 +1356,46 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="00b54c3d-ea96-49be-adab-1c5ca45585eb">
+			</testcontainer>
+			<testcontainer
+			id="109a7b1e-1118-4ffd-822f-393de9c46d5f">
+			</testcontainer>
+			<testcontainer
+			id="1e6ddd4b-56a3-457c-a5d2-f5ce98bb6fee">
+			</testcontainer>
+			<testcontainer
+			id="230cafd9-e9d9-4e63-b771-7bbe21c3f117">
+			</testcontainer>
+			<testcontainer
 			id="41676491-e8e4-4e7d-afe4-bda3557e0e87">
 			</testcontainer>
 			<testcontainer
-			id="c9ee5158-0401-420c-860e-9deeaf0f3be6">
+			id="45871da3-cccf-484d-84d2-b28d78e5c27a">
+			</testcontainer>
+			<testcontainer
+			id="54b5985d-df8a-4b9d-b9d1-0b90f7f6835a">
+			</testcontainer>
+			<testcontainer
+			id="585edd97-c6a6-4bca-9882-868d8f39ded1">
+			</testcontainer>
+			<testcontainer
+			id="9d3aa45d-fa26-4030-9c6f-112b87d9d641">
+			</testcontainer>
+			<testcontainer
+			id="b6fcd5b7-da99-4ed6-a4d2-86020a0b610f">
+			</testcontainer>
+			<testcontainer
+			id="c1a7aa1d-d522-46a0-ab83-8980da2e5e0a">
+			</testcontainer>
+			<testcontainer
+			id="c5d4eefa-b621-41c0-aa7e-25852db065c4">
 			</testcontainer>
 			<testcontainer
 			id="eaef036d-6003-4998-9b0b-99c87408aad7">
+			</testcontainer>
+			<testcontainer
+			id="f2ae2378-767b-403d-a0b8-9842f0fbc2fd">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
