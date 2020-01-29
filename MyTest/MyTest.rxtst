@@ -88,30 +88,6 @@
 			id="1e6ddd4b-56a3-457c-a5d2-f5ce98bb6fee"
 			name="TestCase0001_Add&amp;Close_Cannel">
 			</testcase>
-			<teardown
-			id="1f1a2860-3856-4738-8ed7-6c7baeebf9b4"
-			name="teardown111111111511">
-			</teardown>
-			<testmodule
-			id="205061ed-b641-4509-b4e3-843f875af037"
-			name="StartAUT"
-			ref="19947001-dc33-4256-b70f-a10d38fc80ed"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
-					variableid="94fba2aa-4c5f-4e37-ae37-6725a2c51414"
-					variablename="StartAutProcessIDVar">
-					</var>
-					<var
-					dataname="AppProcessID"
-					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
-					variableid="6cf2afaf-37d9-41da-adf4-c6b17f956a9d"
-					variablename="NewVariable">
-					</var>
-				</databinding>
-			</testmodule>
 			<testcase
 			id="230cafd9-e9d9-4e63-b771-7bbe21c3f117"
 			name="TestCase0005_add&amp;delete_marker">
@@ -434,10 +410,6 @@
 			ref="ed5481fe-4e18-40aa-be40-5ce19c9bbbb7"
 			type="Recording">
 			</testmodule>
-			<setup
-			id="74f3b539-55a6-43c1-9026-471b8e7b9769"
-			name="setup111111111511">
-			</setup>
 			<testmodule
 			id="763edb8f-ed36-48e2-9dc9-7210f9b7618a"
 			name="StartAUT"
@@ -570,10 +542,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testcase
-			id="99e5fc74-ac31-4cdd-9da3-1e69706f6420"
-			name="TestCase">
-			</testcase>
 			<testmodule
 			id="9d229d54-1f91-4254-83b6-3b9fc04d968f"
 			name="CloseAUT"
@@ -703,20 +671,6 @@
 			id="be6705c5-cc32-4592-92d7-d89b6190be25"
 			name="setup111111">
 			</setup>
-			<testmodule
-			id="bf17c521-ee94-422b-91f3-83c95b680490"
-			name="CloseAUT"
-			ref="089047a2-0337-4064-ae97-8605f8f7ecbc"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
-					variableid="cb477634-451a-4ae7-8177-f9f097e38235"
-					variablename="CloseAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
 			<setup
 			id="c18b5b0a-5aa9-4bed-9f5a-47193562410d"
 			name="setup">
@@ -1286,26 +1240,6 @@
 							name="teardown11111111151">
 								<testmodule
 								id="341fc8e4-10ba-47b9-990a-c5be66430182"
-								name="CloseAUT">
-								</testmodule>
-							</teardown>
-						</testcase>
-						<testcase
-						id="99e5fc74-ac31-4cdd-9da3-1e69706f6420"
-						name="TestCase">
-							<setup
-							id="74f3b539-55a6-43c1-9026-471b8e7b9769"
-							name="setup111111111511">
-								<testmodule
-								id="205061ed-b641-4509-b4e3-843f875af037"
-								name="StartAUT">
-								</testmodule>
-							</setup>
-							<teardown
-							id="1f1a2860-3856-4738-8ed7-6c7baeebf9b4"
-							name="teardown111111111511">
-								<testmodule
-								id="bf17c521-ee94-422b-91f3-83c95b680490"
 								name="CloseAUT">
 								</testmodule>
 							</teardown>
