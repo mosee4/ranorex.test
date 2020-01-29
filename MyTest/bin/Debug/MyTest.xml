@@ -57,22 +57,22 @@
             DO NOT REFERENCE THIS CODE  - auto generated
             </summary>
         </member>
-        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot31">
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem_MyTest_2_b90884a1_rxlog1">
             <summary>
             DO NOT REFERENCE THIS CODE  - auto generated
             </summary>
         </member>
-        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot31_Options">
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem_MyTest_2_b90884a1_rxlog1_Options">
             <summary>
             DO NOT REFERENCE THIS CODE  - auto generated
             </summary>
         </member>
-        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot32">
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem2_MyTest_2_993d83c1_rxlog1">
             <summary>
             DO NOT REFERENCE THIS CODE  - auto generated
             </summary>
         </member>
-        <member name="P:MyTest.Cannel_max_min.BackgroundItem_Screenshot32_Options">
+        <member name="P:MyTest.Cannel_max_min.BackgroundItem2_MyTest_2_993d83c1_rxlog1_Options">
             <summary>
             DO NOT REFERENCE THIS CODE  - auto generated
             </summary>
@@ -621,6 +621,19 @@
             <param name="cropRect">The bounds of the sub-image to return.</param>
             <returns>The cropped image.</returns>
         </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetMyTest_2_b90884a1_rxlog1">
+            <summary>
+            Gets the MyTest_2_b90884a1_rxlog1 item image.
+            </summary>
+            <returns>The MyTest_2_b90884a1_rxlog1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetMyTest_2_b90884a1_rxlog1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the MyTest_2_b90884a1_rxlog1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
         <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetMyTest_2_f05e2cb_rxlog1">
             <summary>
             Gets the MyTest_2_f05e2cb_rxlog1 item image.
@@ -985,6 +998,19 @@
             <param name="cropRect">The bounds of the sub-image to return.</param>
             <returns>The cropped image.</returns>
         </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot33">
+            <summary>
+            Gets the Screenshot33 item image.
+            </summary>
+            <returns>The Screenshot33 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot33(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot33 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
         <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItemInfoClass.GetScreenshot4">
             <summary>
             Gets the Screenshot4 item image.
@@ -1335,6 +1361,42 @@
             <returns>The Screenshot1 image.</returns>
         </member>
         <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickOverlayInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem2InfoClass">
+            <summary>
+            The BackgroundItem2InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem2InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            BackgroundItem2InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem2InfoClass.GetMyTest_2_993d83c1_rxlog1">
+            <summary>
+            Gets the MyTest_2_993d83c1_rxlog1 item image.
+            </summary>
+            <returns>The MyTest_2_993d83c1_rxlog1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem2InfoClass.GetMyTest_2_993d83c1_rxlog1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the MyTest_2_993d83c1_rxlog1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem2InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem2InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
             <summary>
             Gets the Screenshot1 item image.
             </summary>
@@ -1739,6 +1801,16 @@
         <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.QQuickItemQML150Info">
             <summary>
             The QQuickItemQML150 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem2">
+            <summary>
+            The BackgroundItem2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.BackgroundItem2Info">
+            <summary>
+            The BackgroundItem2 item info.
             </summary>
         </member>
         <member name="P:MyTest.MyTestRepositoryFolders.VnaNGAppFolder.TabSelectorToolBar">

@@ -143,6 +143,7 @@ namespace MyTest
             QQuickOverlayInfoClass _qquickoverlayInfo;
             RepoItemInfo _qquickscrollbarInfo;
             RepoItemInfo _qquickitemqml150Info;
+            BackgroundItem2InfoClass _backgrounditem2Info;
 
             /// <summary>
             /// Creates a new VnaNG  folder.
@@ -197,6 +198,7 @@ namespace MyTest
                 _qquickoverlayInfo = new QQuickOverlayInfoClass(this);
                 _qquickscrollbarInfo = new RepoItemInfo(this, "QQuickScrollBar", "scrollbar[@classname='QQuickScrollBar']", 30000, null, "6d9ae70f-9485-4ab8-8955-26017a05eb5e");
                 _qquickitemqml150Info = new RepoItemInfo(this, "QQuickItemQML150", "?/?/container[@classname='QQuickItem_QML_150']", 30000, null, "748310ab-840c-48b3-947f-fafc3dac3da4");
+                _backgrounditem2Info = new BackgroundItem2InfoClass(this);
             }
 
             /// <summary>
@@ -857,6 +859,27 @@ namespace MyTest
                 }
 
                 /// <summary>
+                /// Gets the MyTest_2_b90884a1_rxlog1 item image.
+                /// </summary>
+                /// <returns>The MyTest_2_b90884a1_rxlog1 image.</returns>
+                [RepositoryImage("06d65539-f1be-413a-a368-b4ada62ed672")]
+                public CompressedImage GetMyTest_2_b90884a1_rxlog1()
+                {
+                    return GetImage("06d65539-f1be-413a-a368-b4ada62ed672");
+                }
+
+                /// <summary>
+                /// Gets the MyTest_2_b90884a1_rxlog1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("06d65539-f1be-413a-a368-b4ada62ed672")]
+                public CompressedImage GetMyTest_2_b90884a1_rxlog1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("06d65539-f1be-413a-a368-b4ada62ed672", cropRect);
+                }
+
+                /// <summary>
                 /// Gets the MyTest_2_f05e2cb_rxlog1 item image.
                 /// </summary>
                 /// <returns>The MyTest_2_f05e2cb_rxlog1 image.</returns>
@@ -1445,6 +1468,27 @@ namespace MyTest
                 }
 
                 /// <summary>
+                /// Gets the Screenshot33 item image.
+                /// </summary>
+                /// <returns>The Screenshot33 image.</returns>
+                [RepositoryImage("8efc4286-4484-4a9a-bf44-8a693cf100fa")]
+                public CompressedImage GetScreenshot33()
+                {
+                    return GetImage("8efc4286-4484-4a9a-bf44-8a693cf100fa");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot33 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("8efc4286-4484-4a9a-bf44-8a693cf100fa")]
+                public CompressedImage GetScreenshot33(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("8efc4286-4484-4a9a-bf44-8a693cf100fa", cropRect);
+                }
+
+                /// <summary>
                 /// Gets the Screenshot4 item image.
                 /// </summary>
                 /// <returns>The Screenshot4 image.</returns>
@@ -2002,6 +2046,62 @@ namespace MyTest
                 public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
                 {
                     return GetImage("7bb48ace-2065-46bd-b15a-a2001f19566b", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The BackgroundItem2InfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("3ec742cd-6b7d-47a0-b224-7c63e815949a")]
+            public class BackgroundItem2InfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// BackgroundItem2InfoClass class constructor.
+                /// </summary>
+                public BackgroundItem2InfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "BackgroundItem2", "element[@type='BackgroundItem']/element[@type='WindowContentItem']/element[@type='DockingPlaceItem']//element[@type='ChannelView']//element[@type='BackgroundItem']", 30000, null, "3ec742cd-6b7d-47a0-b224-7c63e815949a")
+                { }
+
+                /// <summary>
+                /// Gets the MyTest_2_993d83c1_rxlog1 item image.
+                /// </summary>
+                /// <returns>The MyTest_2_993d83c1_rxlog1 image.</returns>
+                [RepositoryImage("2dab64d8-9a61-43e5-b1ff-3bbb897e7f01")]
+                public CompressedImage GetMyTest_2_993d83c1_rxlog1()
+                {
+                    return GetImage("2dab64d8-9a61-43e5-b1ff-3bbb897e7f01");
+                }
+
+                /// <summary>
+                /// Gets the MyTest_2_993d83c1_rxlog1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("2dab64d8-9a61-43e5-b1ff-3bbb897e7f01")]
+                public CompressedImage GetMyTest_2_993d83c1_rxlog1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("2dab64d8-9a61-43e5-b1ff-3bbb897e7f01", cropRect);
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("f6675209-93ae-4c03-8a70-8eca7c8d47a9")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("f6675209-93ae-4c03-8a70-8eca7c8d47a9");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("f6675209-93ae-4c03-8a70-8eca7c8d47a9")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("f6675209-93ae-4c03-8a70-8eca7c8d47a9", cropRect);
                 }
             }
 
@@ -2962,6 +3062,30 @@ namespace MyTest
                 get
                 {
                     return _qquickitemqml150Info;
+                }
+            }
+
+            /// <summary>
+            /// The BackgroundItem2 item.
+            /// </summary>
+            [RepositoryItem("3ec742cd-6b7d-47a0-b224-7c63e815949a")]
+            public virtual Ranorex.Unknown BackgroundItem2
+            {
+                get
+                {
+                    return _backgrounditem2Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BackgroundItem2 item info.
+            /// </summary>
+            [RepositoryItemInfo("3ec742cd-6b7d-47a0-b224-7c63e815949a")]
+            public virtual BackgroundItem2InfoClass BackgroundItem2Info
+            {
+                get
+                {
+                    return _backgrounditem2Info;
                 }
             }
 

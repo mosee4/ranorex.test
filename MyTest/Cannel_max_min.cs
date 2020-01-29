@@ -127,36 +127,35 @@ namespace MyTest
             repo.VnaNG.TabSelectorToolBar1.ContainerHeaderTabItemLayout2.Click("205;20");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1' at 139;14.", repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1Info, new RecordItemIndex(12));
-            repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1.Click("139;14");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1' at 96;17.", repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1Info, new RecordItemIndex(12));
+            repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1.Click("96;17");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{NumPad1}{Return}' with focus on 'VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1'.", repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1Info, new RecordItemIndex(13));
             repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1.PressKeys("{NumPad1}{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot31' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.", repo.VnaNG.BackgroundItemInfo, new RecordItemIndex(14));
-            Validate.CompareImage(repo.VnaNG.BackgroundItemInfo, BackgroundItem_Screenshot31, BackgroundItem_Screenshot31_Options);
+            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'MyTest_2_b90884a1_rxlog1' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.", repo.VnaNG.BackgroundItemInfo, new RecordItemIndex(14));
+            Validate.CompareImage(repo.VnaNG.BackgroundItemInfo, BackgroundItem_MyTest_2_b90884a1_rxlog1, BackgroundItem_MyTest_2_b90884a1_rxlog1_Options);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1' at 68;20.", repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1Info, new RecordItemIndex(15));
-            repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1.Click("68;20");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1' at 89;16.", repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1Info, new RecordItemIndex(15));
+            repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1.Click("89;16");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.List1' at 837;297.", repo.Explorer.List1Info, new RecordItemIndex(16));
-            repo.Explorer.List1.Click("837;297");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{NumPad9 8}' with focus on 'VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1'.", repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1Info, new RecordItemIndex(16));
+            repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1.PressKeys("{NumPad9 8}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{NumPad9 18}' with focus on 'VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1'.", repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1Info, new RecordItemIndex(17));
-            repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1.PressKeys("{NumPad9 18}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1'.", repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1Info, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1'.", repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1Info, new RecordItemIndex(17));
             repo.VnaNG.TabSelectorToolBar1.BaseTextInputNumberValidator1.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot32' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem'.", repo.VnaNG.BackgroundItemInfo, new RecordItemIndex(19));
-            Validate.CompareImage(repo.VnaNG.BackgroundItemInfo, BackgroundItem_Screenshot32, BackgroundItem_Screenshot32_Options);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 9s.", new RecordItemIndex(18));
+            Delay.Duration(9000, false);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'MyTest_2_993d83c1_rxlog1' with region {X=0,Y=0,Width=679,Height=497}) on item 'VnaNG.BackgroundItem2'.", repo.VnaNG.BackgroundItem2Info, new RecordItemIndex(19));
+            Validate.CompareImage(repo.VnaNG.BackgroundItem2Info, BackgroundItem2_MyTest_2_993d83c1_rxlog1, BackgroundItem2_MyTest_2_993d83c1_rxlog1_Options);
             Delay.Milliseconds(100);
             
         }
@@ -172,7 +171,7 @@ namespace MyTest
         /// DO NOT REFERENCE THIS CODE  - auto generated
         /// </summary>
         Imaging.FindOptions BackgroundItem_Screenshot29_Options
-        { get { return Imaging.FindOptions.Parse("0.95;None;0,0,679,497;True;10000000;0ms"); } }
+        { get { return Imaging.FindOptions.Parse("0.999;EdgesSobel;0,0,679,497;True;10000000;0ms"); } }
 
         /// <summary>
         /// DO NOT REFERENCE THIS CODE  - auto generated
@@ -184,31 +183,31 @@ namespace MyTest
         /// DO NOT REFERENCE THIS CODE  - auto generated
         /// </summary>
         Imaging.FindOptions BackgroundItem_Screenshot30_Options
-        { get { return Imaging.FindOptions.Parse("0.95;None;0,0,679,497;True;10000000;0ms"); } }
+        { get { return Imaging.FindOptions.Parse("0.999;EdgesSobel;0,0,679,497;True;10000000;0ms"); } }
 
         /// <summary>
         /// DO NOT REFERENCE THIS CODE  - auto generated
         /// </summary>
-        CompressedImage BackgroundItem_Screenshot31
-        { get { return repo.VnaNG.BackgroundItemInfo.GetScreenshot31(new Rectangle(0, 0, 679, 497)); } }
+        CompressedImage BackgroundItem_MyTest_2_b90884a1_rxlog1
+        { get { return repo.VnaNG.BackgroundItemInfo.GetMyTest_2_b90884a1_rxlog1(new Rectangle(0, 0, 679, 497)); } }
 
         /// <summary>
         /// DO NOT REFERENCE THIS CODE  - auto generated
         /// </summary>
-        Imaging.FindOptions BackgroundItem_Screenshot31_Options
-        { get { return Imaging.FindOptions.Parse("0.95;None;0,0,679,497;True;10000000;0ms"); } }
+        Imaging.FindOptions BackgroundItem_MyTest_2_b90884a1_rxlog1_Options
+        { get { return Imaging.FindOptions.Parse("0.999;EdgesSobel;0,0,679,497;True;10000000;0ms"); } }
 
         /// <summary>
         /// DO NOT REFERENCE THIS CODE  - auto generated
         /// </summary>
-        CompressedImage BackgroundItem_Screenshot32
-        { get { return repo.VnaNG.BackgroundItemInfo.GetScreenshot32(new Rectangle(0, 0, 679, 497)); } }
+        CompressedImage BackgroundItem2_MyTest_2_993d83c1_rxlog1
+        { get { return repo.VnaNG.BackgroundItem2Info.GetMyTest_2_993d83c1_rxlog1(new Rectangle(0, 0, 679, 497)); } }
 
         /// <summary>
         /// DO NOT REFERENCE THIS CODE  - auto generated
         /// </summary>
-        Imaging.FindOptions BackgroundItem_Screenshot32_Options
-        { get { return Imaging.FindOptions.Parse("0.95;None;0,0,679,497;True;10000000;0ms"); } }
+        Imaging.FindOptions BackgroundItem2_MyTest_2_993d83c1_rxlog1_Options
+        { get { return Imaging.FindOptions.Parse("0.999;None;0,0,679,497;True;10000000;0ms"); } }
 
 #endregion
     }

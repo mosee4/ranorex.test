@@ -472,7 +472,7 @@
 			</testmodule>
 			<testcase
 			id="67aca13f-9714-4665-92dc-0f769e06a2e9"
-			name="TestCase00017_Channel">
+			name="TestCase00017_Channel_max_min">
 			</testcase>
 			<setup
 			id="6ad00ad1-1a5a-41ba-8f32-cfda7cdf5c71"
@@ -1466,7 +1466,7 @@
 					name="input_fields">
 						<testcase
 						id="67aca13f-9714-4665-92dc-0f769e06a2e9"
-						name="TestCase00017_Channel">
+						name="TestCase00017_Channel_max_min">
 							<setup
 							id="10a2a1dc-9b64-45ac-8d31-3442eef3773d"
 							name="setup111111111511">
