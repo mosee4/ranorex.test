@@ -5,6 +5,9 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="MyTest.rxtst" />
+    <Element value="Cannel_Scale_max_min.rxrec" />
+    <Element value="Cannel_max_min.rxrec" />
+    <Element value="average.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections" />

@@ -2103,6 +2103,48 @@ namespace MyTest
                 {
                     return GetImage("f6675209-93ae-4c03-8a70-8eca7c8d47a9", cropRect);
                 }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <returns>The Screenshot2 image.</returns>
+                [RepositoryImage("2e9ab721-4055-4d67-80b6-186a92b040c7")]
+                public CompressedImage GetScreenshot2()
+                {
+                    return GetImage("2e9ab721-4055-4d67-80b6-186a92b040c7");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("2e9ab721-4055-4d67-80b6-186a92b040c7")]
+                public CompressedImage GetScreenshot2(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("2e9ab721-4055-4d67-80b6-186a92b040c7", cropRect);
+                }
+
+                /// <summary>
+                /// Gets the Screenshot3 item image.
+                /// </summary>
+                /// <returns>The Screenshot3 image.</returns>
+                [RepositoryImage("5a79281e-c593-41f1-8ce7-e34af180393d")]
+                public CompressedImage GetScreenshot3()
+                {
+                    return GetImage("5a79281e-c593-41f1-8ce7-e34af180393d");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot3 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("5a79281e-c593-41f1-8ce7-e34af180393d")]
+                public CompressedImage GetScreenshot3(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("5a79281e-c593-41f1-8ce7-e34af180393d", cropRect);
+                }
             }
 
             /// <summary>
@@ -3573,6 +3615,7 @@ namespace MyTest
             RepoItemInfo _containerheadertabitemlayout1Info;
             RepoItemInfo _containerheadertabitemlayout2Info;
             RepoItemInfo _basetextinputnumbervalidator1Info;
+            TextInputCommonUnitValidatorInfoClass _textinputcommonunitvalidatorInfo;
 
             /// <summary>
             /// Creates a new TabSelectorToolBar1  folder.
@@ -3590,6 +3633,42 @@ namespace MyTest
                 _containerheadertabitemlayout1Info = new RepoItemInfo(this, "ContainerHeaderTabItemLayout1", "element/container[8]/?/?/container[@name='_headerTabItemLayout']", 30000, null, "f2fc6c01-687a-4594-be2d-8396276ee1e6");
                 _containerheadertabitemlayout2Info = new RepoItemInfo(this, "ContainerHeaderTabItemLayout2", "?/?/container[@name='_mainTabSelectorToolBar']/container[7]/?/?/container[@name='_headerTabItemLayout']", 30000, null, "bf4efed4-2cb9-4172-a281-711c18d71243");
                 _basetextinputnumbervalidator1Info = new RepoItemInfo(this, "BaseTextInputNumberValidator1", "element/container[7]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[12]//text[@type='BaseTextInputNumberValidator']", 30000, null, "9a1da590-9368-4df9-b3a5-31ce2cfac5d8");
+                _textinputcommonunitvalidatorInfo = new TextInputCommonUnitValidatorInfoClass(this);
+            }
+
+            /// <summary>
+            /// The TextInputCommonUnitValidatorInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("7f09c167-6e60-4f92-afe2-df45e76b497c")]
+            public class TextInputCommonUnitValidatorInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// TextInputCommonUnitValidatorInfoClass class constructor.
+                /// </summary>
+                public TextInputCommonUnitValidatorInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "TextInputCommonUnitValidator", "element/container[7]/container[@name='_contentTabItemToolBar']/element[@name='_childItemsColumn']/element[11]//text[@type='TextInputCommonUnitValidator']", 30000, null, "7f09c167-6e60-4f92-afe2-df45e76b497c")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("7d0c5843-836a-4c84-b3ae-1e6185b0685e")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("7d0c5843-836a-4c84-b3ae-1e6185b0685e");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("7d0c5843-836a-4c84-b3ae-1e6185b0685e")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("7d0c5843-836a-4c84-b3ae-1e6185b0685e", cropRect);
+                }
             }
 
             /// <summary>
@@ -3853,6 +3932,30 @@ namespace MyTest
                 get
                 {
                     return _basetextinputnumbervalidator1Info;
+                }
+            }
+
+            /// <summary>
+            /// The TextInputCommonUnitValidator item.
+            /// </summary>
+            [RepositoryItem("7f09c167-6e60-4f92-afe2-df45e76b497c")]
+            public virtual Ranorex.Text TextInputCommonUnitValidator
+            {
+                get
+                {
+                    return _textinputcommonunitvalidatorInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TextInputCommonUnitValidator item info.
+            /// </summary>
+            [RepositoryItemInfo("7f09c167-6e60-4f92-afe2-df45e76b497c")]
+            public virtual TextInputCommonUnitValidatorInfoClass TextInputCommonUnitValidatorInfo
+            {
+                get
+                {
+                    return _textinputcommonunitvalidatorInfo;
                 }
             }
         }

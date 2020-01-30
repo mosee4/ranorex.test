@@ -126,6 +126,18 @@
     <Compile Include="AssemblyInfo.cs">
       <id>039d7bcc-035a-4a73-ab0c-866cf01ffb1b</id>
     </Compile>
+    <Compile Include="average.cs">
+      <BoundTo>c97a94c6-b29c-4558-a548-f76e122b7fa0</BoundTo>
+      <DependentUpon>average.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1437dbb3-07e5-43b5-a88f-c7a538fbe093</id>
+    </Compile>
+    <Compile Include="average.UserCode.cs">
+      <BoundTo>c97a94c6-b29c-4558-a548-f76e122b7fa0</BoundTo>
+      <DependentUpon>average.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f38a898e-a18e-4df1-9233-9ef70cda7bde</id>
+    </Compile>
     <Compile Include="Cannel_max_min.cs">
       <BoundTo>f1f7a745-8e64-4108-b415-480eefd867fd</BoundTo>
       <DependentUpon>Cannel_max_min.rxrec</DependentUpon>
@@ -137,6 +149,18 @@
       <DependentUpon>Cannel_max_min.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>d029aee6-8f61-467d-a4bf-d9163830e9bb</id>
+    </Compile>
+    <Compile Include="Cannel_Scale_max_min.cs">
+      <BoundTo>8de28d94-1ddf-49e7-b340-9f56fd2fce88</BoundTo>
+      <DependentUpon>Cannel_Scale_max_min.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>491ffebc-5c12-47f0-86dd-cb3b0ec476b5</id>
+    </Compile>
+    <Compile Include="Cannel_Scale_max_min.UserCode.cs">
+      <BoundTo>8de28d94-1ddf-49e7-b340-9f56fd2fce88</BoundTo>
+      <DependentUpon>Cannel_Scale_max_min.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1f3c5873-0fd3-48f6-83ee-82502b526014</id>
     </Compile>
     <Compile Include="Channel_stimulus_point_max_min.cs">
       <BoundTo>dbaf4f33-fa59-4e1f-9e8c-9a69adfd4fa3</BoundTo>
@@ -392,10 +416,20 @@
     <None Include="app.config">
       <id>2c17a1e6-ba50-40b4-8bf2-64531f3d9ec6</id>
     </None>
+    <None Include="average.rxrec">
+      <BoundTo>e94f2baf-6b03-460b-8fdf-bfee17697281</BoundTo>
+      <id>c97a94c6-b29c-4558-a548-f76e122b7fa0</id>
+      <recordtableid>cf18ba9d-06a8-4ffe-a273-ddedc1b304f4</recordtableid>
+    </None>
     <None Include="Cannel_max_min.rxrec">
       <BoundTo>e94f2baf-6b03-460b-8fdf-bfee17697281</BoundTo>
       <id>f1f7a745-8e64-4108-b415-480eefd867fd</id>
       <recordtableid>36e7e984-fc64-4fef-97ff-b4e15ad2f0e6</recordtableid>
+    </None>
+    <None Include="Cannel_Scale_max_min.rxrec">
+      <BoundTo>e94f2baf-6b03-460b-8fdf-bfee17697281</BoundTo>
+      <id>8de28d94-1ddf-49e7-b340-9f56fd2fce88</id>
+      <recordtableid>33910608-f7be-48c9-a926-1d7321db388d</recordtableid>
     </None>
     <None Include="Channel_stimulus_point_max_min.rxrec">
       <BoundTo>e94f2baf-6b03-460b-8fdf-bfee17697281</BoundTo>

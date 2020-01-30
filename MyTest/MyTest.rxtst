@@ -34,6 +34,26 @@
 			id="0bfd1567-6fb5-409d-bfa3-5ae54d29c6da"
 			name="input_fields">
 			</smartfoldernode>
+			<testmodule
+			id="0c8a9172-1718-4a4c-8fce-d787ef3d1a66"
+			name="StartAUT"
+			ref="19947001-dc33-4256-b70f-a10d38fc80ed"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="94fba2aa-4c5f-4e37-ae37-6725a2c51414"
+					variablename="StartAutProcessIDVar">
+					</var>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="6cf2afaf-37d9-41da-adf4-c6b17f956a9d"
+					variablename="NewVariable">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="0f749a65-fc9c-4186-ae1f-8d77d57b3b57"
 			name="teardown11111">
@@ -89,6 +109,10 @@
 			name="teardown111111111513">
 			</teardown>
 			<teardown
+			id="1811636b-4df4-4b50-b00b-e5ecf14ed1c1"
+			name="teardown111111111511">
+			</teardown>
+			<teardown
 			id="1948033c-d6d0-4a54-b9e8-6b8dfb256f3b"
 			name="teardown1111111114">
 			</teardown>
@@ -107,6 +131,26 @@
 					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
 					variableid="cb477634-451a-4ae7-8177-f9f097e38235"
 					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="217f011c-9667-4a7c-a852-7e31e5b86153"
+			name="StartAUT"
+			ref="19947001-dc33-4256-b70f-a10d38fc80ed"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="94fba2aa-4c5f-4e37-ae37-6725a2c51414"
+					variablename="StartAutProcessIDVar">
+					</var>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="6cf2afaf-37d9-41da-adf4-c6b17f956a9d"
+					variablename="NewVariable">
 					</var>
 				</databinding>
 			</testmodule>
@@ -358,6 +402,12 @@
 			id="4c910347-5697-4238-80ee-4c93582d26f9"
 			name="setup1">
 			</setup>
+			<testmodule
+			id="4cdbec9a-eb88-445c-b067-1099966ec724"
+			name="Cannel_Scale_max_min"
+			ref="33910608-f7be-48c9-a926-1d7321db388d"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="4e7690b6-a472-4187-b3a5-2cef4375a9c3"
 			name="teardown11111111">
@@ -366,9 +416,27 @@
 			id="4f126ce2-83c5-4c2c-99af-fa3057b0db76"
 			name="TestCase00020_Calibration">
 			</testcase>
+			<testmodule
+			id="5033caef-391d-4c26-b115-6d7a287b3eef"
+			name="CloseAUT"
+			ref="089047a2-0337-4064-ae97-8605f8f7ecbc"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="cb477634-451a-4ae7-8177-f9f097e38235"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="5182a1ce-fe7a-4b8e-80e5-2f3edf52b1bf"
 			name="TestCase00011_Calibration_Kits_show/hide">
+			</testcase>
+			<testcase
+			id="520fab8b-8b22-4327-8236-69e2ea83806a"
+			name="TestCase00017_Channel_Average">
 			</testcase>
 			<testcase
 			id="54b5985d-df8a-4b9d-b9d1-0b90f7f6835a"
@@ -393,6 +461,10 @@
 			<setup
 			id="5ae8af23-2c1b-4b3e-9cec-4739462b8f90"
 			name="setup1111111115">
+			</setup>
+			<setup
+			id="5bb1d35d-f548-40e3-a7f7-568854844be2"
+			name="setup111111111511">
 			</setup>
 			<testmodule
 			id="61bb93a5-109e-4503-b8e8-a92322a1dcff"
@@ -488,6 +560,20 @@
 			ref="9a6fe848-7834-454a-895c-57ec92b20f9a"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="6e347315-9d91-40f3-b7b7-dadb9313de9c"
+			name="CloseAUT"
+			ref="089047a2-0337-4064-ae97-8605f8f7ecbc"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="41676491-e8e4-4e7d-afe4-bda3557e0e87"
+					variableid="cb477634-451a-4ae7-8177-f9f097e38235"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="70721fbb-4ec2-422f-a7c0-6a303c957935"
 			name="setup1111111111">
@@ -580,6 +666,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="83f2225e-68b3-473d-9754-4f02f5c98651"
+			name="setup111111111511">
+			</setup>
 			<testmodule
 			id="8710c1f8-cb05-40dc-b6e7-37e9aefbf169"
 			name="Calibrate_Factoey_Term"
@@ -723,6 +813,10 @@
 			type="Recording">
 			</testmodule>
 			<testcase
+			id="a5598682-e932-4957-88b0-9c3f2a3e04ad"
+			name="TestCase00017_Channel_max_min1">
+			</testcase>
+			<testcase
 			id="a9d07239-0da4-4975-995f-03e1937f6228"
 			name="TestCase00018_Trace">
 			</testcase>
@@ -807,6 +901,12 @@
 			id="be6705c5-cc32-4592-92d7-d89b6190be25"
 			name="setup111111">
 			</setup>
+			<testmodule
+			id="c122fe1e-7962-422a-858a-99e349a806d4"
+			name="average"
+			ref="cf18ba9d-06a8-4ffe-a273-ddedc1b304f4"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="c18b5b0a-5aa9-4bed-9f5a-47193562410d"
 			name="setup">
@@ -1123,6 +1223,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="fa7b8c37-9be9-40c4-bdab-c91bb347ebe3"
+			name="teardown111111111511">
+			</teardown>
 			<testmodule
 			id="fbd21f9b-1a04-48ac-9324-71fc8682217d"
 			name="Analyze_on_off"
@@ -1489,6 +1593,30 @@
 							</teardown>
 						</testcase>
 						<testcase
+						id="520fab8b-8b22-4327-8236-69e2ea83806a"
+						name="TestCase00017_Channel_Average">
+							<setup
+							id="83f2225e-68b3-473d-9754-4f02f5c98651"
+							name="setup111111111511">
+								<testmodule
+								id="0c8a9172-1718-4a4c-8fce-d787ef3d1a66"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="c122fe1e-7962-422a-858a-99e349a806d4"
+							name="average">
+							</testmodule>
+							<teardown
+							id="1811636b-4df4-4b50-b00b-e5ecf14ed1c1"
+							name="teardown111111111511">
+								<testmodule
+								id="6e347315-9d91-40f3-b7b7-dadb9313de9c"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
+						</testcase>
+						<testcase
 						id="a9d07239-0da4-4975-995f-03e1937f6228"
 						name="TestCase00018_Trace">
 							<setup
@@ -1644,6 +1772,30 @@
 								</testmodule>
 							</teardown>
 						</testcase>
+						<testcase
+						id="a5598682-e932-4957-88b0-9c3f2a3e04ad"
+						name="TestCase00017_Channel_max_min1">
+							<setup
+							id="5bb1d35d-f548-40e3-a7f7-568854844be2"
+							name="setup111111111511">
+								<testmodule
+								id="217f011c-9667-4a7c-a852-7e31e5b86153"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="4cdbec9a-eb88-445c-b067-1099966ec724"
+							name="Cannel_Scale_max_min">
+							</testmodule>
+							<teardown
+							id="fa7b8c37-9be9-40c4-bdab-c91bb347ebe3"
+							name="teardown111111111511">
+								<testmodule
+								id="5033caef-391d-4c26-b115-6d7a287b3eef"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
+						</testcase>
 					</smartfoldernode>
 				</testcase>
 			</testsuite>
@@ -1659,10 +1811,19 @@
 			id="0bfd1567-6fb5-409d-bfa3-5ae54d29c6da">
 			</testcontainer>
 			<testcontainer
+			id="3ed7e5a6-b257-45e7-9fe0-288081dc745a">
+			</testcontainer>
+			<testcontainer
 			id="41676491-e8e4-4e7d-afe4-bda3557e0e87">
 			</testcontainer>
 			<testcontainer
+			id="520fab8b-8b22-4327-8236-69e2ea83806a">
+			</testcontainer>
+			<testcontainer
 			id="67aca13f-9714-4665-92dc-0f769e06a2e9">
+			</testcontainer>
+			<testcontainer
+			id="a5598682-e932-4957-88b0-9c3f2a3e04ad">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
